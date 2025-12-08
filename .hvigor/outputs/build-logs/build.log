@@ -9838,3 +9838,14 @@ Require stack:
 [2025-12-08T20:33:39.333] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:C:\Users\22879\Desktop\temp\VMALL\entry\build\default\intermediates\libs\default cache by regenerate.
 [2025-12-08T20:33:39.333] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:C:\Users\22879\Desktop\temp\VMALL\entry\build\default\outputs\default\symbol cache.
 [2025-12-08T20:33:39.333] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:1 ms .
+[2025-12-08T20:33:39.350] [DEBUG] debug-file - Cleanup worker 30.
+[2025-12-08T20:33:39.350] [DEBUG] debug-file - Worker 30 has been cleaned up.
+[2025-12-08T20:33:39.350] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-12-08T20:33:39.350] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-12-08T20:33:39.351] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-12-08T20:33:39.351] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2025-12-08T20:33:39.354] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-12-08T20:33:39.354] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-12-08T20:33:39.355] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-12-08T20:33:39.355] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-12-08T20:33:39.357] [DEBUG] debug-file - worker[30] exits with exit code 1.
