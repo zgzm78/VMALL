@@ -141,7 +141,15 @@ struct ProductDetailPage {
     });
   }
 
+  private getBonusPoints(): string {
+    if (!this.product?.bonus_points) {
+      return '';
+    }
+    return this.product!.bonus_points.replace(/[^\d]/g, '');
+  }
+
   build() {
+
     Column() {
       // Blurred background image
       if (this.product?.image_url) {
@@ -215,32 +223,8 @@ struct ProductDetailPage {
                 .fontSize(28)
                 .fontColor($r('app.color.focus_color'))
                 .fontWeight(FontWeight.Bold)
-              if (this.product?.discount) {
-                Text(this.product.discount)
-                  .fontSize(14)
-                  .fontColor(Color.Gray)
-                  .margin({ left: 12 })
-              }
-
-            }
-            .backgroundColor("0x99FFFFFF")
-            .width(Const.FULL_WIDTH)
-            .margin({ bottom: 16 })
-
-            // Promotion and bonus points
-            Row() {
-              if (this.product?.promotion) {
-                Text(this.product.promotion)
-                  .height(24)
-                  .fontSize(12)
-                  .fontColor(Color.White)
-                  .borderRadius(4)
-                  .backgroundColor($r('app.color.focus_color'))
-                  .padding({ left: 8, right: 8 })
-                  .margin({ right: 8 })
-              }
-              if (this.product?.bonus_points) {
-                Text(this.product.bonus_points)
+              if (this.getBonusPoints()) {
+                Text(`积分${this.getBonusPoints()}`)
                   .height(24)
                   .fontSize(12)
                   .fontColor($r('app.color.focus_color'))
@@ -248,6 +232,27 @@ struct ProductDetailPage {
                   .borderWidth(1)
                   .borderColor($r('app.color.focus_color'))
                   .padding({ left: 8, right: 8 })
+                  .margin({ left: 12 })
+              }
+
+            }
+            .backgroundColor("0x99FFFFFF")
+            .width(Const.FULL_WIDTH)
+            .margin({ bottom: 8 })
+
+            // Discount / short intro line (e.g. “全金属玄武架构…”)
+            Row() {
+              if (this.product?.discount) {
+                Text(this.product.discount)
+                  .fontSize(14)
+                  .fontColor(Color.Gray)
+                  .margin({ right: 12 })
+              }
+              if (this.product?.promotion) {
+                Text(this.product.promotion)
+                  .fontSize(14)
+                  .fontColor('#666666')
+                  .lineHeight(20)
               }
             }
             .width(Const.FULL_WIDTH)
@@ -310,6 +315,7 @@ struct ProductDetailPage {
             }
             .width(Const.FULL_WIDTH)
             .alignItems(HorizontalAlign.Start)
+            .padding({ top: 12 })
             .backgroundColor('rgba(255, 255, 255, 0.6)')
 
             // Divider
@@ -412,6 +418,7 @@ struct ProductDetailPage {
             }
             .width(Const.FULL_WIDTH)
             .alignItems(HorizontalAlign.Start)
+            .padding({ top: 12 })
             .backgroundColor('rgba(255, 255, 255, 0.6)')
             .margin({ bottom: 12 })
 
@@ -449,6 +456,7 @@ struct ProductDetailPage {
             }
             .width(Const.FULL_WIDTH)
             .alignItems(HorizontalAlign.Start)
+            .padding({ top: 12 })
             .backgroundColor('rgba(255, 255, 255, 0.6)')
             .margin({ bottom: 12 })
           }

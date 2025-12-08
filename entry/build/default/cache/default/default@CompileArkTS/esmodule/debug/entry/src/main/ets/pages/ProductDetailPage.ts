@@ -255,6 +255,12 @@ class ProductDetailPage extends ViewPU {
             }
         });
     }
+    private getBonusPoints(): string {
+        if (!this.product?.bonus_points) {
+            return '';
+        }
+        return this.product!.bonus_points.replace(/[^\d]/g, '');
+    }
     initialRender() {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Column.create();
@@ -401,7 +407,7 @@ class ProductDetailPage extends ViewPU {
             // Price and discount
             Row.width(Const.FULL_WIDTH);
             // Price and discount
-            Row.margin({ bottom: 16 });
+            Row.margin({ bottom: 8 });
         }, Row);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create(this.product?.price || '');
@@ -412,12 +418,17 @@ class ProductDetailPage extends ViewPU {
         Text.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             If.create();
-            if (this.product?.discount) {
+            if (this.getBonusPoints()) {
                 this.ifElseBranchUpdateFunction(0, () => {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
-                        Text.create(this.product.discount);
-                        Text.fontSize(14);
-                        Text.fontColor(Color.Gray);
+                        Text.create(`积分${this.getBonusPoints()}`);
+                        Text.height(24);
+                        Text.fontSize(12);
+                        Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.borderRadius(4);
+                        Text.borderWidth(1);
+                        Text.borderColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.padding({ left: 8, right: 8 });
                         Text.margin({ left: 12 });
                     }, Text);
                     Text.pop();
@@ -432,26 +443,41 @@ class ProductDetailPage extends ViewPU {
         // Price and discount
         Row.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            // Promotion and bonus points
+            // Discount / short intro line (e.g. “全金属玄武架构…”)
             Row.create();
-            // Promotion and bonus points
+            // Discount / short intro line (e.g. “全金属玄武架构…”)
             Row.width(Const.FULL_WIDTH);
-            // Promotion and bonus points
+            // Discount / short intro line (e.g. “全金属玄武架构…”)
             Row.margin({ bottom: 24 });
         }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            If.create();
+            if (this.product?.discount) {
+                this.ifElseBranchUpdateFunction(0, () => {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        Text.create(this.product.discount);
+                        Text.fontSize(14);
+                        Text.fontColor(Color.Gray);
+                        Text.margin({ right: 12 });
+                    }, Text);
+                    Text.pop();
+                });
+            }
+            else {
+                this.ifElseBranchUpdateFunction(1, () => {
+                });
+            }
+        }, If);
+        If.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             If.create();
             if (this.product?.promotion) {
                 this.ifElseBranchUpdateFunction(0, () => {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         Text.create(this.product.promotion);
-                        Text.height(24);
-                        Text.fontSize(12);
-                        Text.fontColor(Color.White);
-                        Text.borderRadius(4);
-                        Text.backgroundColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-                        Text.padding({ left: 8, right: 8 });
-                        Text.margin({ right: 8 });
+                        Text.fontSize(14);
+                        Text.fontColor('#666666');
+                        Text.lineHeight(20);
                     }, Text);
                     Text.pop();
                 });
@@ -462,30 +488,7 @@ class ProductDetailPage extends ViewPU {
             }
         }, If);
         If.pop();
-        this.observeComponentCreation2((elmtId, isInitialRender) => {
-            If.create();
-            if (this.product?.bonus_points) {
-                this.ifElseBranchUpdateFunction(0, () => {
-                    this.observeComponentCreation2((elmtId, isInitialRender) => {
-                        Text.create(this.product.bonus_points);
-                        Text.height(24);
-                        Text.fontSize(12);
-                        Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-                        Text.borderRadius(4);
-                        Text.borderWidth(1);
-                        Text.borderColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-                        Text.padding({ left: 8, right: 8 });
-                    }, Text);
-                    Text.pop();
-                });
-            }
-            else {
-                this.ifElseBranchUpdateFunction(1, () => {
-                });
-            }
-        }, If);
-        If.pop();
-        // Promotion and bonus points
+        // Discount / short intro line (e.g. “全金属玄武架构…”)
         Row.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             // Divider
@@ -502,6 +505,8 @@ class ProductDetailPage extends ViewPU {
             Column.width(Const.FULL_WIDTH);
             // Product description
             Column.alignItems(HorizontalAlign.Start);
+            // Product description
+            Column.padding({ top: 12 });
             // Product description
             Column.backgroundColor('rgba(255, 255, 255, 0.6)');
         }, Column);
@@ -613,6 +618,8 @@ class ProductDetailPage extends ViewPU {
             Column.width(Const.FULL_WIDTH);
             // Product reviews
             Column.alignItems(HorizontalAlign.Start);
+            // Product reviews
+            Column.padding({ top: 12 });
             // Product reviews
             Column.backgroundColor('rgba(255, 255, 255, 0.6)');
             // Product reviews
@@ -790,6 +797,8 @@ class ProductDetailPage extends ViewPU {
             Column.width(Const.FULL_WIDTH);
             // Shipping and after-sales info
             Column.alignItems(HorizontalAlign.Start);
+            // Shipping and after-sales info
+            Column.padding({ top: 12 });
             // Shipping and after-sales info
             Column.backgroundColor('rgba(255, 255, 255, 0.6)');
             // Shipping and after-sales info

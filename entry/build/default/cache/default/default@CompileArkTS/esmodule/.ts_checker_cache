@@ -2262,7 +2262,8 @@
       "parent": [
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
-        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityLifecycleCallback.d.ts"
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityLifecycleCallback.d.ts",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
       ],
       "error": false
     },
@@ -2287,7 +2288,8 @@
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\folder_stack.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\nav_destination.d.ts",
-        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\navigation.d.ts"
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\navigation.d.ts",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
       ],
       "error": false
     },
@@ -2332,7 +2334,8 @@
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cert.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cryptoFramework.d.ts",
-        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.print.d.ts"
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.print.d.ts",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
       ],
       "error": false
     },
@@ -2869,7 +2872,9 @@
       "parent": [
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
-        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
       ],
       "error": false
     },
@@ -3700,7 +3705,8 @@
       "mtimeMs": 1761295688730.6309,
       "children": [],
       "parent": [
-        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
       ],
       "error": false
     },
@@ -4311,6 +4317,191 @@
       "parent": [
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
       ],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\utils\\Logger.ets": {
+      "mtimeMs": 1765200229914.7893,
+      "children": [
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.hilog.d.ts"
+      ],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets": {
+      "mtimeMs": 1765200229914.7893,
+      "children": [
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets": {
+      "mtimeMs": 1765200229914.7893,
+      "children": [],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets": {
+      "mtimeMs": 1765200229923.2212,
+      "children": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets": {
+      "mtimeMs": 1765200229923.2212,
+      "children": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\utils\\SearchHistoryManager.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\SwiperComponent.ets": {
+      "mtimeMs": 1765200229923.2212,
+      "children": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets": {
+      "mtimeMs": 1765200229923.2212,
+      "children": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets"
+      ],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets": {
+      "mtimeMs": 1765200229914.7893,
+      "children": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets": {
+      "mtimeMs": 1765200229919.178,
+      "children": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets": {
+      "mtimeMs": 1765200229927.3904,
+      "children": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets": {
+      "mtimeMs": 1765200229927.9995,
+      "children": [],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\utils\\SearchHistoryManager.ets": {
+      "mtimeMs": 1765200229914.7893,
+      "children": [],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets": {
+      "mtimeMs": 1765200229927.9995,
+      "children": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets": {
+      "mtimeMs": 1765200229923.2212,
+      "children": [
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets"
+      ],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets": {
+      "mtimeMs": 1765202651559.6367,
+      "children": [
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [],
       "error": true,
       "errorCodes": [
         28007
