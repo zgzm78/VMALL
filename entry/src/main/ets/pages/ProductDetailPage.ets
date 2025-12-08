@@ -9,6 +9,16 @@ interface ShippingInfoItem {
   text: string;
 }
 
+// Cart item interface (used with global cartItems storage)
+interface CartItem {
+  id: number;
+  name: string;
+  price: number;
+  count: number;
+  selected: boolean;
+  imageUrl: string;
+}
+
 /**
  * Product detail page (purchase page).
  */
@@ -20,6 +30,7 @@ struct ProductDetailPage {
   @State selectedColor: string = '';
   @State selectedStorage: string = '';
   @State selectedVersion: string = '';
+  @StorageLink('cartItems') cartItems: CartItem[] = [];
 
   // Define data as member constants
   private colors: string[] = ['黑色', '白色', '蓝色', '绿色'];
@@ -54,6 +65,80 @@ struct ProductDetailPage {
     this.selectedColor = '黑色';
     this.selectedStorage = '64GB';
     this.selectedVersion = '标准版';
+  }
+
+  private parsePrice(priceText: string | undefined): number {
+    if (!priceText) {
+      return 0;
+    }
+    const cleaned: string = priceText.replace(/[^\d.]/g, '');
+    const value: number = Number.parseFloat(cleaned);
+    if (Number.isNaN(value)) {
+      return 0;
+    }
+    return value;
+  }
+
+  private addToCart(): void {
+    if (!this.product) {
+      return;
+    }
+
+    const priceValue: number = this.parsePrice(this.product.price);
+
+    // 判断商品是否已在购物车中（按名称和图片 URL 识别）
+    const exists: boolean = this.cartItems.some((item: CartItem) => {
+      return item.name === this.product!.name && item.imageUrl === this.product!.image_url;
+    });
+
+    if (exists) {
+      AlertDialog.show({
+        title: '温馨提示',
+        message: `【${this.product.name}】已在购物车中，无需重复添加～`,
+        primaryButton: {
+          value: '我知道了',
+          action: () => {
+            // 不做额外处理
+          }
+        }
+      });
+      return;
+    }
+
+    // 生成新的商品 id（在现有 id 的基础上递增）
+    let nextId: number = 1;
+    if (this.cartItems && this.cartItems.length > 0) {
+      let maxId: number = this.cartItems[0].id;
+      this.cartItems.forEach((item: CartItem) => {
+        if (item.id > maxId) {
+          maxId = item.id;
+        }
+      });
+      nextId = maxId + 1;
+    }
+
+    const newItem: CartItem = {
+      id: nextId,
+      name: this.product.name,
+      price: priceValue,
+      count: 1,
+      selected: true,
+      imageUrl: this.product.image_url
+    };
+
+    const updated: CartItem[] = [...this.cartItems, newItem];
+    this.cartItems = updated;
+
+    AlertDialog.show({
+      title: '加入购物车',
+      message: `已将【${this.product.name}】加入购物车\n可在购物车中查看和结算～`,
+      primaryButton: {
+        value: '好的',
+        action: () => {
+          // 这里只做提示，不做额外操作
+        }
+      }
+    });
   }
 
   build() {
@@ -398,8 +483,7 @@ struct ProductDetailPage {
           .width('50%')
           .height(50)
           .onClick(() => {
-            // Handle add to cart action
-            console.info('Add to cart clicked');
+            this.addToCart();
           })
       }
       .width(Const.FULL_WIDTH)

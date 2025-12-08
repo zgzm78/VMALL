@@ -7,6 +7,7 @@ interface ProductDetailPage_Params {
     selectedColor?: string;
     selectedStorage?: string;
     selectedVersion?: string;
+    cartItems?: CartItem[];
     colors?: string[];
     storages?: string[];
     versions?: string[];
@@ -24,6 +25,15 @@ interface ShippingInfoItem {
     icon: string;
     text: string;
 }
+// Cart item interface (used with global cartItems storage)
+interface CartItem {
+    id: number;
+    name: string;
+    price: number;
+    count: number;
+    selected: boolean;
+    imageUrl: string;
+}
 class ProductDetailPage extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
         super(parent, __localStorage, elmtId, extraInfo);
@@ -35,6 +45,7 @@ class ProductDetailPage extends ViewPU {
         this.__selectedColor = new ObservedPropertySimplePU('', this, "selectedColor");
         this.__selectedStorage = new ObservedPropertySimplePU('', this, "selectedStorage");
         this.__selectedVersion = new ObservedPropertySimplePU('', this, "selectedVersion");
+        this.__cartItems = this.createStorageLink('cartItems', [], "cartItems");
         this.colors = ['黑色', '白色', '蓝色', '绿色'];
         this.storages = ['64GB', '128GB', '256GB', '512GB'];
         this.versions = ['标准版', 'Pro版', 'Pro Max版'];
@@ -104,6 +115,7 @@ class ProductDetailPage extends ViewPU {
         this.__selectedColor.purgeDependencyOnElmtId(rmElmtId);
         this.__selectedStorage.purgeDependencyOnElmtId(rmElmtId);
         this.__selectedVersion.purgeDependencyOnElmtId(rmElmtId);
+        this.__cartItems.purgeDependencyOnElmtId(rmElmtId);
     }
     aboutToBeDeleted() {
         this.__topRectHeight.aboutToBeDeleted();
@@ -111,6 +123,7 @@ class ProductDetailPage extends ViewPU {
         this.__selectedColor.aboutToBeDeleted();
         this.__selectedStorage.aboutToBeDeleted();
         this.__selectedVersion.aboutToBeDeleted();
+        this.__cartItems.aboutToBeDeleted();
         SubscriberManager.Get().delete(this.id__());
         this.aboutToBeDeletedInternal();
     }
@@ -149,6 +162,13 @@ class ProductDetailPage extends ViewPU {
     set selectedVersion(newValue: string) {
         this.__selectedVersion.set(newValue);
     }
+    private __cartItems: ObservedPropertyAbstractPU<CartItem[]>;
+    get cartItems() {
+        return this.__cartItems.get();
+    }
+    set cartItems(newValue: CartItem[]) {
+        this.__cartItems.set(newValue);
+    }
     // Define data as member constants
     private colors: string[];
     private storages: string[];
@@ -169,6 +189,71 @@ class ProductDetailPage extends ViewPU {
         this.selectedColor = '黑色';
         this.selectedStorage = '64GB';
         this.selectedVersion = '标准版';
+    }
+    private parsePrice(priceText: string | undefined): number {
+        if (!priceText) {
+            return 0;
+        }
+        const cleaned: string = priceText.replace(/[^\d.]/g, '');
+        const value: number = Number.parseFloat(cleaned);
+        if (Number.isNaN(value)) {
+            return 0;
+        }
+        return value;
+    }
+    private addToCart(): void {
+        if (!this.product) {
+            return;
+        }
+        const priceValue: number = this.parsePrice(this.product.price);
+        // 判断商品是否已在购物车中（按名称和图片 URL 识别）
+        const exists: boolean = this.cartItems.some((item: CartItem) => {
+            return item.name === this.product!.name && item.imageUrl === this.product!.image_url;
+        });
+        if (exists) {
+            AlertDialog.show({
+                title: '温馨提示',
+                message: `【${this.product.name}】已在购物车中，无需重复添加～`,
+                primaryButton: {
+                    value: '我知道了',
+                    action: () => {
+                        // 不做额外处理
+                    }
+                }
+            });
+            return;
+        }
+        // 生成新的商品 id（在现有 id 的基础上递增）
+        let nextId: number = 1;
+        if (this.cartItems && this.cartItems.length > 0) {
+            let maxId: number = this.cartItems[0].id;
+            this.cartItems.forEach((item: CartItem) => {
+                if (item.id > maxId) {
+                    maxId = item.id;
+                }
+            });
+            nextId = maxId + 1;
+        }
+        const newItem: CartItem = {
+            id: nextId,
+            name: this.product.name,
+            price: priceValue,
+            count: 1,
+            selected: true,
+            imageUrl: this.product.image_url
+        };
+        const updated: CartItem[] = [...this.cartItems, newItem];
+        this.cartItems = updated;
+        AlertDialog.show({
+            title: '加入购物车',
+            message: `已将【${this.product.name}】加入购物车\n可在购物车中查看和结算～`,
+            primaryButton: {
+                value: '好的',
+                action: () => {
+                    // 这里只做提示，不做额外操作
+                }
+            }
+        });
     }
     initialRender() {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -793,8 +878,7 @@ class ProductDetailPage extends ViewPU {
             Button.width('50%');
             Button.height(50);
             Button.onClick(() => {
-                // Handle add to cart action
-                console.info('Add to cart clicked');
+                this.addToCart();
             });
         }, Button);
         Button.pop();

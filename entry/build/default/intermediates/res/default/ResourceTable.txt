@@ -79,5 +79,8 @@ media ic_internal_purchase_price 0x0100004d
 media ic_more 0x0100004e
 media ic_search 0x0100004f
 media ic_split_line 0x01000050
+media ic_tab_cart 0x01000053
+media ic_tab_home 0x01000054
+media ic_tab_profile 0x01000055
 media icon 0x01000051
 profile main_pages 0x01000052

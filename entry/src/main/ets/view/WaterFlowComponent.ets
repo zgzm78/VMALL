@@ -107,8 +107,8 @@ export default struct WaterFlowComponent {
       });
     } else {
       // No search keyword, filter by category
-      if (this.selectedCategoryIndex < 0) {
-        // Show all products if invalid index
+      if (this.selectedCategoryIndex <= 0) {
+        // When on home or invalid index, show all products
         filteredData = waterFlowData;
       } else {
         // Filter products by selected category

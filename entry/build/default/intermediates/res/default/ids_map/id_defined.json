@@ -331,5 +331,17 @@
 			"type":	"profile",
 			"name":	"main_pages",
 			"id":	"0x01000052"
+		}, {
+			"type":	"media",
+			"name":	"ic_tab_cart",
+			"id":	"0x01000053"
+		}, {
+			"type":	"media",
+			"name":	"ic_tab_home",
+			"id":	"0x01000054"
+		}, {
+			"type":	"media",
+			"name":	"ic_tab_profile",
+			"id":	"0x01000055"
 		}]
 }

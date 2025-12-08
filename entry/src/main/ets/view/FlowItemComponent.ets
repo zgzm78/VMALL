@@ -41,6 +41,8 @@ export default struct FlowItemComponent {
         .fontColor(Color.Black)
         .fontWeight(FontWeight.Normal)
         .alignSelf(ItemAlign.Start)
+        .maxLines(2)
+        .textOverflow({ overflow: TextOverflow.Ellipsis })
       Text(this.item?.discount)
         .fontSize($r('app.float.smaller_font_size'))
         .fontColor(Color.Black)
@@ -52,13 +54,12 @@ export default struct FlowItemComponent {
         })
         .maxLines(2)
         .textOverflow({ overflow: TextOverflow.Ellipsis })
-      Text(this.item?.price)
-        .fontSize($r('app.float.middle_font_size'))
-        .fontColor($r('app.color.focus_color'))
-        .fontWeight(FontWeight.Normal)
-        .alignSelf(ItemAlign.Start)
-        .lineHeight($r('app.float.piece_line_height'))
       Row() {
+        Text(this.item?.price)
+          .fontSize($r('app.float.middle_font_size'))
+          .fontColor($r('app.color.focus_color'))
+          .fontWeight(FontWeight.Normal)
+          .lineHeight($r('app.float.piece_line_height'))
         if (this.item?.promotion) {
           Text(`${this.item?.promotion}`)
             .height($r('app.float.promotion_text_height'))
@@ -70,13 +71,16 @@ export default struct FlowItemComponent {
               left: $r('app.float.promotion_padding_left'),
               right: $r('app.float.promotion_padding_right')
             })
-            .margin({
-              top: $r('app.float.promotion_margin_top'),
-              right: $r('app.float.promotion_margin_right')
-            })
+            .margin({ left: 4 })
         }
-        if (this.item?.bonus_points) {
-          Text(`${this.item?.bonus_points}`)
+      }
+      .width(Const.FULL_WIDTH)
+      .justifyContent(FlexAlign.Start)
+      .alignItems(VerticalAlign.Center)
+
+      if (this.item?.bonus_points) {
+        Row() {
+          Text(`积分 ${this.item?.bonus_points}`)
             .height($r('app.float.promotion_text_height'))
             .fontSize($r('app.float.promotion_font_size'))
             .fontColor($r('app.color.focus_color'))
@@ -89,9 +93,9 @@ export default struct FlowItemComponent {
             })
             .margin({ top: $r('app.float.bonus_points_margin_top') })
         }
+        .width(Const.FULL_WIDTH)
+        .justifyContent(FlexAlign.Start)
       }
-      .width(Const.FULL_WIDTH)
-      .justifyContent(FlexAlign.Start)
     }
     .borderRadius($r('app.float.product_layout_radius'))
     .backgroundColor(Color.White)
@@ -100,6 +104,7 @@ export default struct FlowItemComponent {
       right: $r('app.float.product_layout_margin_right'),
       bottom: $r('app.float.product_layout_margin_bottom')
     })
+    .height('250vp')
     .onClick(() => {
       // Navigate to product detail page
       router.pushUrl({
