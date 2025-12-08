@@ -1,0 +1,2253 @@
+{
+  "runtimeOS": "HarmonyOS",
+  "sdkInfo": "false:20:6.0.0.47:Release",
+  "fileList": {
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts": {
+      "mtimeMs": 1765010961397.9229,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Ability.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityConstant.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.rpc.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityLifecycleCallback.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts": {
+      "mtimeMs": 1765010961371.9226,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\BaseContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.ConfigurationConstant.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.StartOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityLifecycleCallback.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\component\\navigation.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\folder_stack.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\nav_destination.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\navigation.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts": {
+      "mtimeMs": 1765010961778.052,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.appManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.resourceManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.rpc.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.mediaquery.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.inspector.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.promptAction.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.observer.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\component\\navigation.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.componentSnapshot.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.dragController.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.unifiedDataChannel.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityHelper.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.rdb.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimodalInput.pointer.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneResources.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\embedded_component.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\nav_destination.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\navigation.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\pattern_lock.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\video.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cert.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cryptoFramework.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.print.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.preferences.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\utils\\Logger.ets": {
+      "mtimeMs": 1765090982588.105,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.hilog.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets": {
+      "mtimeMs": 1765093449655.2734,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Ability.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityConstant.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Configuration.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityConstant.d.ts": {
+      "mtimeMs": 1765010961633.979,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.appManager.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Ability.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.EnvironmentCallback.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts": {
+      "mtimeMs": 1765010962086.0312,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.dialogRequest.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\abilityResult.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.unifiedDataChannel.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\startAbilityParameter.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AppServiceExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\embedded_component.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts": {
+      "mtimeMs": 1765010961752.021,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\connectOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.dialogRequest.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityConstant.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AtomicServiceOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.ConfigurationConstant.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIServiceProxy.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIServiceExtensionConnectCallback.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStartCallback.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\AbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\abilityResult.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\HapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.OpenLinkOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.StartOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Configuration.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.observer.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\EmbeddableUIAbilityContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.rpc.d.ts": {
+      "mtimeMs": 1765010961785.0225,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\connectOptions.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Configuration.d.ts": {
+      "mtimeMs": 1765010961743.052,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.ConfigurationConstant.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Ability.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.EnvironmentCallback.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStageContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.appManager.d.ts": {
+      "mtimeMs": 1765010961583.979,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ProcessInformation.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationStateObserver.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStateData.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AppStateData.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ProcessData.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityConstant.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ProcessInformation.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ProcessInformation.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.appManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.appManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationStateObserver.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AppStateData.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStateData.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ProcessData.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.appManager.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStateData.d.ts": {
+      "mtimeMs": 1765010961768.0537,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.appManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationStateObserver.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AppStateData.d.ts": {
+      "mtimeMs": 1765010961762.0522,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.appManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationStateObserver.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ProcessData.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.appManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationStateObserver.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts": {
+      "mtimeMs": 1765010961245.9338,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\Metadata.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ElementName.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ApplicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\AbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\BundleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\HapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ExtensionAbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\Skill.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ProcessInformation.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ApplicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\AbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\BundleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\HapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ExtensionAbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.StartOptions.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\Metadata.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ApplicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\AbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\HapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ExtensionAbilityInfo.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ElementName.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\connectOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.CompletionHandler.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ApplicationInfo.d.ts": {
+      "mtimeMs": 1765010961291.9243,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\Metadata.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\global\\resource.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\AbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\BundleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ExtensionAbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\AbilityInfo.d.ts": {
+      "mtimeMs": 1765010961289.9243,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ApplicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\Metadata.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\Skill.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\HapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\BundleInfo.d.ts": {
+      "mtimeMs": 1765010961293.924,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ApplicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\HapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\HapModuleInfo.d.ts": {
+      "mtimeMs": 1765010961287.9229,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\AbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ExtensionAbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\Metadata.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\BundleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStageContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ExtensionAbilityInfo.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ApplicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\Metadata.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\Skill.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\HapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\Skill.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\AbilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ExtensionAbilityInfo.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\global\\resource.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ApplicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.resourceManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.drawing.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\units.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.ConfigurationConstant.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Configuration.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\BaseContext.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.rdb.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.preferences.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts": {
+      "mtimeMs": 1765010961605.9785,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.colorSpaceManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.resourceManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.rpc.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.drawableDescriptor.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.drawing.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.StartOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.componentSnapshot.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.unifiedDataChannel.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\PhotoEditorExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimodalInput.pointer.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts": {
+      "mtimeMs": 1765010961468.923,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.font.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.mediaquery.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.inspector.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.promptAction.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.componentUtils.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.animator.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.observer.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.animator.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.measure.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.componentSnapshot.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.dragController.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimodalInput.pointer.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\BuilderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\ComponentContent.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\NodeController.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\XComponentNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts": {
+      "mtimeMs": 1765010962091.032,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\BuilderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\BuilderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\BuilderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\NodeController.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\RenderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\XComponentNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Content.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\ComponentContent.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\NodeContent.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\content_slot.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\node_container.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.colorSpaceManager.d.ts": {
+      "mtimeMs": 1765010961844.0198,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.drawing.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.resourceManager.d.ts": {
+      "mtimeMs": 1765010962045.0315,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\global\\rawFileDescriptor.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\global\\resource.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.drawableDescriptor.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\global\\rawFileDescriptor.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.resourceManager.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.drawableDescriptor.d.ts": {
+      "mtimeMs": 1765010961741.0532,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.resourceManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\image.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.font.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.mediaquery.d.ts": {
+      "mtimeMs": 1765010961846.045,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.inspector.d.ts": {
+      "mtimeMs": 1765010961811.02,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.promptAction.d.ts": {
+      "mtimeMs": 1765010961562.979,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\action_sheet.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\alert_dialog.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\custom_dialog_controller.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts": {
+      "mtimeMs": 1765010961307.923,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.componentUtils.d.ts": {
+      "mtimeMs": 1765010961589.979,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.animator.d.ts": {
+      "mtimeMs": 1765010961223.923,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.observer.d.ts": {
+      "mtimeMs": 1765010961210.923,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\component\\navigation.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.measure.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.componentSnapshot.d.ts": {
+      "mtimeMs": 1765010962078.0322,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.dragController.d.ts": {
+      "mtimeMs": 1765010961352.923,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.unifiedDataChannel.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts": {
+      "mtimeMs": 1765010962051.0322,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStageContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\BaseContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\FormExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\EventHub.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityHelper.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStartCallback.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\connectOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\VpnExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\EmbeddableUIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\PhotoEditorExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIServiceProxy.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIServiceExtensionConnectCallback.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AppServiceExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\abilityResult.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimodalInput.pointer.d.ts": {
+      "mtimeMs": 1765010961587.979,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\BuilderNode.d.ts": {
+      "mtimeMs": 1765010961890.0315,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\ComponentContent.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\XComponentNode.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\NodeController.d.ts": {
+      "mtimeMs": 1765010961878.02,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts": {
+      "mtimeMs": 1765010962028.0315,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\RenderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\ComponentContent.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\BuilderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\NodeController.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\XComponentNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\NodeContent.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\canvas.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts": {
+      "mtimeMs": 1765010961933.0315,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.drawing.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.common2D.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\global\\resource.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\BuilderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\RenderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\NodeController.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\particle.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\units.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\RenderNode.d.ts": {
+      "mtimeMs": 1765010961956.0315,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\XComponentNode.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\BuilderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Content.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\ComponentContent.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\NodeContent.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\ComponentContent.d.ts": {
+      "mtimeMs": 1765010961906.031,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\BuilderNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Content.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\NodeContent.d.ts": {
+      "mtimeMs": 1765010961974.0312,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Content.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.drawing.d.ts": {
+      "mtimeMs": 1765010961305.922,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.common2D.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.colorSpaceManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\global\\resource.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\canvas.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.text.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.common2D.d.ts": {
+      "mtimeMs": 1765010962089.0312,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.drawing.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.text.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\component\\navigation.d.ts": {
+      "mtimeMs": 1765010960980.9253,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.observer.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\connectOptions.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ElementName.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.rpc.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AppServiceExtensionContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.dialogRequest.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AtomicServiceOptions.d.ts": {
+      "mtimeMs": 1765010962081.0332,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.CompletionHandlerForAtomicService.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.StartOptions.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIServiceProxy.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIServiceExtensionConnectCallback.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStartCallback.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\abilityResult.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\abilityResult.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStartCallback.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\PhotoEditorExtensionContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts": {
+      "mtimeMs": 1765010961767.0522,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\EventHub.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ApplicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\BaseContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.resourceManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.contextConstant.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStageContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.print.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.OpenLinkOptions.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.StartOptions.d.ts": {
+      "mtimeMs": 1765010961716.9785,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.contextConstant.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.bundleManager.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.CompletionHandler.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AtomicServiceOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AppServiceExtensionContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.CompletionHandlerForAtomicService.d.ts": {
+      "mtimeMs": 1765010901686.7354,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AtomicServiceOptions.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.contextConstant.d.ts": {
+      "mtimeMs": 1765010961354.923,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.StartOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.CompletionHandler.d.ts": {
+      "mtimeMs": 1765010901698.7358,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ElementName.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.StartOptions.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\EventHub.d.ts": {
+      "mtimeMs": 1765010961754.0212,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts": {
+      "mtimeMs": 1765010961775.0535,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ProcessInformation.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.ConfigurationConstant.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityLifecycleCallback.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.EnvironmentCallback.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.ApplicationStateChangeCallback.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityLifecycleCallback.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.EnvironmentCallback.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityConstant.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Configuration.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.ApplicationStateChangeCallback.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.unifiedDataChannel.d.ts": {
+      "mtimeMs": 1765010961567.9788,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.dragController.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts": {
+      "mtimeMs": 1765010961758.053,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.StartOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\abilityResult.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\connectOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AtomicServiceOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.OpenLinkOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.ConfigurationConstant.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIServiceProxy.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIServiceExtensionConnectCallback.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AbilityStageContext.d.ts": {
+      "mtimeMs": 1765010961776.0525,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\HapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Configuration.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts": {
+      "mtimeMs": 1765010961772.0525,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\HapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Configuration.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundleManager\\ExtensionAbilityInfo.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\FormExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\VpnExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\PhotoEditorExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AppServiceExtensionContext.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\FormExtensionContext.d.ts": {
+      "mtimeMs": 1765010961756.0522,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityHelper.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\data\\rdb\\resultSet.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityOperation.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityResult.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.dataAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.rdb.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\VpnExtensionContext.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\EmbeddableUIAbilityContext.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\PhotoEditorExtensionContext.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\abilityResult.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\AppServiceExtensionContext.d.ts": {
+      "mtimeMs": 1765010901696.7363,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\ExtensionContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\connectOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.StartOptions.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\data\\rdb\\resultSet.d.ts": {
+      "mtimeMs": 1765010961842.0205,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityHelper.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.rdb.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityOperation.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.dataAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.rdb.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityHelper.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityResult.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityHelper.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.dataAbility.d.ts": {
+      "mtimeMs": 1765010962093.032,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.rdb.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityHelper.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityOperation.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.rdb.d.ts": {
+      "mtimeMs": 1765010961802.0208,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\data\\rdb\\resultSet.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\BaseContext.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityHelper.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityOperation.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.dataAbility.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\startAbilityParameter.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\abilityResult.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\appVersionInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityHelper.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\connectOptions.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\processInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\dataAbilityOperation.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\ability\\startAbilityParameter.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\appVersionInfo.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\applicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\processInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\elementName.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\BaseContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\hapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\appVersionInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\abilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\processInfo.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.ability.featureAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\applicationInfo.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\moduleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\customizeData.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\abilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\bundleInfo.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\elementName.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\hapModuleInfo.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\abilityInfo.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\bundleInfo.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\abilityInfo.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\applicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\customizeData.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\hapModuleInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\bundleInfo.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\applicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\abilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\bundleInfo.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\app\\context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\abilityInfo.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\moduleInfo.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\applicationInfo.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\customizeData.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\applicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\abilityInfo.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\bundleInfo.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\abilityInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\applicationInfo.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\bundle\\hapModuleInfo.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.bundle.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.hilog.d.ts": {
+      "mtimeMs": 1765010961421.9226,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets": {
+      "mtimeMs": 1765090982577.1052,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\HomePage.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets": {
+      "mtimeMs": 1765092218359.155,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\SearchComponent.ets": {
+      "mtimeMs": 1765157804791.5435,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\utils\\SearchHistoryManager.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\SwiperComponent.ets": {
+      "mtimeMs": 1765090982623.2834,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets": {
+      "mtimeMs": 1765158703345.1318,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\HomePage.ets": {
+      "mtimeMs": 1765094906194.3896,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets": {
+      "mtimeMs": 1765109852685.125,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\SearchComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets": {
+      "mtimeMs": 1765105660187.191,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\SearchComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets": {
+      "mtimeMs": 1765103609764.3306,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets": {
+      "mtimeMs": 1765160048424.5571,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets"
+      ],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\action_sheet.d.ts": {
+      "mtimeMs": 1765010963371.7197,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.promptAction.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.promptAction.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\alert_dialog.d.ts": {
+      "mtimeMs": 1765010963310.694,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.promptAction.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\canvas.d.ts": {
+      "mtimeMs": 1765010963282.683,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.drawing.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.uniformTypeDescriptor.d.ts": {
+      "mtimeMs": 1765010961547.002,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimodalInput.intentionCode.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\ImageModifier.d.ts": {
+      "mtimeMs": 1765010962040.0315,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\SymbolGlyphModifier.d.ts": {
+      "mtimeMs": 1765010961986.0327,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.shape.d.ts": {
+      "mtimeMs": 1765010962122.0315,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.matrix4.d.ts": {
+      "mtimeMs": 1765010961610.979,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\image.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.uiEffect.d.ts": {
+      "mtimeMs": 1765010961461.9229,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.theme.d.ts": {
+      "mtimeMs": 1765010961789.053,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\with_theme.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts": {
+      "mtimeMs": 1765010963327.7068,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.dragController.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.dragController.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimodalInput.pointer.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.unifiedDataChannel.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.unifiedDataChannel.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.uniformTypeDescriptor.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.unifiedDataChannel.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.unifiedDataChannel.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimodalInput.intentionCode.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\ImageModifier.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\SymbolGlyphModifier.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.shape.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.shape.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.shape.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.shape.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.matrix4.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.observer.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.observer.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.observer.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.uiEffect.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.uiEffect.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\ComponentContent.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.theme.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.promptAction.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.scene.d.ts": {
+      "mtimeMs": 1765010961231.9226,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\ScenePostProcessSettings.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneTypes.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneResources.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneNodes.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\Scene.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\component3d.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\component3d.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.scene.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\ScenePostProcessSettings.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.scene.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneNodes.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneTypes.d.ts": {
+      "mtimeMs": 1765010962106.0312,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.scene.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneResources.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneNodes.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\Scene.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneResources.d.ts": {
+      "mtimeMs": 1765010962108.032,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneTypes.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.scene.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneNodes.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\Scene.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneNodes.d.ts": {
+      "mtimeMs": 1765010962101.0315,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneResources.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneTypes.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\ScenePostProcessSettings.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\Scene.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.scene.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\Scene.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\Scene.d.ts": {
+      "mtimeMs": 1765010962104.0315,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneResources.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneNodes.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneTypes.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.scene.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\graphics3d\\SceneNodes.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\content_slot.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\custom_dialog_controller.d.ts": {
+      "mtimeMs": 1765010963408.718,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.promptAction.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\embedded_component.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.Want.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\folder_stack.d.ts": {
+      "mtimeMs": 1765010963454.7192,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\image.d.ts": {
+      "mtimeMs": 1765010963442.7183,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.drawableDescriptor.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.drawing.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.drawing.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.matrix4.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\nav_destination.d.ts": {
+      "mtimeMs": 1765010963342.7073,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\navigation.d.ts": {
+      "mtimeMs": 1765010963268.683,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\node_container.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\particle.d.ts": {
+      "mtimeMs": 1765010963265.684,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\pattern_lock.d.ts": {
+      "mtimeMs": 1765010963286.6824,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\CommonModifier.d.ts": {
+      "mtimeMs": 1765010961916.031,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\tabs.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\tabs.d.ts": {
+      "mtimeMs": 1765010963394.7195,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\CommonModifier.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.text.d.ts": {
+      "mtimeMs": 1765010961666.9788,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.drawing.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.common2D.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\text_common.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\text_common.d.ts": {
+      "mtimeMs": 1765010963333.7073,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.text.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.text.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.text.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.text.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.text.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.graphics.text.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.intl.d.ts": {
+      "mtimeMs": 1765010961792.0525,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\time_picker.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\time_picker.d.ts": {
+      "mtimeMs": 1765010963349.7085,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.intl.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\with_theme.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.theme.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\units.d.ts": {
+      "mtimeMs": 1765010963339.7073,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\global\\resource.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\arkui\\Graphics.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\video.d.ts": {
+      "mtimeMs": 1765010963416.718,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts": {
+      "mtimeMs": 1765010961655.9785,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cert.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.print.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.netErrorList.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\web.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\web.d.ts": {
+      "mtimeMs": 1765010963356.7068,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cert.d.ts": {
+      "mtimeMs": 1765010961424.9229,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cryptoFramework.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.print.d.ts": {
+      "mtimeMs": 1765010961559.9788,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.netErrorList.d.ts": {
+      "mtimeMs": 1757036793000,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cryptoFramework.d.ts": {
+      "mtimeMs": 1765010961448.9229,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cert.d.ts"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets": {
+      "mtimeMs": 1765108733297.704,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\utils\\SearchHistoryManager.ets": {
+      "mtimeMs": 1765157447346.4136,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.preferences.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\SearchComponent.ets"
+      ],
+      "error": false,
+      "errorCodes": [
+        137,
+        2709
+      ]
+    },
+    "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.preferences.d.ts": {
+      "mtimeMs": 1765010961362.923,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\BaseContext.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\utils\\SearchHistoryManager.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\utils\\Logger.ets": {
+      "mtimeMs": 1765090982588.105,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.hilog.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets": {
+      "mtimeMs": 1765093449655.2734,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets": {
+      "mtimeMs": 1765090982577.1052,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\HomePage.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets": {
+      "mtimeMs": 1765092218359.155,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\SearchComponent.ets": {
+      "mtimeMs": 1765157804791.5435,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\utils\\SearchHistoryManager.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\SwiperComponent.ets": {
+      "mtimeMs": 1765090982623.2834,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets": {
+      "mtimeMs": 1765158703345.1318,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\HomePage.ets": {
+      "mtimeMs": 1765094906194.3896,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets": {
+      "mtimeMs": 1765109852685.125,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets": {
+      "mtimeMs": 1765105660187.191,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\utils\\SearchHistoryManager.ets": {
+      "mtimeMs": 1765157447346.4136,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\SearchComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets": {
+      "mtimeMs": 1765103609764.3306,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets": {
+      "mtimeMs": 1765160048424.5571,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets"
+      ],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets": {
+      "mtimeMs": 1765108733297.704,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    }
+  }
+}

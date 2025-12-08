@@ -1,0 +1,1379 @@
+Ôr@Ÿªassertions¤code´customTransformCache¬dependencies¢id¤meta±moduleSideEffects¬originalCode±originalSourcemap«resolvedIds®sourcemapChainµsyntheticNamedExportsµtransformDependencies®transformFiles¨cacheAstÔrAÚhê/**
+ * Home page classify title data.
+ */
+const classifyTitle = [
+    { "id": 16777228, "type": 10003, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+    { "id": 16777230, "type": 10003, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+    { "id": 16777224, "type": 10003, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+    { "id": 16777225, "type": 10003, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+    { "id": 16777229, "type": 10003, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+    { "id": 16777226, "type": 10003, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+    { "id": 16777227, "type": 10003, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
+];
+/**
+ * Home page swiper image data.
+ */
+const swiperImage = [
+    { "id": 16777292, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+    { "id": 16777284, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+    { "id": 16777293, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
+];
+/**
+ * Home page water flow item init data.
+ */
+const waterFlowData = [
+    // é¦–é¡µåˆ†ç±» (category: 0)
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_04B8B3EA3656D724A068789C65AC2CFF.png",
+        "name": "Mate 80 Pro",
+        "discount": "",
+        "price": "Â¥6999",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 0
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_C42771B009616C47F5D965927253D340.png",
+        "name": "Mate 80 RS éå‡¡å¤§å¸ˆ",
+        "discount": "",
+        "price": "Â¥11999",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 0
+    },
+    // æ‰‹æœºåˆ†ç±» (category: 1)
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_6476C5B49284C5626B813B3342FE19B2.png",
+        "name": "Mate X7",
+        "discount": "è¶…å¯é æŠ˜å ç„æ­¦æ¶æ„ï¼Œç¬¬äºŒä»£çº¢æ«å½±åƒï¼Œé¸¿è’™å¤§å±AIæ™ºèƒ½ä½“",
+        "price": "Â¥17599",
+        "promotion": "",
+        "bonus_points": "200",
+        "detail": [
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/92E898579B5026F68AEB0ED4A1469878.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/B3BCCA7DA126B24AE1C6C8E10AAA9838.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/AD02E9E8F1B413A50E29C8DEF8D5FAF2.jpg"
+        ],
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_D6757632EAE2763CF86C2FA9FEF903CA.png",
+        "name": "Mate 80 Pro Max",
+        "discount": "å…¨é‡‘å±ç„æ­¦æ¶æ„ï¼Œè¶…é€äº®çµç‘å±ï¼Œç¬¬äºŒä»£çº¢æ«å½±åƒ",
+        "price": "Â¥8999",
+        "promotion": "",
+        "bonus_points": "90",
+        "detail": [
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/87B47339EF5534CA981A3674790AE525.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/B43DCBFA7FDB6C3E198355E8DDF4DC6C.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/5329BDD40CD224467EA295E4EDCCFEAF.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/6DB3DFF828EB211CA574DF6FD09D09F4.jpg"
+        ],
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_7359210F3AB11077FAA8D757DB3C553F.png",
+        "name": "Mate 80",
+        "discount": "ç¬¬äºŒä»£çº¢æ«å½±åƒï¼Œé¸¿è’™AIï¼Œè¶…å¯é ç„æ­¦æ¶æ„",
+        "price": "Â¥5499",
+        "promotion": "",
+        "bonus_points": "55",
+        "detail": [
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/824F6FD7AB7FB9AC64A17C6D90A24A12.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/0B7CB1D8DB34085D4341CBB09938EECC.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/BB39C233924643C1724728796201D9AB.jpg"
+        ],
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_04B8B3EA3656D724A068789C65AC2CFF.png",
+        "name": "Mate 80 Pro",
+        "discount": "ç¬¬äºŒä»£çº¢æ«å½±åƒï¼Œé¸¿è’™AIï¼Œæˆ·å¤–æ¢ç´¢æ¨¡å¼",
+        "price": "Â¥6999",
+        "promotion": "",
+        "bonus_points": "70",
+        "detail": [
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/F7339B07B8A4DD94E7CA323AEC30D8CA.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/A4FE9B8EC253E789DAB1845A3E13EAA4.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/D33FBEFE2D330C12AB2CA1C2F5DDFABB.jpg"
+        ],
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_C42771B009616C47F5D965927253D340.png",
+        "name": "Mate 80 RS éå‡¡å¤§å¸ˆ",
+        "discount": "è¶…å¹¿è‰²åŸŸçµç‘å±ï¼Œé«˜äº®é’›ç„æ­¦æ¶æ„ï¼Œç¬¬äºŒä»£çº¢æ«å½±åƒ",
+        "price": "Â¥11999",
+        "promotion": "",
+        "bonus_points": "120",
+        "detail": [
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/9A6AF67A6FC31B504F54783DE7A8CA54.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/7DB1628BF676CD060C7725529DDD0CFB.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/7C38CA7A9360316C93BCFE194FD10E91.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/E7AA7DF02494E0779AB3638C92B18509.jpg"
+        ],
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_A7DDBD65423DBED94B982E5D3CCC2D27.png",
+        "name": "Mate X6",
+        "discount": "åˆ†å¸ƒå¼ç„æ­¦æ¶æ„ï¼Œé¸¿è’™å¤§å±AIï¼Œçº¢æ«åŸè‰²å½±åƒ",
+        "price": "Â¥10999",
+        "promotion": "åŸä»· Â¥12999",
+        "bonus_points": "140",
+        "detail": [
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/CBA3176617F969A7C132E6D1170B3DFD.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/F4829CD9249F531BC3899E78BEA29B02.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/1981C995F82D9FB92A3FA7E1561A7308.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/7D74AE13F9907DAFAA0C793632276C38.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/335F106991DCF08A4C2232EDB19D01F8.jpg"
+        ],
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_1ADACDD1074CFC04E130A69678F422C1.png",
+        "name": "Mate 70 Air",
+        "discount": "è¶…è–„é•¿ç»­èˆªï¼Œ7è‹±å¯¸åä¸ºä¸´å¢ƒå¤§å±ï¼Œçº¢æ«åŸè‰²å½±åƒ",
+        "price": "Â¥4199",
+        "promotion": "",
+        "bonus_points": "40",
+        "detail": [
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/D7A0E002EB6DFD52C77ED873ECEA2941.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/D7A0E002EB6DFD52C77ED873ECEA2941.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/40567705BB0EFAF4D55FF055B6D0C958.jpg",
+            "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/0F9C625B918A020655F71295A2C751BE.jpg"
+        ],
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_4EA4288A58F97B1DFF68C2F608F84EC3.png",
+        "name": "Mate 70 Pro",
+        "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥5499",
+        "promotion": "åŸä»· Â¥6499",
+        "bonus_points": "",
+        "detail": "",
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_CCB892969E4A54DB10FEECB7BB4E704D.png",
+        "name": "Mate XTs éå‡¡å¤§å¸ˆ",
+        "discount": "",
+        "price": "Â¥21999",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_435A71F45CED8BB63F827041183F5702.png",
+        "name": "Pura 80",
+        "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥4899",
+        "promotion": "åŸä»· Â¥5499",
+        "bonus_points": "",
+        "detail": "",
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_840ACF79CA46AEEEC8730992DD05616A.png",
+        "name": "åä¸ºç•…äº« 70X å°Šäº«ç‰ˆ",
+        "discount": "",
+        "price": "Â¥1899",
+        "promotion": "åŸä»· Â¥1999",
+        "bonus_points": "",
+        "detail": "",
+        "category": 1
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_6DEFA8E52CD749385860692A24DA15B9.png",
+        "name": "Mate 70 Pro+",
+        "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥6899",
+        "promotion": "åŸä»· Â¥8499",
+        "bonus_points": "",
+        "detail": "",
+        "category": 1
+    },
+    // ç”µè„‘åˆ†ç±» (category: 2)
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_3D2D80A19F6C33F8A3A91DD1CD31F411.png",
+        "name": "MateBook 14 é…·ç¿ Ultra",
+        "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥5599",
+        "promotion": "åŸä»· Â¥5799",
+        "bonus_points": "",
+        "detail": "",
+        "category": 2
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_A51050A7F1F08287AF6ED936E42E49C6.png",
+        "name": "MateBook Pro",
+        "discount": "æ–°å“ | 12æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥8899",
+        "promotion": "åŸä»· Â¥8999",
+        "bonus_points": "",
+        "detail": "",
+        "category": 2
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_B040F9A8572FB6AE583BEBA5C606845C.png",
+        "name": "MateBook D 14",
+        "discount": "èµ å“",
+        "price": "Â¥3999",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 2
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_44D32EC50B77359AAE64D05FB6D68BC0.png",
+        "name": "MateBook D 16 2024",
+        "discount": "èµ å“",
+        "price": "Â¥4299",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 2
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_7C4DBE0558BF5B2191FBF2002484E137.png",
+        "name": "MateBook Fold éå‡¡å¤§å¸ˆ",
+        "discount": "æ–°å“ | 12æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥26999",
+        "promotion": "èµ å“",
+        "bonus_points": "",
+        "detail": "",
+        "category": 2
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_5184880ED48AC3A8CD6EF04ACDE7B389.png",
+        "name": "MateBook GT 14 é…·ç¿ Ultra",
+        "discount": "",
+        "price": "Â¥7499",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 2
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_5E37C22E7CDE74B3A954FAFD2E2D613F.png",
+        "name": "MateBook D 16 SE 2024",
+        "discount": "",
+        "price": "Â¥3499",
+        "promotion": "åŸä»· Â¥3699",
+        "bonus_points": "",
+        "detail": "",
+        "category": 2
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_304C8996E4B0B563E0C160B1226B363B.png",
+        "name": "MateView SE 27è‹±å¯¸",
+        "discount": "3æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥549",
+        "promotion": "åŸä»· Â¥699",
+        "bonus_points": "",
+        "detail": "",
+        "category": 2
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_2293D39712DF9EBD9D491B2535C484F9.png",
+        "name": "MateBook D 14 SE",
+        "discount": "",
+        "price": "Â¥3499",
+        "promotion": "åŸä»· Â¥3699",
+        "bonus_points": "",
+        "detail": "",
+        "category": 2
+    },
+    // é£Ÿå“åˆ†ç±» (category: 3)
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_B90DFF2974B7DCD085AF9512A8FB2440.png",
+        "name": "ã€è«å¡å°”ã€‘è·å…°ä¹è·æœ‰æœºå…¨è„‚ç‰›å¥¶",
+        "discount": "",
+        "price": "Â¥179",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 3
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_160993A35041ABEE5B7C85122A4E8D78.png",
+        "name": "ã€è«å¡å°”ã€‘æ³•å›½ç™½é©¬åº„å›­çº¢è‘¡è„é…’",
+        "discount": "èµ å“",
+        "price": "Â¥10062",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 3
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_B0716F4A26600F143A6526701540B0ED.png",
+        "name": "ã€è«å¡å°”ã€‘ç»†å“å¦‚é¥´Â·èœ‚èœœç¤¼ç›’",
+        "discount": "",
+        "price": "Â¥268",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 3
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_5E161470643C39F448D0F7482F744E00.png",
+        "name": "ã€è«å¡å°”ã€‘é˜¿æ ¹å»·è‰é¥²ç‰›æ¿è…±",
+        "discount": "",
+        "price": "Â¥168",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 3
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_1668413169B213756ED2FA3B358E0016.png",
+        "name": "ã€è«å¡å°”ã€‘ä¸–ç•Œå’–å•¡ç”„äº«ç¤¼ç›’",
+        "discount": "",
+        "price": "Â¥188",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 3
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_90697A70125BAEB9AE8FAC06AB016341.png",
+        "name": "ã€è«å¡å°”ã€‘2025å¹´ä¸­ç§‹é…’èŒ¶ç¤¼ç›’",
+        "discount": "",
+        "price": "Â¥355",
+        "promotion": "åŸä»· Â¥448",
+        "bonus_points": "",
+        "detail": "",
+        "category": 3
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_E7C9C304373B1D57A1606B348217B3A3.png",
+        "name": "ã€è«å¡å°”ã€‘æ³•å›½å‰å“ˆä¼¯é€šçº¢è‘¡è„é…’",
+        "discount": "èµ å“",
+        "price": "Â¥228",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 3
+    },
+    // ç©¿æˆ´åˆ†ç±» (category: 4)
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_6056BC862F8F7936BF7E6B49D79BDACD.png",
+        "name": "WATCH GT 6 Pro",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥2438",
+        "promotion": "åŸä»· Â¥2488",
+        "bonus_points": "",
+        "detail": "",
+        "category": 4
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_60CFCD2159D58FA009EC03BE1E85273C.png",
+        "name": "åä¸ºæ‰‹ç¯ 10",
+        "discount": "",
+        "price": "Â¥209",
+        "promotion": "åŸä»· Â¥269",
+        "bonus_points": "",
+        "detail": "",
+        "category": 4
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_B6563E16A22FD3AEF60D57DCA8A2C935.png",
+        "name": "WATCH GT 6",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥1438",
+        "promotion": "åŸä»· Â¥1488",
+        "bonus_points": "",
+        "detail": "",
+        "category": 4
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_1DF7063BA73B72B93BAB792928EEB6A3.png",
+        "name": "WATCH 5",
+        "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥2399",
+        "promotion": "åŸä»· Â¥2699",
+        "bonus_points": "",
+        "detail": "",
+        "category": 4
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_CE7B0985EEEBA55C7AD62F9F63012238.png",
+        "name": "WATCH D2",
+        "discount": "",
+        "price": "Â¥2988",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 4
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/uomcdn/CN/pms/202409/gbom/6942103132186/800_800_946FA8C2EBABBF99306F74B18FD0FBB5mp.png",
+        "name": "WATCH GT 5",
+        "discount": "",
+        "price": "Â¥1788",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 4
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_E802EF64EF2A2E298B693CFE48F9D239.png",
+        "name": "WATCH FIT 4",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥849",
+        "promotion": "åŸä»· Â¥999",
+        "bonus_points": "",
+        "detail": "",
+        "category": 4
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_DCF47F0B3BBF85B21642C5F61B6C3329.png",
+        "name": "WATCH Ultimate 2 éå‡¡æ¢ç´¢",
+        "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥7499",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 4
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/uomcdn/CN/pms/202409/gbom/6942103134203/800_800_B9306C4BE9A3D6AEB4849FB193AD5C99mp.png",
+        "name": "WATCH GT 5 Pro",
+        "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥2288",
+        "promotion": "åŸä»· Â¥2788",
+        "bonus_points": "",
+        "detail": "",
+        "category": 4
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_AEE2D7AC56F75A798506E98FCA142E99.png",
+        "name": "åä¸ºå„¿ç«¥æ‰‹è¡¨ 5 Pro",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥998",
+        "promotion": "åŸä»· Â¥1198",
+        "bonus_points": "",
+        "detail": "",
+        "category": 4
+    },
+    // è€³æœºåˆ†ç±» (category: 5)
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_46F0024C477212E37407F94DC12DF2A7.png",
+        "name": "FreeClip 2",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥1299",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 5
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_CA93198592B07BE0077670D66162148C.png",
+        "name": "FreeBuds Pro 5",
+        "discount": "èµ å“ | 6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥1449",
+        "promotion": "åŸä»· Â¥1499",
+        "bonus_points": "",
+        "detail": "",
+        "category": 5
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_8BCF6E4469DAAE0A2495890B593B5C8B.png",
+        "name": "FreeBuds 7i",
+        "discount": "3æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥499",
+        "promotion": "åŸä»· Â¥599",
+        "bonus_points": "",
+        "detail": "",
+        "category": 5
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/uomcdn/CN/pms/202406/displayProduct/10086459091537/800_800_5D558EF0FF7BEE784DD94C817F1F4EDBmp.png",
+        "name": "FreeBuds SE 2",
+        "discount": "",
+        "price": "Â¥109",
+        "promotion": "åŸä»· Â¥199",
+        "bonus_points": "",
+        "detail": "",
+        "category": 5
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_028BCCEA088102D4B48DBAB75202DA79.png",
+        "name": "FreeClip",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥1099",
+        "promotion": "åŸä»· Â¥1299",
+        "bonus_points": "",
+        "detail": "",
+        "category": 5
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_6C36BB3013B0FA782F29A0FA0CE1736B.png",
+        "name": "FreeArc",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥599",
+        "promotion": "åŸä»· Â¥799",
+        "bonus_points": "",
+        "detail": "",
+        "category": 5
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_97CD385480B682A73A764504A5FA6EFE.png",
+        "name": "FreeBuds SE 3",
+        "discount": "",
+        "price": "Â¥149",
+        "promotion": "åŸä»· Â¥199",
+        "bonus_points": "",
+        "detail": "",
+        "category": 5
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_25A67014C292A0E4B425FC539DDD73DF.png",
+        "name": "FreeBuds 6",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥749",
+        "promotion": "åŸä»· Â¥999",
+        "bonus_points": "",
+        "detail": "",
+        "category": 5
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_79C24E66FC900688A75CA5142C928BB7.png",
+        "name": "FreeBuds SE 4 ANC",
+        "discount": "3æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥209",
+        "promotion": "åŸä»· Â¥299",
+        "bonus_points": "",
+        "detail": "",
+        "category": 5
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_0A0C29E4F39BD71ED0F9DA1173E8A0B6.png",
+        "name": "FreeBuds Pro 4",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥1249",
+        "promotion": "åŸä»· Â¥1499",
+        "bonus_points": "",
+        "detail": "",
+        "category": 5
+    },
+    // å®¶å…·åˆ†ç±» (category: 6)
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_10CEB44B36EBADBDE2F017A044840D46.png",
+        "name": "720æ™ºèƒ½ç©ºæ°”å‡€åŒ–å™¨3så¢å¼ºç‰ˆ",
+        "discount": "3æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥1299",
+        "promotion": "åŸä»· Â¥1799",
+        "bonus_points": "",
+        "detail": "",
+        "category": 6
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_AA87313C60CC489CE47F860B6A341AA9.png",
+        "name": "MEIPONTæ™ºèƒ½ç©ºè°ƒ é£ç¥ä¹‹çœ¼Pro",
+        "discount": "",
+        "price": "Â¥3499",
+        "promotion": "åŸä»· Â¥3799",
+        "bonus_points": "",
+        "detail": "",
+        "category": 6
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_E87BF21B6FDD8C7B80CAD4A2E1744AEF.png",
+        "name": "å“ˆå°”æ–¯æ™ºèƒ½å’–å•¡æ¯ æ˜Ÿé—ªç‰ˆ (çº¯é’›)",
+        "discount": "",
+        "price": "Â¥449",
+        "promotion": "åŸä»· Â¥499",
+        "bonus_points": "",
+        "detail": "",
+        "category": 6
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_CF268A092B1A6DCA64359BA25EDCF27C.png",
+        "name": "å“ˆå°”æ–¯æ™ºèƒ½æ³¡èŒ¶æ¯ æ˜Ÿé—ªçº¯é’›ç‰ˆ",
+        "discount": "",
+        "price": "Â¥2999",
+        "promotion": "",
+        "bonus_points": "",
+        "detail": "",
+        "category": 6
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/uomcdn/CN/pms/202409/gbom/6939991700627/800_800_B395CC143C44A83A98DAA5823D044CD9mp.png",
+        "name": "720æ™ºèƒ½ç©ºæ°”åŠ æ¹¿ä¸€ä½“æœº",
+        "discount": "3æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥1799",
+        "promotion": "åŸä»· Â¥2299",
+        "bonus_points": "",
+        "detail": "",
+        "category": 6
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_1E0E907641703E54A954C2F5F83B43EC.png",
+        "name": "IAMæ™ºèƒ½å® ç‰©ç©ºæ°”å‡€åŒ–å™¨U7 Pro",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥4699",
+        "promotion": "åŸä»· Â¥5499",
+        "bonus_points": "",
+        "detail": "",
+        "category": 6
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_50A3560D2EE39111D3590692004820AF.png",
+        "name": "IAMå® ç‰©ç©ºæ°”å‡€åŒ–å™¨U7",
+        "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+        "price": "Â¥3499",
+        "promotion": "åŸä»· Â¥4199",
+        "bonus_points": "",
+        "detail": "",
+        "category": 6
+    },
+    {
+        "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_A6405B5254373CDB10C44FA03AC90078.png",
+        "name": "MEIPONTæ™ºèƒ½ç©ºè°ƒ é£ç¥ä¹‹çœ¼",
+        "discount": "",
+        "price": "Â¥2999",
+        "promotion": "åŸä»· Â¥3299",
+        "bonus_points": "",
+        "detail": "",
+        "category": 6
+    }
+];
+export { classifyTitle, swiperImage, waterFlowData };
+//# sourceMappingURL=HomeViewModel.js.mapÂÙgC:\tools\develop_tools\Harmony\HarmonyProjects\WaterFlow\entry\src\main\ets\viewmodel\HomeViewModel.etsÔrBœªmoduleName±isLocalDependency¯isNodeEntryFile§pkgPath±belongProjectPath§pkgNameªpkgVersion±dependencyPkgInfo¯hostModulesInfo°belongModulePath§checker¬shouldEmitJs¥entryÃÂÙ>C:\tools\develop_tools\Harmony\HarmonyProjects\WaterFlow\entryÙ8C:\tools\develop_tools\Harmony\HarmonyProjects\WaterFlow¥entry¥1.0.0Ô  •ÔrC’²hostDependencyName®hostModuleNameº../viewmodel/HomeViewModel¥entryCº../viewmodel/HomeViewModel¥entryCº../viewmodel/HomeViewModel¥entryCº../viewmodel/HomeViewModel¥entryCº../viewmodel/HomeViewModel¥entryÙ>C:\tools\develop_tools\Harmony\HarmonyProjects\WaterFlow\entryÔrDÜ ®¬getNodeCount²getIdentifierCount®getSymbolCount¬getTypeCountµgetInstantiationCountµgetRelationCacheSizes±isUndefinedSymbol±isArgumentsSymbol¯isUnknownSymbol¯getMergedSymbol®getDiagnostics´getGlobalDiagnostics´getRecursionIdentity¶getUnmatchedProperties¹getTypeOfSymbolAtLocation¯getTypeOfSymbolÙ(getSymbolsOfParameterPropertyDeclaration·getDeclaredTypeOfSymbol³getPropertiesOfType±getPropertyOfTypeÙ"getPrivateIdentifierPropertyOfType·getTypeOfPropertyOfType²getIndexInfoOfType³getIndexInfosOfTypeºgetIndexInfosOfIndexSymbol³getSignaturesOfType²getIndexTypeOfType¬getIndexType¬getBaseTypes¸getBaseTypeOfLiteralType®getWidenedType³getTypeFromTypeNode°getParameterTypeÙ$getParameterIdentifierNameAtPosition¸getPromisedTypeOfPromise®getAwaitedType¸getReturnTypeOfSignature®isNullableType¯getNullableType²getNonNullableType²getNonOptionalType°getTypeArguments®typeToTypeNodeÙ$indexInfoToIndexSignatureDeclaration¿signatureToSignatureDeclaration²symbolToEntityName²symbolToExpression¬symbolToNodeÙ!symbolToTypeParameterDeclarations¼symbolToParameterDeclarationºtypeParameterToDeclaration±getSymbolsInScope³getSymbolAtLocation·getIndexInfosAtLocationÙ!getShorthandAssignmentValueSymbolÙ#getExportSpecifierLocalTargetSymbol·getExportSymbolOfSymbol±getTypeAtLocationÙ tryGetTypeAtLocationWithoutCheckºgetTypeOfAssignmentPatternÙ*getPropertySymbolOfDestructuringAssignment±signatureToString¬typeToString®symbolToStringµtypePredicateToString®writeSignature©writeType«writeSymbol²writeTypePredicate¼getAugmentedPropertiesOfType®getRootSymbols²getSymbolOfExpando±getContextualTypeÙ(getContextualTypeForObjectLiteralElementÙ#getContextualTypeForArgumentAtIndexÙ getContextualTypeForJsxAttribute²isContextSensitiveÙ!getTypeOfPropertyOfContextualTypeµgetFullyQualifiedNameÙ#tryGetResolvedSignatureWithoutCheck´getResolvedSignatureÙ/getResolvedSignatureForStringLiteralCompletionsÙ$getResolvedSignatureForSignatureHelpµgetExpandedParameters¹hasEffectiveRestParameterºcontainsArgumentsReference°getConstantValueµisValidPropertyAccessÙ#isValidPropertyAccessForCompletions»getSignatureFromDeclarationºisImplementationOfOverload¹getImmediateAliasedSymbol°getAliasedSymbol¯getEmitResolver²getExportsOfModule¿getExportsAndPropertiesOfModuleÙ forEachExportAndPropertyOfModule¯getSymbolWalker±getAmbientModules¹getJsxIntrinsicTagNamesAt³isOptionalParameter»tryGetMemberInModuleExportsÙ(tryGetMemberInModuleExportsAndProperties´tryFindAmbientModuleÙ(tryFindAmbientModuleWithoutAugmentations¯getApparentType¬getUnionType²isTypeAssignableTo³createAnonymousType¯createSignature¬createSymbol¯createIndexInfoªgetAnyType­getStringType­getNumberType±createPromiseType¯createArrayType¹getElementTypeOfArrayType®getBooleanType¬getFalseType«getTrueType«getVoidType°getUndefinedType«getNullType¯getESSymbolType¬getNeverType¯getOptionalType®getPromiseType²getPromiseLikeType´getAsyncIterableType²isSymbolAccessible«isArrayType«isTupleType¯isArrayLikeTypeÙ#isTypeInvalidDueToUnionDiscriminantºgetExactOptionalProperties¿getAllPossiblePropertiesOfTypesÙ(getSuggestedSymbolForNonexistentPropertyÙ#getSuggestionForNonexistentPropertyÙ,getSuggestedSymbolForNonexistentJSXAttributeÙ&getSuggestedSymbolForNonexistentSymbolÙ!getSuggestionForNonexistentSymbolÙ&getSuggestedSymbolForNonexistentModuleÙ!getSuggestionForNonexistentExportÙ+getSuggestedSymbolForNonexistentClassMember·getBaseConstraintOfType»getDefaultFromTypeParameter«resolveName¯getJsxNamespaceµgetJsxFragmentFactory¸getAccessibleSymbolChain»getTypePredicateOfSignature¹resolveExternalModuleName»resolveExternalModuleSymbol°tryGetThisTypeAt¹getTypeArgumentConstraint¸getSuggestionDiagnostics¸runWithCancellationTokenÙ3getLocalTypeParametersOfClassOrInterfaceOrTypeAlias´isDeclarationVisible´isPropertyAccessible»getTypeOnlyAliasDeclaration¿getMemberOverrideModifierStatusÙ!isTypeParameterPossiblyReferenced²getConstEnumRelate´clearConstEnumRelateµdeleteConstEnumRelateÙ$getTypeArgumentsForResolvedSignatureµgetCheckedSourceFilesÙ"collectHaveTsNoCheckFilesForLinter·clearQualifiedNameCache®isStaticRecord²isStaticSourceFile³createIntrinsicTypeÔ  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  ÃÃÚ_˜/*
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import { IProductItem } from './ProductItem';
+
+/**
+ * Home page classify title data.
+ */
+const classifyTitle: Resource[] = [
+  $r('app.string.title_bar_homepage'),
+  $r('app.string.title_bar_phone'),
+  $r('app.string.title_bar_computer'),
+  $r('app.string.title_bar_foods'),
+  $r('app.string.title_bar_men_wear'),
+  $r('app.string.title_bar_fresh'),
+  $r('app.string.title_bar_furniture_kitchenware')
+];
+
+/**
+ * Home page swiper image data.
+ */
+const swiperImage: Resource[] = [
+  $r('app.media.ic_home_appliances_special'),
+  $r('app.media.ic_coupons'),
+  $r('app.media.ic_internal_purchase_price')
+];
+
+
+/**
+ * Home page water flow item init data.
+ */
+const waterFlowData: IProductItem[] = [
+  // é¦–é¡µåˆ†ç±» (category: 0)
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_04B8B3EA3656D724A068789C65AC2CFF.png",
+    "name": "Mate 80 Pro",
+    "discount": "",
+    "price": "Â¥6999",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 0
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_C42771B009616C47F5D965927253D340.png",
+    "name": "Mate 80 RS éå‡¡å¤§å¸ˆ",
+    "discount": "",
+    "price": "Â¥11999",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 0
+  },
+  // æ‰‹æœºåˆ†ç±» (category: 1)
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_6476C5B49284C5626B813B3342FE19B2.png",
+    "name": "Mate X7",
+    "discount": "è¶…å¯é æŠ˜å ç„æ­¦æ¶æ„ï¼Œç¬¬äºŒä»£çº¢æ«å½±åƒï¼Œé¸¿è’™å¤§å±AIæ™ºèƒ½ä½“",
+    "price": "Â¥17599",
+    "promotion": "",
+    "bonus_points": "200",
+    "detail": [
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/92E898579B5026F68AEB0ED4A1469878.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/B3BCCA7DA126B24AE1C6C8E10AAA9838.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/AD02E9E8F1B413A50E29C8DEF8D5FAF2.jpg"
+    ],
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_D6757632EAE2763CF86C2FA9FEF903CA.png",
+    "name": "Mate 80 Pro Max",
+    "discount": "å…¨é‡‘å±ç„æ­¦æ¶æ„ï¼Œè¶…é€äº®çµç‘å±ï¼Œç¬¬äºŒä»£çº¢æ«å½±åƒ",
+    "price": "Â¥8999",
+    "promotion": "",
+    "bonus_points": "90",
+    "detail":[
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/87B47339EF5534CA981A3674790AE525.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/B43DCBFA7FDB6C3E198355E8DDF4DC6C.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/5329BDD40CD224467EA295E4EDCCFEAF.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/6DB3DFF828EB211CA574DF6FD09D09F4.jpg"
+    ],
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_7359210F3AB11077FAA8D757DB3C553F.png",
+    "name": "Mate 80",
+    "discount": "ç¬¬äºŒä»£çº¢æ«å½±åƒï¼Œé¸¿è’™AIï¼Œè¶…å¯é ç„æ­¦æ¶æ„",
+    "price": "Â¥5499",
+    "promotion": "",
+    "bonus_points": "55",
+    "detail":[
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/824F6FD7AB7FB9AC64A17C6D90A24A12.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/0B7CB1D8DB34085D4341CBB09938EECC.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/BB39C233924643C1724728796201D9AB.jpg"
+    ],
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_04B8B3EA3656D724A068789C65AC2CFF.png",
+    "name": "Mate 80 Pro",
+    "discount": "ç¬¬äºŒä»£çº¢æ«å½±åƒï¼Œé¸¿è’™AIï¼Œæˆ·å¤–æ¢ç´¢æ¨¡å¼",
+    "price": "Â¥6999",
+    "promotion": "",
+    "bonus_points": "70",
+    "detail":[
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/F7339B07B8A4DD94E7CA323AEC30D8CA.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/A4FE9B8EC253E789DAB1845A3E13EAA4.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/D33FBEFE2D330C12AB2CA1C2F5DDFABB.jpg"
+    ],
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_C42771B009616C47F5D965927253D340.png",
+    "name": "Mate 80 RS éå‡¡å¤§å¸ˆ",
+    "discount": "è¶…å¹¿è‰²åŸŸçµç‘å±ï¼Œé«˜äº®é’›ç„æ­¦æ¶æ„ï¼Œç¬¬äºŒä»£çº¢æ«å½±åƒ",
+    "price": "Â¥11999",
+    "promotion": "",
+    "bonus_points": "120",
+    "detail":[
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/9A6AF67A6FC31B504F54783DE7A8CA54.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/7DB1628BF676CD060C7725529DDD0CFB.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/7C38CA7A9360316C93BCFE194FD10E91.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/E7AA7DF02494E0779AB3638C92B18509.jpg"
+    ],
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_A7DDBD65423DBED94B982E5D3CCC2D27.png",
+    "name": "Mate X6",
+    "discount": "åˆ†å¸ƒå¼ç„æ­¦æ¶æ„ï¼Œé¸¿è’™å¤§å±AIï¼Œçº¢æ«åŸè‰²å½±åƒ",
+    "price": "Â¥10999",
+    "promotion": "åŸä»· Â¥12999",
+    "bonus_points": "140",
+    "detail":[
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/CBA3176617F969A7C132E6D1170B3DFD.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/F4829CD9249F531BC3899E78BEA29B02.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/1981C995F82D9FB92A3FA7E1561A7308.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/7D74AE13F9907DAFAA0C793632276C38.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/335F106991DCF08A4C2232EDB19D01F8.jpg"
+    ],
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_1ADACDD1074CFC04E130A69678F422C1.png",
+    "name": "Mate 70 Air",
+    "discount": "è¶…è–„é•¿ç»­èˆªï¼Œ7è‹±å¯¸åä¸ºä¸´å¢ƒå¤§å±ï¼Œçº¢æ«åŸè‰²å½±åƒ",
+    "price": "Â¥4199",
+    "promotion": "",
+    "bonus_points": "40",
+    "detail":[
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/D7A0E002EB6DFD52C77ED873ECEA2941.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/D7A0E002EB6DFD52C77ED873ECEA2941.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/40567705BB0EFAF4D55FF055B6D0C958.jpg",
+      "https://res.vmallres.com/FssCdnProxy/vmall_product_uom/pmsCdn/0F9C625B918A020655F71295A2C751BE.jpg"
+    ],
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_4EA4288A58F97B1DFF68C2F608F84EC3.png",
+    "name": "Mate 70 Pro",
+    "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥5499",
+    "promotion": "åŸä»· Â¥6499",
+    "bonus_points": "",
+    "detail":"",
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_CCB892969E4A54DB10FEECB7BB4E704D.png",
+    "name": "Mate XTs éå‡¡å¤§å¸ˆ",
+    "discount": "",
+    "price": "Â¥21999",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_435A71F45CED8BB63F827041183F5702.png",
+    "name": "Pura 80",
+    "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥4899",
+    "promotion": "åŸä»· Â¥5499",
+    "bonus_points": "",
+    "detail":"",
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_840ACF79CA46AEEEC8730992DD05616A.png",
+    "name": "åä¸ºç•…äº« 70X å°Šäº«ç‰ˆ",
+    "discount": "",
+    "price": "Â¥1899",
+    "promotion": "åŸä»· Â¥1999",
+    "bonus_points": "",
+    "detail":"",
+    "category": 1
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_6DEFA8E52CD749385860692A24DA15B9.png",
+    "name": "Mate 70 Pro+",
+    "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥6899",
+    "promotion": "åŸä»· Â¥8499",
+    "bonus_points": "",
+    "detail":"",
+    "category": 1
+  },
+  // ç”µè„‘åˆ†ç±» (category: 2)
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_3D2D80A19F6C33F8A3A91DD1CD31F411.png",
+    "name": "MateBook 14 é…·ç¿ Ultra",
+    "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥5599",
+    "promotion": "åŸä»· Â¥5799",
+    "bonus_points": "",
+    "detail":"",
+    "category": 2
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_A51050A7F1F08287AF6ED936E42E49C6.png",
+    "name": "MateBook Pro",
+    "discount": "æ–°å“ | 12æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥8899",
+    "promotion": "åŸä»· Â¥8999",
+    "bonus_points": "",
+    "detail":"",
+    "category": 2
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_B040F9A8572FB6AE583BEBA5C606845C.png",
+    "name": "MateBook D 14",
+    "discount": "èµ å“",
+    "price": "Â¥3999",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 2
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_44D32EC50B77359AAE64D05FB6D68BC0.png",
+    "name": "MateBook D 16 2024",
+    "discount": "èµ å“",
+    "price": "Â¥4299",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 2
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_7C4DBE0558BF5B2191FBF2002484E137.png",
+    "name": "MateBook Fold éå‡¡å¤§å¸ˆ",
+    "discount": "æ–°å“ | 12æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥26999",
+    "promotion": "èµ å“",
+    "bonus_points": "",
+    "detail":"",
+    "category": 2
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_5184880ED48AC3A8CD6EF04ACDE7B389.png",
+    "name": "MateBook GT 14 é…·ç¿ Ultra",
+    "discount": "",
+    "price": "Â¥7499",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 2
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_5E37C22E7CDE74B3A954FAFD2E2D613F.png",
+    "name": "MateBook D 16 SE 2024",
+    "discount": "",
+    "price": "Â¥3499",
+    "promotion": "åŸä»· Â¥3699",
+    "bonus_points": "",
+    "detail":"",
+    "category": 2
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_304C8996E4B0B563E0C160B1226B363B.png",
+    "name": "MateView SE 27è‹±å¯¸",
+    "discount": "3æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥549",
+    "promotion": "åŸä»· Â¥699",
+    "bonus_points": "",
+    "detail":"",
+    "category": 2
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_2293D39712DF9EBD9D491B2535C484F9.png",
+    "name": "MateBook D 14 SE",
+    "discount": "",
+    "price": "Â¥3499",
+    "promotion": "åŸä»· Â¥3699",
+    "bonus_points": "",
+    "detail":"",
+    "category": 2
+  },
+  // é£Ÿå“åˆ†ç±» (category: 3)
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_B90DFF2974B7DCD085AF9512A8FB2440.png",
+    "name": "ã€è«å¡å°”ã€‘è·å…°ä¹è·æœ‰æœºå…¨è„‚ç‰›å¥¶",
+    "discount": "",
+    "price": "Â¥179",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 3
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_160993A35041ABEE5B7C85122A4E8D78.png",
+    "name": "ã€è«å¡å°”ã€‘æ³•å›½ç™½é©¬åº„å›­çº¢è‘¡è„é…’",
+    "discount": "èµ å“",
+    "price": "Â¥10062",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 3
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_B0716F4A26600F143A6526701540B0ED.png",
+    "name": "ã€è«å¡å°”ã€‘ç»†å“å¦‚é¥´Â·èœ‚èœœç¤¼ç›’",
+    "discount": "",
+    "price": "Â¥268",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 3
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_5E161470643C39F448D0F7482F744E00.png",
+    "name": "ã€è«å¡å°”ã€‘é˜¿æ ¹å»·è‰é¥²ç‰›æ¿è…±",
+    "discount": "",
+    "price": "Â¥168",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 3
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_1668413169B213756ED2FA3B358E0016.png",
+    "name": "ã€è«å¡å°”ã€‘ä¸–ç•Œå’–å•¡ç”„äº«ç¤¼ç›’",
+    "discount": "",
+    "price": "Â¥188",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 3
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_90697A70125BAEB9AE8FAC06AB016341.png",
+    "name": "ã€è«å¡å°”ã€‘2025å¹´ä¸­ç§‹é…’èŒ¶ç¤¼ç›’",
+    "discount": "",
+    "price": "Â¥355",
+    "promotion": "åŸä»· Â¥448",
+    "bonus_points": "",
+    "detail":"",
+    "category": 3
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_bop_server/BopMaterialCenter/800_800_E7C9C304373B1D57A1606B348217B3A3.png",
+    "name": "ã€è«å¡å°”ã€‘æ³•å›½å‰å“ˆä¼¯é€šçº¢è‘¡è„é…’",
+    "discount": "èµ å“",
+    "price": "Â¥228",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 3
+  },
+  // ç©¿æˆ´åˆ†ç±» (category: 4)
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_6056BC862F8F7936BF7E6B49D79BDACD.png",
+    "name": "WATCH GT 6 Pro",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥2438",
+    "promotion": "åŸä»· Â¥2488",
+    "bonus_points": "",
+    "detail":"",
+    "category": 4
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_60CFCD2159D58FA009EC03BE1E85273C.png",
+    "name": "åä¸ºæ‰‹ç¯ 10",
+    "discount": "",
+    "price": "Â¥209",
+    "promotion": "åŸä»· Â¥269",
+    "bonus_points": "",
+    "detail":"",
+    "category": 4
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_B6563E16A22FD3AEF60D57DCA8A2C935.png",
+    "name": "WATCH GT 6",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥1438",
+    "promotion": "åŸä»· Â¥1488",
+    "bonus_points": "",
+    "detail":"",
+    "category": 4
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_1DF7063BA73B72B93BAB792928EEB6A3.png",
+    "name": "WATCH 5",
+    "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥2399",
+    "promotion": "åŸä»· Â¥2699",
+    "bonus_points": "",
+    "detail":"",
+    "category": 4
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_CE7B0985EEEBA55C7AD62F9F63012238.png",
+    "name": "WATCH D2",
+    "discount": "",
+    "price": "Â¥2988",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 4
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/uomcdn/CN/pms/202409/gbom/6942103132186/800_800_946FA8C2EBABBF99306F74B18FD0FBB5mp.png",
+    "name": "WATCH GT 5",
+    "discount": "",
+    "price": "Â¥1788",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 4
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_E802EF64EF2A2E298B693CFE48F9D239.png",
+    "name": "WATCH FIT 4",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥849",
+    "promotion": "åŸä»· Â¥999",
+    "bonus_points": "",
+    "detail":"",
+    "category": 4
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_DCF47F0B3BBF85B21642C5F61B6C3329.png",
+    "name": "WATCH Ultimate 2 éå‡¡æ¢ç´¢",
+    "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥7499",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 4
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/uomcdn/CN/pms/202409/gbom/6942103134203/800_800_B9306C4BE9A3D6AEB4849FB193AD5C99mp.png",
+    "name": "WATCH GT 5 Pro",
+    "discount": "12æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥2288",
+    "promotion": "åŸä»· Â¥2788",
+    "bonus_points": "",
+    "detail":"",
+    "category": 4
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_AEE2D7AC56F75A798506E98FCA142E99.png",
+    "name": "åä¸ºå„¿ç«¥æ‰‹è¡¨ 5 Pro",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥998",
+    "promotion": "åŸä»· Â¥1198",
+    "bonus_points": "",
+    "detail":"",
+    "category": 4
+  },
+  // è€³æœºåˆ†ç±» (category: 5)
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_46F0024C477212E37407F94DC12DF2A7.png",
+    "name": "FreeClip 2",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥1299",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 5
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_CA93198592B07BE0077670D66162148C.png",
+    "name": "FreeBuds Pro 5",
+    "discount": "èµ å“ | 6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥1449",
+    "promotion": "åŸä»· Â¥1499",
+    "bonus_points": "",
+    "detail":"",
+    "category": 5
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_8BCF6E4469DAAE0A2495890B593B5C8B.png",
+    "name": "FreeBuds 7i",
+    "discount": "3æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥499",
+    "promotion": "åŸä»· Â¥599",
+    "bonus_points": "",
+    "detail":"",
+    "category": 5
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/uomcdn/CN/pms/202406/displayProduct/10086459091537/800_800_5D558EF0FF7BEE784DD94C817F1F4EDBmp.png",
+    "name": "FreeBuds SE 2",
+    "discount": "",
+    "price": "Â¥109",
+    "promotion": "åŸä»· Â¥199",
+    "bonus_points": "",
+    "detail":"",
+    "category": 5
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_028BCCEA088102D4B48DBAB75202DA79.png",
+    "name": "FreeClip",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥1099",
+    "promotion": "åŸä»· Â¥1299",
+    "bonus_points": "",
+    "detail":"",
+    "category": 5
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_6C36BB3013B0FA782F29A0FA0CE1736B.png",
+    "name": "FreeArc",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥599",
+    "promotion": "åŸä»· Â¥799",
+    "bonus_points": "",
+    "detail":"",
+    "category": 5
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_97CD385480B682A73A764504A5FA6EFE.png",
+    "name": "FreeBuds SE 3",
+    "discount": "",
+    "price": "Â¥149",
+    "promotion": "åŸä»· Â¥199",
+    "bonus_points": "",
+    "detail":"",
+    "category": 5
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_25A67014C292A0E4B425FC539DDD73DF.png",
+    "name": "FreeBuds 6",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥749",
+    "promotion": "åŸä»· Â¥999",
+    "bonus_points": "",
+    "detail":"",
+    "category": 5
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_79C24E66FC900688A75CA5142C928BB7.png",
+    "name": "FreeBuds SE 4 ANC",
+    "discount": "3æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥209",
+    "promotion": "åŸä»· Â¥299",
+    "bonus_points": "",
+    "detail":"",
+    "category": 5
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_0A0C29E4F39BD71ED0F9DA1173E8A0B6.png",
+    "name": "FreeBuds Pro 4",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥1249",
+    "promotion": "åŸä»· Â¥1499",
+    "bonus_points": "",
+    "detail":"",
+    "category": 5
+  },
+  // å®¶å…·åˆ†ç±» (category: 6)
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_10CEB44B36EBADBDE2F017A044840D46.png",
+    "name": "720æ™ºèƒ½ç©ºæ°”å‡€åŒ–å™¨3så¢å¼ºç‰ˆ",
+    "discount": "3æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥1299",
+    "promotion": "åŸä»· Â¥1799",
+    "bonus_points": "",
+    "detail":"",
+    "category": 6
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_AA87313C60CC489CE47F860B6A341AA9.png",
+    "name": "MEIPONTæ™ºèƒ½ç©ºè°ƒ é£ç¥ä¹‹çœ¼Pro",
+    "discount": "",
+    "price": "Â¥3499",
+    "promotion": "åŸä»· Â¥3799",
+    "bonus_points": "",
+    "detail":"",
+    "category": 6
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_E87BF21B6FDD8C7B80CAD4A2E1744AEF.png",
+    "name": "å“ˆå°”æ–¯æ™ºèƒ½å’–å•¡æ¯ æ˜Ÿé—ªç‰ˆ (çº¯é’›)",
+    "discount": "",
+    "price": "Â¥449",
+    "promotion": "åŸä»· Â¥499",
+    "bonus_points": "",
+    "detail":"",
+    "category": 6
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_CF268A092B1A6DCA64359BA25EDCF27C.png",
+    "name": "å“ˆå°”æ–¯æ™ºèƒ½æ³¡èŒ¶æ¯ æ˜Ÿé—ªçº¯é’›ç‰ˆ",
+    "discount": "",
+    "price": "Â¥2999",
+    "promotion": "",
+    "bonus_points": "",
+    "detail":"",
+    "category": 6
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/uomcdn/CN/pms/202409/gbom/6939991700627/800_800_B395CC143C44A83A98DAA5823D044CD9mp.png",
+    "name": "720æ™ºèƒ½ç©ºæ°”åŠ æ¹¿ä¸€ä½“æœº",
+    "discount": "3æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥1799",
+    "promotion": "åŸä»· Â¥2299",
+    "bonus_points": "",
+    "detail":"",
+    "category": 6
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_1E0E907641703E54A954C2F5F83B43EC.png",
+    "name": "IAMæ™ºèƒ½å® ç‰©ç©ºæ°”å‡€åŒ–å™¨U7 Pro",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥4699",
+    "promotion": "åŸä»· Â¥5499",
+    "bonus_points": "",
+    "detail":"",
+    "category": 6
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_50A3560D2EE39111D3590692004820AF.png",
+    "name": "IAMå® ç‰©ç©ºæ°”å‡€åŒ–å™¨U7",
+    "discount": "6æœŸ0åˆ†æœŸåˆ©æ¯",
+    "price": "Â¥3499",
+    "promotion": "åŸä»· Â¥4199",
+    "bonus_points": "",
+    "detail":"",
+    "category": 6
+  },
+  {
+    "image_url": "https://res.vmallres.com/pimages/FssCdnProxy/vmall_product_uom/pmsSalesFile/800_800_A6405B5254373CDB10C44FA03AC90078.png",
+    "name": "MEIPONTæ™ºèƒ½ç©ºè°ƒ é£ç¥ä¹‹çœ¼",
+    "discount": "",
+    "price": "Â¥2999",
+    "promotion": "åŸä»· Â¥3299",
+    "bonus_points": "",
+    "detail":"",
+    "category": 6
+  }
+];
+
+export { classifyTitle, swiperImage, waterFlowData };ÀA“ÔrE–§version¤fileªsourceRoot§sources¥names¨mappings°HomeViewModel.js ‘±HomeViewModel.etsÜ†‘”   ‘” ””   ” ” ” "’” ” ‘”   ‘”  ””  ! ” !” !” ! ’” %” %‘”  ( ‘” *””  + ” +” +” +&’” ,” ,‘” -”” .” .” .”Ì .Ì‹”” /” /
+” /” /”” 0” 0” 0” 0”” 1” 1” 1” 1”” 2” 2” 2” 2”” 3” 3” 3” 3”” 4” 4” 4” 4”” 5” 5” 5” 5‘” 6‘” 7”” 8” 8” 8”Ì 8Ì‹”” 9” 9
+” 9”! 9”” :” :” :” :”” ;” ;” ;” ;”” <” <” <” <”” =” =” =” =”” >” >” >” >”” ?” ?” ?” ?‘” Ì@’” ÌA” ÌA‘” ÌB”” ÌC” ÌC” ÌC”Ì ÌCÌ‹”” ÌD” ÌD
+” ÌD” ÌD”” ÌE” ÌE” ÌE”1 ÌE-”” ÌF” ÌF” ÌF” ÌF”” ÌG” ÌG” ÌG” ÌG”” ÌH” ÌH” ÌH” ÌH“” ÌI” ÌI” ÌI’” ÌJ”Ìp ÌJÌj’” ÌK”Ìp ÌKÌj’” ÌL”Ìp ÌLÌj‘”	 ÌM”” ÌN” ÌN” ÌN” ÌN‘” ÌO‘” ÌP”” ÌQ” ÌQ” ÌQ”Ì ÌQÌ‹”” ÌR” ÌR
+” ÌR”! ÌR”” ÌS” ÌS” ÌS”, ÌS(”” ÌT” ÌT” ÌT” ÌT”” ÌU” ÌU” ÌU” ÌU”” ÌV” ÌV” ÌV” ÌV“” ÌW” ÌW” ÌW’” ÌX”Ìp ÌXÌj’” ÌY”Ìp ÌYÌj’” ÌZ”Ìp ÌZÌj’” Ì[”Ìp Ì[Ìj‘”	 Ì\”” Ì]” Ì]” Ì]” Ì]‘” Ì^‘” Ì_”” Ì`” Ì`” Ì`”Ì Ì`Ì‹”” Ìa” Ìa
+” Ìa” Ìa”” Ìb” Ìb” Ìb”* Ìb&”” Ìc” Ìc” Ìc” Ìc”” Ìd” Ìd” Ìd” Ìd”” Ìe” Ìe” Ìe” Ìe“” Ìf” Ìf” Ìf’” Ìg”Ìp ÌgÌj’” Ìh”Ìp ÌhÌj’” Ìi”Ìp ÌiÌj‘”	 Ìj”” Ìk” Ìk” Ìk” Ìk‘” Ìl‘” Ìm”” Ìn” Ìn” Ìn”Ì ÌnÌ‹”” Ìo” Ìo
+” Ìo” Ìo”” Ìp” Ìp” Ìp”) Ìp%”” Ìq” Ìq” Ìq” Ìq”” Ìr” Ìr” Ìr” Ìr”” Ìs” Ìs” Ìs” Ìs“” Ìt” Ìt” Ìt’” Ìu”Ìp ÌuÌj’” Ìv”Ìp ÌvÌj’” Ìw”Ìp ÌwÌj‘”	 Ìx”” Ìy” Ìy” Ìy” Ìy‘” Ìz‘” Ì{”” Ì|” Ì|” Ì|”Ì Ì|Ì‹”” Ì}” Ì}
+” Ì}”! Ì}”” Ì~” Ì~” Ì~”- Ì~)”” Ì” Ì” Ì” Ì”” Ì€” Ì€” Ì€” Ì€”” Ì” Ì” Ì” Ì“” Ì‚” Ì‚” Ì‚’” Ìƒ”Ìp ÌƒÌj’” Ì„”Ìp Ì„Ìj’” Ì…”Ìp Ì…Ìj’” Ì†”Ìp Ì†Ìj‘”	 Ì‡”” Ìˆ” Ìˆ” Ìˆ” Ìˆ‘” Ì‰‘” ÌŠ”” Ì‹” Ì‹” Ì‹”Ì Ì‹Ì‹”” ÌŒ” ÌŒ
+” ÌŒ” ÌŒ”” Ì” Ì” Ì”+ Ì'”” Ì” Ì” Ì” Ì”” Ì” Ì” Ì”  Ì”” Ì” Ì” Ì” Ì“” Ì‘” Ì‘” Ì‘’” Ì’”Ìp Ì’Ìj’” Ì“”Ìp Ì“Ìj’” Ì””Ìp Ì”Ìj’” Ì•”Ìp Ì•Ìj’” Ì–”Ìp Ì–Ìj‘”	 Ì—”” Ì˜” Ì˜” Ì˜” Ì˜‘” Ì™‘” Ìš”” Ì›” Ì›” Ì›”Ì Ì›Ì‹”” Ìœ” Ìœ
+” Ìœ” Ìœ”” Ì” Ì” Ì”, Ì(”” Ì” Ì” Ì” Ì”” ÌŸ” ÌŸ” ÌŸ” ÌŸ”” Ì ” Ì ” Ì ” Ì “” Ì¡” Ì¡” Ì¡’” Ì¢”Ìp Ì¢Ìj’” Ì£”Ìp Ì£Ìj’” Ì¤”Ìp Ì¤Ìj’” Ì¥”Ìp Ì¥Ìj‘”	 Ì¦”” Ì§” Ì§” Ì§” Ì§‘” Ì¨‘” Ì©”” Ìª” Ìª” Ìª”Ì ÌªÌ‹”” Ì«” Ì«
+” Ì«” Ì«”” Ì¬” Ì¬” Ì¬” Ì¬”” Ì­” Ì­” Ì­” Ì­”” Ì®” Ì®” Ì®” Ì®”” Ì¯” Ì¯” Ì¯” Ì¯”” Ì°” Ì°” Ì°” Ì°”” Ì±” Ì±” Ì±” Ì±‘” Ì²‘” Ì³”” Ì´” Ì´” Ì´”Ì Ì´Ì‹”” Ìµ” Ìµ
+” Ìµ” Ìµ”” Ì¶” Ì¶” Ì¶” Ì¶”” Ì·” Ì·” Ì·” Ì·”” Ì¸” Ì¸” Ì¸” Ì¸”” Ì¹” Ì¹” Ì¹” Ì¹”” Ìº” Ìº” Ìº” Ìº”” Ì»” Ì»” Ì»” Ì»‘” Ì¼‘” Ì½”” Ì¾” Ì¾” Ì¾”Ì Ì¾Ì‹”” Ì¿” Ì¿
+” Ì¿” Ì¿”” ÌÀ” ÌÀ” ÌÀ” ÌÀ”” ÌÁ” ÌÁ” ÌÁ” ÌÁ”” ÌÂ” ÌÂ” ÌÂ” ÌÂ”” ÌÃ” ÌÃ” ÌÃ” ÌÃ”” ÌÄ” ÌÄ” ÌÄ” ÌÄ”” ÌÅ” ÌÅ” ÌÅ” ÌÅ‘” ÌÆ‘” ÌÇ”” ÌÈ” ÌÈ” ÌÈ”Ì ÌÈÌ‹”” ÌÉ” ÌÉ
+” ÌÉ” ÌÉ”” ÌÊ” ÌÊ” ÌÊ” ÌÊ”” ÌË” ÌË” ÌË” ÌË”” ÌÌ” ÌÌ” ÌÌ” ÌÌ”” ÌÍ” ÌÍ” ÌÍ” ÌÍ”” ÌÎ” ÌÎ” ÌÎ” ÌÎ”” ÌÏ” ÌÏ” ÌÏ” ÌÏ‘” ÌĞ‘” ÌÑ”” ÌÒ” ÌÒ” ÌÒ”Ì ÌÒÌ‹”” ÌÓ” ÌÓ
+” ÌÓ” ÌÓ”” ÌÔ” ÌÔ” ÌÔ” ÌÔ”” ÌÕ” ÌÕ” ÌÕ” ÌÕ”” ÌÖ” ÌÖ” ÌÖ” ÌÖ”” Ì×” Ì×” Ì×” Ì×”” ÌØ” ÌØ” ÌØ” ÌØ”” ÌÙ” ÌÙ” ÌÙ” ÌÙ‘” ÌÚ’” ÌÛ” ÌÛ‘” ÌÜ”” Ìİ” Ìİ” Ìİ”Ì ÌİÌ‹”” ÌŞ” ÌŞ
+” ÌŞ”& ÌŞ"”” Ìß” Ìß” Ìß” Ìß”” Ìà” Ìà” Ìà” Ìà”” Ìá” Ìá” Ìá” Ìá”” Ìâ” Ìâ” Ìâ” Ìâ”” Ìã” Ìã” Ìã” Ìã”” Ìä” Ìä” Ìä” Ìä‘” Ìå‘” Ìæ”” Ìç” Ìç” Ìç”Ì ÌçÌ‹”” Ìè” Ìè
+” Ìè” Ìè”” Ìé” Ìé” Ìé”# Ìé”” Ìê” Ìê” Ìê” Ìê”” Ìë” Ìë” Ìë” Ìë”” Ìì” Ìì” Ìì” Ìì”” Ìí” Ìí” Ìí” Ìí”” Ìî” Ìî” Ìî” Ìî‘” Ìï‘” Ìğ”” Ìñ” Ìñ” Ìñ”Ì ÌñÌ‹”” Ìò” Ìò
+” Ìò” Ìò”” Ìó” Ìó” Ìó” Ìó”” Ìô” Ìô” Ìô” Ìô”” Ìõ” Ìõ” Ìõ” Ìõ”” Ìö” Ìö” Ìö” Ìö”” Ì÷” Ì÷” Ì÷” Ì÷”” Ìø” Ìø” Ìø” Ìø‘” Ìù‘” Ìú”” Ìû” Ìû” Ìû”Ì ÌûÌ‹”” Ìü” Ìü
+” Ìü”$ Ìü ”” Ìı” Ìı” Ìı” Ìı”” Ìş” Ìş” Ìş” Ìş”” Ìÿ” Ìÿ” Ìÿ” Ìÿ”” Í ” Í ” Í ” Í ”” Í” Í” Í” Í”” Í” Í” Í” Í‘” Í‘” Í”” Í” Í” Í”Ì ÍÌ‹”” Í” Í
+” Í”$ Í ”” Í” Í” Í”# Í”” Í” Í” Í” Í”” Í	” Í	” Í	” Í	”” Í
+” Í
+” Í
+” Í
+”” Í” Í” Í” Í”” Í” Í” Í” Í‘” Í‘” Í”” Í” Í” Í”Ì ÍÌ‹”” Í” Í
+” Í”) Í%”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í‘” Í‘” Í”” Í” Í” Í”Ì ÍÌ‹”” Í” Í
+” Í”' Í#”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í ” Í ” Í ” Í ‘” Í!‘” Í"”” Í#” Í#” Í#”Ì Í#Ì‹”” Í$” Í$
+” Í$”" Í$”” Í%” Í%” Í%” Í%”” Í&” Í&” Í&” Í&”” Í'” Í'” Í'” Í'”” Í(” Í(” Í(” Í(”” Í)” Í)” Í)” Í)”” Í*” Í*” Í*” Í*‘” Í+‘” Í,”” Í-” Í-” Í-”Ì Í-Ì‹”” Í.” Í.
+” Í.”" Í.”” Í/” Í/” Í/” Í/”” Í0” Í0” Í0” Í0”” Í1” Í1” Í1” Í1”” Í2” Í2” Í2” Í2”” Í3” Í3” Í3” Í3”” Í4” Í4” Í4” Í4‘” Í5’” Í6” Í6‘” Í7”” Í8” Í8” Í8”Ì“ Í8Ì”” Í9” Í9
+” Í9”! Í9”” Í:” Í:” Í:” Í:”” Í;” Í;” Í;” Í;”” Í<” Í<” Í<” Í<”” Í=” Í=” Í=” Í=”” Í>” Í>” Í>” Í>”” Í?” Í?” Í?” Í?‘” Í@‘” ÍA”” ÍB” ÍB” ÍB”Ì“ ÍBÌ”” ÍC” ÍC
+” ÍC”! ÍC”” ÍD” ÍD” ÍD” ÍD”” ÍE” ÍE” ÍE” ÍE”” ÍF” ÍF” ÍF” ÍF”” ÍG” ÍG” ÍG” ÍG”” ÍH” ÍH” ÍH” ÍH”” ÍI” ÍI” ÍI” ÍI‘” ÍJ‘” ÍK”” ÍL” ÍL” ÍL”Ì“ ÍLÌ”” ÍM” ÍM
+” ÍM”  ÍM”” ÍN” ÍN” ÍN” ÍN”” ÍO” ÍO” ÍO” ÍO”” ÍP” ÍP” ÍP” ÍP”” ÍQ” ÍQ” ÍQ” ÍQ”” ÍR” ÍR” ÍR” ÍR”” ÍS” ÍS” ÍS” ÍS‘” ÍT‘” ÍU”” ÍV” ÍV” ÍV”Ì“ ÍVÌ”” ÍW” ÍW
+” ÍW” ÍW”” ÍX” ÍX” ÍX” ÍX”” ÍY” ÍY” ÍY” ÍY”” ÍZ” ÍZ” ÍZ” ÍZ”” Í[” Í[” Í[” Í[”” Í\” Í\” Í\” Í\”” Í]” Í]” Í]” Í]‘” Í^‘” Í_”” Í`” Í`” Í`”Ì“ Í`Ì”” Ía” Ía
+” Ía” Ía”” Íb” Íb” Íb” Íb”” Íc” Íc” Íc” Íc”” Íd” Íd” Íd” Íd”” Íe” Íe” Íe” Íe”” Íf” Íf” Íf” Íf”” Íg” Íg” Íg” Íg‘” Íh‘” Íi”” Íj” Íj” Íj”Ì“ ÍjÌ”” Ík” Ík
+” Ík”" Ík”” Íl” Íl” Íl” Íl”” Ím” Ím” Ím” Ím”” Ín” Ín” Ín” Ín”” Ío” Ío” Ío” Ío”” Íp” Íp” Íp” Íp”” Íq” Íq” Íq” Íq‘” Ír‘” Ís”” Ít” Ít” Ít”Ì“ ÍtÌ”” Íu” Íu
+” Íu”! Íu”” Ív” Ív” Ív” Ív”” Íw” Íw” Íw” Íw”” Íx” Íx” Íx” Íx”” Íy” Íy” Íy” Íy”” Íz” Íz” Íz” Íz”” Í{” Í{” Í{” Í{‘” Í|’” Í}” Í}‘” Í~”” Í” Í” Í”Ì ÍÌ‹”” Í€” Í€
+” Í€”  Í€”” Í” Í” Í” Í”” Í‚” Í‚” Í‚” Í‚”” Íƒ” Íƒ” Íƒ” Íƒ”” Í„” Í„” Í„” Í„”” Í…” Í…” Í…” Í…”” Í†” Í†” Í†” Í†‘” Í‡‘” Íˆ”” Í‰” Í‰” Í‰”Ì Í‰Ì‹”” ÍŠ” ÍŠ
+” ÍŠ” ÍŠ”” Í‹” Í‹” Í‹” Í‹”” ÍŒ” ÍŒ” ÍŒ” ÍŒ”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í‘” Í‘‘” Í’”” Í“” Í“” Í“”Ì Í“Ì‹”” Í”” Í”
+” Í”” Í””” Í•” Í•” Í•” Í•”” Í–” Í–” Í–” Í–”” Í—” Í—” Í—” Í—”” Í˜” Í˜” Í˜” Í˜”” Í™” Í™” Í™” Í™”” Íš” Íš” Íš” Íš‘” Í›‘” Íœ”” Í” Í” Í”Ì ÍÌ‹”” Í” Í
+” Í” Í”” ÍŸ” ÍŸ” ÍŸ” ÍŸ”” Í ” Í ” Í ” Í ”” Í¡” Í¡” Í¡” Í¡”” Í¢” Í¢” Í¢” Í¢”” Í£” Í£” Í£” Í£”” Í¤” Í¤” Í¤” Í¤‘” Í¥‘” Í¦”” Í§” Í§” Í§”Ì Í§Ì‹”” Í¨” Í¨
+” Í¨” Í¨”” Í©” Í©” Í©” Í©”” Íª” Íª” Íª” Íª”” Í«” Í«” Í«” Í«”” Í¬” Í¬” Í¬” Í¬”” Í­” Í­” Í­” Í­”” Í®” Í®” Í®” Í®‘” Í¯‘” Í°”” Í±” Í±” Í±”Ì Í±ÌŠ”” Í²” Í²
+” Í²” Í²”” Í³” Í³” Í³” Í³”” Í´” Í´” Í´” Í´”” Íµ” Íµ” Íµ” Íµ”” Í¶” Í¶” Í¶” Í¶”” Í·” Í·” Í·” Í·”” Í¸” Í¸” Í¸” Í¸‘” Í¹‘” Íº”” Í»” Í»” Í»”Ì Í»Ì‹”” Í¼” Í¼
+” Í¼” Í¼”” Í½” Í½” Í½” Í½”” Í¾” Í¾” Í¾” Í¾”” Í¿” Í¿” Í¿” Í¿”” ÍÀ” ÍÀ” ÍÀ” ÍÀ”” ÍÁ” ÍÁ” ÍÁ” ÍÁ”” ÍÂ” ÍÂ” ÍÂ” ÍÂ‘” ÍÃ‘” ÍÄ”” ÍÅ” ÍÅ” ÍÅ”Ì ÍÅÌ‹”” ÍÆ” ÍÆ
+” ÍÆ”' ÍÆ#”” ÍÇ” ÍÇ” ÍÇ” ÍÇ”” ÍÈ” ÍÈ” ÍÈ” ÍÈ”” ÍÉ” ÍÉ” ÍÉ” ÍÉ”” ÍÊ” ÍÊ” ÍÊ” ÍÊ”” ÍË” ÍË” ÍË” ÍË”” ÍÌ” ÍÌ” ÍÌ” ÍÌ‘” ÍÍ‘” ÍÎ”” ÍÏ” ÍÏ” ÍÏ”Ì ÍÏÌŠ”” ÍĞ” ÍĞ
+” ÍĞ”  ÍĞ”” ÍÑ” ÍÑ” ÍÑ” ÍÑ”” ÍÒ” ÍÒ” ÍÒ” ÍÒ”” ÍÓ” ÍÓ” ÍÓ” ÍÓ”” ÍÔ” ÍÔ” ÍÔ” ÍÔ”” ÍÕ” ÍÕ” ÍÕ” ÍÕ”” ÍÖ” ÍÖ” ÍÖ” ÍÖ‘” Í×‘” ÍØ”” ÍÙ” ÍÙ” ÍÙ”Ì ÍÙÌ‹”” ÍÚ” ÍÚ
+” ÍÚ” ÍÚ”” ÍÛ” ÍÛ” ÍÛ” ÍÛ”” ÍÜ” ÍÜ” ÍÜ” ÍÜ”” Íİ” Íİ” Íİ” Íİ”” ÍŞ” ÍŞ” ÍŞ” ÍŞ”” Íß” Íß” Íß” Íß”” Íà” Íà” Íà” Íà‘” Íá’” Íâ” Íâ‘” Íã”” Íä” Íä” Íä”Ì ÍäÌ‹”” Íå” Íå
+” Íå” Íå”” Íæ” Íæ” Íæ” Íæ”” Íç” Íç” Íç” Íç”” Íè” Íè” Íè” Íè”” Íé” Íé” Íé” Íé”” Íê” Íê” Íê” Íê”” Íë” Íë” Íë” Íë‘” Íì‘” Íí”” Íî” Íî” Íî”Ì ÍîÌ‹”” Íï” Íï
+” Íï”  Íï”” Íğ” Íğ” Íğ”" Íğ”” Íñ” Íñ” Íñ” Íñ”” Íò” Íò” Íò” Íò”” Íó” Íó” Íó” Íó”” Íô” Íô” Íô” Íô”” Íõ” Íõ” Íõ” Íõ‘” Íö‘” Í÷”” Íø” Íø” Íø”Ì ÍøÌ‹”” Íù” Íù
+” Íù” Íù”” Íú” Íú” Íú” Íú”” Íû” Íû” Íû” Íû”” Íü” Íü” Íü” Íü”” Íı” Íı” Íı” Íı”” Íş” Íş” Íş” Íş”” Íÿ” Íÿ” Íÿ” Íÿ‘” Í ‘” Í”” Í” Í” Í”Ì™ ÍÌ•”” Í” Í
+” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í	” Í	” Í	” Í	‘” Í
+‘” Í”” Í” Í” Í”Ì ÍÌ‹”” Í” Í
+” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í‘” Í‘” Í”” Í” Í” Í”Ì ÍÌ‹”” Í” Í
+” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í”” Í” Í” Í” Í‘” Í‘” Í”” Í ” Í ” Í ”Ì Í Ì‹”” Í!” Í!
+” Í!” Í!”” Í"” Í"” Í"” Í"”” Í#” Í#” Í#” Í#”” Í$” Í$” Í$” Í$”” Í%” Í%” Í%” Í%”” Í&” Í&” Í&” Í&”” Í'” Í'” Í'” Í'‘” Í(‘” Í)”” Í*” Í*” Í*”Ì Í*Ì‹”” Í+” Í+
+” Í+” Í+”” Í,” Í,” Í,” Í,”” Í-” Í-” Í-” Í-”” Í.” Í.” Í.” Í.”” Í/” Í/” Í/” Í/”” Í0” Í0” Í0” Í0”” Í1” Í1” Í1” Í1‘” Í2‘” Í3”” Í4” Í4” Í4”Ì Í4Ì‹”” Í5” Í5
+” Í5”# Í5”” Í6” Í6” Í6” Í6”” Í7” Í7” Í7” Í7”” Í8” Í8” Í8” Í8”” Í9” Í9” Í9” Í9”” Í:” Í:” Í:” Í:”” Í;” Í;” Í;” Í;‘” Í<‘” Í=”” Í>” Í>” Í>”Ì Í>Ì‹”” Í?” Í?
+” Í?”  Í?”” Í@” Í@” Í@” Í@”” ÍA” ÍA” ÍA” ÍA”” ÍB” ÍB” ÍB” ÍB”” ÍC” ÍC” ÍC” ÍC”” ÍD” ÍD” ÍD” ÍD”” ÍE” ÍE” ÍE” ÍE‘” ÍF’” ÍG” ÍG‘” ÍH”” ÍI” ÍI” ÍI”Ì ÍIÌ‹”” ÍJ” ÍJ
+” ÍJ”! ÍJ”” ÍK” ÍK” ÍK” ÍK”” ÍL” ÍL” ÍL” ÍL”” ÍM” ÍM” ÍM” ÍM”” ÍN” ÍN” ÍN” ÍN”” ÍO” ÍO” ÍO” ÍO”” ÍP” ÍP” ÍP” ÍP‘” ÍQ‘” ÍR”” ÍS” ÍS” ÍS”Ì ÍSÌ‹”” ÍT” ÍT
+” ÍT”% ÍT!”” ÍU” ÍU” ÍU” ÍU”” ÍV” ÍV” ÍV” ÍV”” ÍW” ÍW” ÍW” ÍW”” ÍX” ÍX” ÍX” ÍX”” ÍY” ÍY” ÍY” ÍY”” ÍZ” ÍZ” ÍZ” ÍZ‘” Í[‘” Í\”” Í]” Í]” Í]”Ì Í]Ì‹”” Í^” Í^
+” Í^”# Í^”” Í_” Í_” Í_” Í_”” Í`” Í`” Í`” Í`”” Ía” Ía” Ía” Ía”” Íb” Íb” Íb” Íb”” Íc” Íc” Íc” Íc”” Íd” Íd” Íd” Íd‘” Íe‘” Íf”” Íg” Íg” Íg”Ì ÍgÌ‹”” Íh” Íh
+” Íh”  Íh”” Íi” Íi” Íi” Íi”” Íj” Íj” Íj” Íj”” Ík” Ík” Ík” Ík”” Íl” Íl” Íl” Íl”” Ím” Ím” Ím” Ím”” Ín” Ín” Ín” Ín‘” Ío‘” Íp”” Íq” Íq” Íq”Ì ÍqÌŠ”” Ír” Ír
+” Ír” Ír”” Ís” Ís” Ís” Ís”” Ít” Ít” Ít” Ít”” Íu” Íu” Íu” Íu”” Ív” Ív” Ív” Ív”” Íw” Íw” Íw” Íw”” Íx” Íx” Íx” Íx‘” Íy‘” Íz”” Í{” Í{” Í{”Ì Í{Ì‹”” Í|” Í|
+” Í|”$ Í| ”” Í}” Í}” Í}” Í}”” Í~” Í~” Í~” Í~”” Í” Í” Í” Í”” Í€” Í€” Í€” Í€”” Í” Í” Í” Í”” Í‚” Í‚” Í‚” Í‚‘” Íƒ‘” Í„”” Í…” Í…” Í…”Ì Í…Ì‹”” Í†” Í†
+” Í†” Í†”” Í‡” Í‡” Í‡” Í‡”” Íˆ” Íˆ” Íˆ” Íˆ”” Í‰” Í‰” Í‰” Í‰”” ÍŠ” ÍŠ” ÍŠ” ÍŠ”” Í‹” Í‹” Í‹” Í‹”” ÍŒ” ÍŒ” ÍŒ” ÍŒ‘” Í‘” Í”” Í” Í” Í”Ì ÍÌ‹”” Í” Í
+” Í”" Í”” Í‘” Í‘” Í‘” Í‘”” Í’” Í’” Í’” Í’”” Í“” Í“” Í“” Í“”” Í”” Í”” Í”” Í””” Í•” Í•” Í•” Í•”” Í–” Í–” Í–” Í–‘” Í—’” Í˜” Í˜š”  Íš ” Íš”	 Íš	” Íš” Íš”# Íš#”% Íš%”2 Íš2”4 Íš4”5 Íš5ÔrF–§version¤file§sources®sourcesContent¥names¨mappingsÀ‘À‘ÀÜ‡‘”    ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”  	 ‘”  
+ ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”    ‘”  ! ‘”  " ‘”  # ‘”  $ ‘”  % ‘”  & ‘”  ' ‘”  ( ‘”  ) ‘”  * ‘”  + ‘”  , ‘”  - ‘”  . ‘”  / ‘”  0 ‘”  1 ‘”  2 ‘”  3 ‘”  4 ‘”  5 ‘”  6 ‘”  7 ‘”  8 ‘”  9 ‘”  : ‘”  ; ‘”  < ‘”  = ‘”  > ‘”  ? ‘”  Ì@ ‘”  ÌA ‘”  ÌB ‘”  ÌC ‘”  ÌD ‘”  ÌE ‘”  ÌF ‘”  ÌG ‘”  ÌH ‘”  ÌI ‘”  ÌJ ‘”  ÌK ‘”  ÌL ‘”  ÌM ‘”  ÌN ‘”  ÌO ‘”  ÌP ‘”  ÌQ ‘”  ÌR ‘”  ÌS ‘”  ÌT ‘”  ÌU ‘”  ÌV ‘”  ÌW ‘”  ÌX ‘”  ÌY ‘”  ÌZ ‘”  Ì[ ‘”  Ì\ ‘”  Ì] ‘”  Ì^ ‘”  Ì_ ‘”  Ì` ‘”  Ìa ‘”  Ìb ‘”  Ìc ‘”  Ìd ‘”  Ìe ‘”  Ìf ‘”  Ìg ‘”  Ìh ‘”  Ìi ‘”  Ìj ‘”  Ìk ‘”  Ìl ‘”  Ìm ‘”  Ìn ‘”  Ìo ‘”  Ìp ‘”  Ìq ‘”  Ìr ‘”  Ìs ‘”  Ìt ‘”  Ìu ‘”  Ìv ‘”  Ìw ‘”  Ìx ‘”  Ìy ‘”  Ìz ‘”  Ì{ ‘”  Ì| ‘”  Ì} ‘”  Ì~ ‘”  Ì ‘”  Ì€ ‘”  Ì ‘”  Ì‚ ‘”  Ìƒ ‘”  Ì„ ‘”  Ì… ‘”  Ì† ‘”  Ì‡ ‘”  Ìˆ ‘”  Ì‰ ‘”  ÌŠ ‘”  Ì‹ ‘”  ÌŒ ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì‘ ‘”  Ì’ ‘”  Ì“ ‘”  Ì” ‘”  Ì• ‘”  Ì– ‘”  Ì— ‘”  Ì˜ ‘”  Ì™ ‘”  Ìš ‘”  Ì› ‘”  Ìœ ‘”  Ì ‘”  Ì ‘”  ÌŸ ‘”  Ì  ‘”  Ì¡ ‘”  Ì¢ ‘”  Ì£ ‘”  Ì¤ ‘”  Ì¥ ‘”  Ì¦ ‘”  Ì§ ‘”  Ì¨ ‘”  Ì© ‘”  Ìª ‘”  Ì« ‘”  Ì¬ ‘”  Ì­ ‘”  Ì® ‘”  Ì¯ ‘”  Ì° ‘”  Ì± ‘”  Ì² ‘”  Ì³ ‘”  Ì´ ‘”  Ìµ ‘”  Ì¶ ‘”  Ì· ‘”  Ì¸ ‘”  Ì¹ ‘”  Ìº ‘”  Ì» ‘”  Ì¼ ‘”  Ì½ ‘”  Ì¾ ‘”  Ì¿ ‘”  ÌÀ ‘”  ÌÁ ‘”  ÌÂ ‘”  ÌÃ ‘”  ÌÄ ‘”  ÌÅ ‘”  ÌÆ ‘”  ÌÇ ‘”  ÌÈ ‘”  ÌÉ ‘”  ÌÊ ‘”  ÌË ‘”  ÌÌ ‘”  ÌÍ ‘”  ÌÎ ‘”  ÌÏ ‘”  ÌĞ ‘”  ÌÑ ‘”  ÌÒ ‘”  ÌÓ ‘”  ÌÔ ‘”  ÌÕ ‘”  ÌÖ ‘”  Ì× ‘”  ÌØ ‘”  ÌÙ ‘”  ÌÚ ‘”  ÌÛ ‘”  ÌÜ ‘”  Ìİ ‘”  ÌŞ ‘”  Ìß ‘”  Ìà ‘”  Ìá ‘”  Ìâ ‘”  Ìã ‘”  Ìä ‘”  Ìå ‘”  Ìæ ‘”  Ìç ‘”  Ìè ‘”  Ìé ‘”  Ìê ‘”  Ìë ‘”  Ìì ‘”  Ìí ‘”  Ìî ‘”  Ìï ‘”  Ìğ ‘”  Ìñ ‘”  Ìò ‘”  Ìó ‘”  Ìô ‘”  Ìõ ‘”  Ìö ‘”  Ì÷ ‘”  Ìø ‘”  Ìù ‘”  Ìú ‘”  Ìû ‘”  Ìü ‘”  Ìı ‘”  Ìş ‘”  Ìÿ ‘”  Í  ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í	 ‘”  Í
+ ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í  ‘”  Í! ‘”  Í" ‘”  Í# ‘”  Í$ ‘”  Í% ‘”  Í& ‘”  Í' ‘”  Í( ‘”  Í) ‘”  Í* ‘”  Í+ ‘”  Í, ‘”  Í- ‘”  Í. ‘”  Í/ ‘”  Í0 ‘”  Í1 ‘”  Í2 ‘”  Í3 ‘”  Í4 ‘”  Í5 ‘”  Í6 ‘”  Í7 ‘”  Í8 ‘”  Í9 ‘”  Í: ‘”  Í; ‘”  Í< ‘”  Í= ‘”  Í> ‘”  Í? ‘”  Í@ ‘”  ÍA ‘”  ÍB ‘”  ÍC ‘”  ÍD ‘”  ÍE ‘”  ÍF ‘”  ÍG ‘”  ÍH ‘”  ÍI ‘”  ÍJ ‘”  ÍK ‘”  ÍL ‘”  ÍM ‘”  ÍN ‘”  ÍO ‘”  ÍP ‘”  ÍQ ‘”  ÍR ‘”  ÍS ‘”  ÍT ‘”  ÍU ‘”  ÍV ‘”  ÍW ‘”  ÍX ‘”  ÍY ‘”  ÍZ ‘”  Í[ ‘”  Í\ ‘”  Í] ‘”  Í^ ‘”  Í_ ‘”  Í` ‘”  Ía ‘”  Íb ‘”  Íc ‘”  Íd ‘”  Íe ‘”  Íf ‘”  Íg ‘”  Íh ‘”  Íi ‘”  Íj ‘”  Ík ‘”  Íl ‘”  Ím ‘”  Ín ‘”  Ío ‘”  Íp ‘”  Íq ‘”  Ír ‘”  Ís ‘”  Ít ‘”  Íu ‘”  Ív ‘”  Íw ‘”  Íx ‘”  Íy ‘”  Íz ‘”  Í{ ‘”  Í| ‘”  Í} ‘”  Í~ ‘”  Í ‘”  Í€ ‘”  Í ‘”  Í‚ ‘”  Íƒ ‘”  Í„ ‘”  Í… ‘”  Í† ‘”  Í‡ ‘”  Íˆ ‘”  Í‰ ‘”  ÍŠ ‘”  Í‹ ‘”  ÍŒ ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í‘ ‘”  Í’ ‘”  Í“ ‘”  Í” ‘”  Í• ‘”  Í– ‘”  Í— ‘”  Í˜ ‘”  Í™ ‘”  Íš ‘”  Í› ‘”  Íœ ‘”  Í ‘”  Í ‘”  ÍŸ ‘”  Í  ‘”  Í¡ ‘”  Í¢ ‘”  Í£ ‘”  Í¤ ‘”  Í¥ ‘”  Í¦ ‘”  Í§ ‘”  Í¨ ‘”  Í© ‘”  Íª ‘”  Í« ‘”  Í¬ ‘”  Í­ ‘”  Í® ‘”  Í¯ ‘”  Í° ‘”  Í± ‘”  Í² ‘”  Í³ ‘”  Í´ ‘”  Íµ ‘”  Í¶ ‘”  Í· ‘”  Í¸ ‘”  Í¹ ‘”  Íº ‘”  Í» ‘”  Í¼ ‘”  Í½ ‘”  Í¾ ‘”  Í¿ ‘”  ÍÀ ‘”  ÍÁ ‘”  ÍÂ ‘”  ÍÃ ‘”  ÍÄ ‘”  ÍÅ ‘”  ÍÆ ‘”  ÍÇ ‘”  ÍÈ ‘”  ÍÉ ‘”  ÍÊ ‘”  ÍË ‘”  ÍÌ ‘”  ÍÍ ‘”  ÍÎ ‘”  ÍÏ ‘”  ÍĞ ‘”  ÍÑ ‘”  ÍÒ ‘”  ÍÓ ‘”  ÍÔ ‘”  ÍÕ ‘”  ÍÖ ‘”  Í× ‘”  ÍØ ‘”  ÍÙ ‘”  ÍÚ ‘”  ÍÛ ‘”  ÍÜ ‘”  Íİ ‘”  ÍŞ ‘”  Íß ‘”  Íà ‘”  Íá ‘”  Íâ ‘”  Íã ‘”  Íä ‘”  Íå ‘”  Íæ ‘”  Íç ‘”  Íè ‘”  Íé ‘”  Íê ‘”  Íë ‘”  Íì ‘”  Íí ‘”  Íî ‘”  Íï ‘”  Íğ ‘”  Íñ ‘”  Íò ‘”  Íó ‘”  Íô ‘”  Íõ ‘”  Íö ‘”  Í÷ ‘”  Íø ‘”  Íù ‘”  Íú ‘”  Íû ‘”  Íü ‘”  Íı ‘”  Íş ‘”  Íÿ ‘”  Í  ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í	 ‘”  Í
+ ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í  ‘”  Í! ‘”  Í" ‘”  Í# ‘”  Í$ ‘”  Í% ‘”  Í& ‘”  Í' ‘”  Í( ‘”  Í) ‘”  Í* ‘”  Í+ ‘”  Í, ‘”  Í- ‘”  Í. ‘”  Í/ ‘”  Í0 ‘”  Í1 ‘”  Í2 ‘”  Í3 ‘”  Í4 ‘”  Í5 ‘”  Í6 ‘”  Í7 ‘”  Í8 ‘”  Í9 ‘”  Í: ‘”  Í; ‘”  Í< ‘”  Í= ‘”  Í> ‘”  Í? ‘”  Í@ ‘”  ÍA ‘”  ÍB ‘”  ÍC ‘”  ÍD ‘”  ÍE ‘”  ÍF ‘”  ÍG ‘”  ÍH ‘”  ÍI ‘”  ÍJ ‘”  ÍK ‘”  ÍL ‘”  ÍM ‘”  ÍN ‘”  ÍO ‘”  ÍP ‘”  ÍQ ‘”  ÍR ‘”  ÍS ‘”  ÍT ‘”  ÍU ‘”  ÍV ‘”  ÍW ‘”  ÍX ‘”  ÍY ‘”  ÍZ ‘”  Í[ ‘”  Í\ ‘”  Í] ‘”  Í^ ‘”  Í_ ‘”  Í` ‘”  Ía ‘”  Íb ‘”  Íc ‘”  Íd ‘”  Íe ‘”  Íf ‘”  Íg ‘”  Íh ‘”  Íi ‘”  Íj ‘”  Ík ‘”  Íl ‘”  Ím ‘”  Ín ‘”  Ío ‘”  Íp ‘”  Íq ‘”  Ír ‘”  Ís ‘”  Ít ‘”  Íu ‘”  Ív ‘”  Íw ‘”  Íx ‘”  Íy ‘”  Íz ‘”  Í{ ‘”  Í| ‘”  Í} ‘”  Í~ ‘”  Í ‘”  Í€ ‘”  Í ‘”  Í‚ ‘”  Íƒ ‘”  Í„ ‘”  Í… ‘”  Í† ÔrG’§missing¦pluginÃ¦genAbcÂÔ  ÔrH”²dynamicImportCache¹exportAllDeclarationCache»exportNamedDeclarationCache«importCache‘ÔrI–¤type¥start£end«declarationªspecifiers¦source¶ExportNamedDeclarationÍcwÍc¬À“ÔrJ•¤type¥start£end¥local¨exported¯ExportSpecifierÍc€ÍcÔrK”¤type¥start£end¤nameªIdentifierÍc€Íc­classifyTitleKªIdentifierÍc€Íc­classifyTitleJ¯ExportSpecifierÍcÍcšKªIdentifierÍcÍcš«swiperImageKªIdentifierÍcÍcš«swiperImageJ¯ExportSpecifierÍcœÍc©KªIdentifierÍcœÍc©­waterFlowDataKªIdentifierÍcœÍc©­waterFlowDataÀ

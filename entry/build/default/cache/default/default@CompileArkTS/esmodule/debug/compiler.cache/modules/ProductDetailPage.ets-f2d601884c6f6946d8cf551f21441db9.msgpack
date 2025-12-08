@@ -1,0 +1,1242 @@
+Ôr@Ÿªassertions¤code´customTransformCache¬dependencies¢id¤meta±moduleSideEffects¬originalCode±originalSourcemap«resolvedIds®sourcemapChainµsyntheticNamedExportsµtransformDependencies®transformFiles¨cacheAstÔrAÚƒòif (!("finalizeConstruction" in ViewPU.prototype)) {
+    Reflect.set(ViewPU.prototype, "finalizeConstruction", () => { });
+}
+import router from '@ohos.router';
+import { CommonConstants as Const } from '../common/constants/CommonConstants';
+class ProductDetailPage extends ViewPU {
+    constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
+        super(parent, __localStorage, elmtId, extraInfo);
+        if (typeof paramsLambda === "function") {
+            this.paramsGenerator_ = paramsLambda;
+        }
+        this.__topRectHeight = this.createStorageLink('topRectHeight', 0, "topRectHeight");
+        this.__product = new ObservedPropertyObjectPU(null, this, "product");
+        this.__selectedColor = new ObservedPropertySimplePU('', this, "selectedColor");
+        this.__selectedStorage = new ObservedPropertySimplePU('', this, "selectedStorage");
+        this.__selectedVersion = new ObservedPropertySimplePU('', this, "selectedVersion");
+        this.colors = ['é»‘è‰²', 'ç™½è‰²', 'è“è‰²', 'ç»¿è‰²'];
+        this.storages = ['64GB', '128GB', '256GB', '512GB'];
+        this.versions = ['æ ‡å‡†ç‰ˆ', 'Proç‰ˆ', 'Pro Maxç‰ˆ'];
+        this.features = [
+            'é«˜æ€§èƒ½å¤„ç†å™¨ï¼Œæµç•…è¿è¡Œå¤§å‹åº”ç”¨',
+            'å¤šæ‘„åƒå¤´ç³»ç»Ÿï¼Œæ”¯æŒå¤œæ™¯æ¨¡å¼å’Œè¶…å¹¿è§’æ‹æ‘„',
+            'é«˜åˆ·æ–°ç‡å±å¹•ï¼Œæä¾›æµç•…çš„è§†è§‰ä½“éªŒ',
+            'å¤§å®¹é‡ç”µæ± ï¼Œæ”¯æŒå¿«é€Ÿå……ç”µ',
+            'è½»è–„æœºèº«è®¾è®¡ï¼Œèˆ’é€‚æ¡æŒæ„Ÿ'
+        ];
+        this.reviewStats = ['å¥½è¯„ç‡', 'å·²è¯„ä»·', 'è¿½è¯„'];
+        this.reviewValues = ['98%', '1256', '328'];
+        this.reviews = [1, 2, 3];
+        this.shippingInfo = [
+            { icon: 'ğŸšš', text: 'å…¨åœºåŒ…é‚®' },
+            { icon: 'â°', text: '48å°æ—¶å‘è´§' },
+            { icon: 'ğŸ”„', text: '7å¤©æ— ç†ç”±é€€æ¢è´§' },
+            { icon: 'ğŸ›¡ï¸', text: 'å…¨å›½è”ä¿' },
+            { icon: 'ğŸ’¬', text: 'åœ¨çº¿å®¢æœ' }
+        ];
+        this.setInitiallyProvidedValue(params);
+        this.finalizeConstruction();
+    }
+    setInitiallyProvidedValue(params) {
+        if (params.product !== undefined) {
+            this.product = params.product;
+        }
+        if (params.selectedColor !== undefined) {
+            this.selectedColor = params.selectedColor;
+        }
+        if (params.selectedStorage !== undefined) {
+            this.selectedStorage = params.selectedStorage;
+        }
+        if (params.selectedVersion !== undefined) {
+            this.selectedVersion = params.selectedVersion;
+        }
+        if (params.colors !== undefined) {
+            this.colors = params.colors;
+        }
+        if (params.storages !== undefined) {
+            this.storages = params.storages;
+        }
+        if (params.versions !== undefined) {
+            this.versions = params.versions;
+        }
+        if (params.features !== undefined) {
+            this.features = params.features;
+        }
+        if (params.reviewStats !== undefined) {
+            this.reviewStats = params.reviewStats;
+        }
+        if (params.reviewValues !== undefined) {
+            this.reviewValues = params.reviewValues;
+        }
+        if (params.reviews !== undefined) {
+            this.reviews = params.reviews;
+        }
+        if (params.shippingInfo !== undefined) {
+            this.shippingInfo = params.shippingInfo;
+        }
+    }
+    updateStateVars(params) {
+    }
+    purgeVariableDependenciesOnElmtId(rmElmtId) {
+        this.__topRectHeight.purgeDependencyOnElmtId(rmElmtId);
+        this.__product.purgeDependencyOnElmtId(rmElmtId);
+        this.__selectedColor.purgeDependencyOnElmtId(rmElmtId);
+        this.__selectedStorage.purgeDependencyOnElmtId(rmElmtId);
+        this.__selectedVersion.purgeDependencyOnElmtId(rmElmtId);
+    }
+    aboutToBeDeleted() {
+        this.__topRectHeight.aboutToBeDeleted();
+        this.__product.aboutToBeDeleted();
+        this.__selectedColor.aboutToBeDeleted();
+        this.__selectedStorage.aboutToBeDeleted();
+        this.__selectedVersion.aboutToBeDeleted();
+        SubscriberManager.Get().delete(this.id__());
+        this.aboutToBeDeletedInternal();
+    }
+    get topRectHeight() {
+        return this.__topRectHeight.get();
+    }
+    set topRectHeight(newValue) {
+        this.__topRectHeight.set(newValue);
+    }
+    get product() {
+        return this.__product.get();
+    }
+    set product(newValue) {
+        this.__product.set(newValue);
+    }
+    get selectedColor() {
+        return this.__selectedColor.get();
+    }
+    set selectedColor(newValue) {
+        this.__selectedColor.set(newValue);
+    }
+    get selectedStorage() {
+        return this.__selectedStorage.get();
+    }
+    set selectedStorage(newValue) {
+        this.__selectedStorage.set(newValue);
+    }
+    get selectedVersion() {
+        return this.__selectedVersion.get();
+    }
+    set selectedVersion(newValue) {
+        this.__selectedVersion.set(newValue);
+    }
+    aboutToAppear() {
+        // Get product data from router params
+        // Note: getParams is deprecated but still functional
+        const params = router.getParams();
+        if (params && params['product']) {
+            this.product = params['product'];
+        }
+        // Initialize selected values
+        this.selectedColor = 'é»‘è‰²';
+        this.selectedStorage = '64GB';
+        this.selectedVersion = 'æ ‡å‡†ç‰ˆ';
+    }
+    initialRender() {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.width(Const.FULL_WIDTH);
+            Column.height(Const.FULL_WIDTH);
+            Column.backgroundColor(Color.Transparent);
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            If.create();
+            // Blurred background image
+            if (this.product?.image_url) {
+                this.ifElseBranchUpdateFunction(0, () => {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        Image.create(this.product.image_url);
+                        Image.width(Const.FULL_WIDTH);
+                        Image.height(Const.FULL_WIDTH);
+                        Image.objectFit(ImageFit.Cover);
+                        Image.blur(90);
+                        Image.transform({
+                            scale: 1.5 // Scale up by 50%
+                        });
+                        Image.position({ x: 0, y: 0 });
+                        Image.zIndex(-1);
+                    }, Image);
+                });
+            }
+            // Header with back button
+            else {
+                this.ifElseBranchUpdateFunction(1, () => {
+                });
+            }
+        }, If);
+        If.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Header with back button
+            Row.create();
+            // Header with back button
+            Row.width(Const.FULL_WIDTH);
+            // Header with back button
+            Row.height(56);
+            // Header with back button
+            Row.padding({ left: 16, right: 16 });
+            // Header with back button
+            Row.backgroundColor('rgba(255, 255, 255, 0.6)');
+            // Header with back button
+            Row.margin({ top: this.getUIContext().px2vp(this.topRectHeight) });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.width(48);
+            Row.height(48);
+            Row.justifyContent(FlexAlign.Center);
+            Row.onClick(() => {
+                // Note: back() is deprecated but still functional
+                try {
+                    router.back();
+                }
+                catch (err) {
+                    console.error(`Failed to go back: ${err}`);
+                }
+            });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create('â†');
+            Text.fontSize(24);
+            Text.fontColor(Color.Black);
+        }, Text);
+        Text.pop();
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Blank.create();
+        }, Blank);
+        Blank.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create('å•†å“è¯¦æƒ…');
+            Text.fontSize(18);
+            Text.fontColor(Color.Black);
+            Text.fontWeight(FontWeight.Medium);
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Blank.create();
+        }, Blank);
+        Blank.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Blank.create();
+        }, Blank);
+        Blank.pop();
+        // Header with back button
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Scroll.create();
+            Scroll.backgroundColor(Color.Transparent);
+            Scroll.layoutWeight(1);
+        }, Scroll);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Product image
+            Image.create(this.product?.image_url);
+            // Product image
+            Image.width(Const.FULL_WIDTH);
+            // Product image
+            Image.objectFit(ImageFit.Contain);
+            // Product image
+            Image.backgroundColor(Color.Transparent);
+        }, Image);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Product info
+            Column.create();
+            // Product info
+            Column.backgroundColor("0x99FFFFFF");
+            // Product info
+            Column.width(Const.FULL_WIDTH);
+            // Product info
+            Column.backgroundColor('rgba(255, 255, 255, 0.6)');
+            // Product info
+            Column.borderRadius({ topLeft: 20, topRight: 20 });
+            // Product info
+            Column.padding({ left: 16, right: 16, bottom: 100 });
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Product name
+            Text.create(this.product?.name || '');
+            // Product name
+            Text.fontSize(20);
+            // Product name
+            Text.fontColor(Color.Black);
+            // Product name
+            Text.fontWeight(FontWeight.Medium);
+            // Product name
+            Text.width(Const.FULL_WIDTH);
+            // Product name
+            Text.margin({ top: 16, bottom: 8 });
+        }, Text);
+        // Product name
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Price and discount
+            Row.create();
+            // Price and discount
+            Row.backgroundColor("0x99FFFFFF");
+            // Price and discount
+            Row.width(Const.FULL_WIDTH);
+            // Price and discount
+            Row.margin({ bottom: 16 });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create(this.product?.price || '');
+            Text.fontSize(28);
+            Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontWeight(FontWeight.Bold);
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            If.create();
+            if (this.product?.discount) {
+                this.ifElseBranchUpdateFunction(0, () => {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        Text.create(this.product.discount);
+                        Text.fontSize(14);
+                        Text.fontColor(Color.Gray);
+                        Text.margin({ left: 12 });
+                    }, Text);
+                    Text.pop();
+                });
+            }
+            else {
+                this.ifElseBranchUpdateFunction(1, () => {
+                });
+            }
+        }, If);
+        If.pop();
+        // Price and discount
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Promotion and bonus points
+            Row.create();
+            // Promotion and bonus points
+            Row.width(Const.FULL_WIDTH);
+            // Promotion and bonus points
+            Row.margin({ bottom: 24 });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            If.create();
+            if (this.product?.promotion) {
+                this.ifElseBranchUpdateFunction(0, () => {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        Text.create(this.product.promotion);
+                        Text.height(24);
+                        Text.fontSize(12);
+                        Text.fontColor(Color.White);
+                        Text.borderRadius(4);
+                        Text.backgroundColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.padding({ left: 8, right: 8 });
+                        Text.margin({ right: 8 });
+                    }, Text);
+                    Text.pop();
+                });
+            }
+            else {
+                this.ifElseBranchUpdateFunction(1, () => {
+                });
+            }
+        }, If);
+        If.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            If.create();
+            if (this.product?.bonus_points) {
+                this.ifElseBranchUpdateFunction(0, () => {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        Text.create(this.product.bonus_points);
+                        Text.height(24);
+                        Text.fontSize(12);
+                        Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.borderRadius(4);
+                        Text.borderWidth(1);
+                        Text.borderColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.padding({ left: 8, right: 8 });
+                    }, Text);
+                    Text.pop();
+                });
+            }
+            else {
+                this.ifElseBranchUpdateFunction(1, () => {
+                });
+            }
+        }, If);
+        If.pop();
+        // Promotion and bonus points
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Divider
+            Divider.create();
+            // Divider
+            Divider.color('#E0E0E0');
+            // Divider
+            Divider.margin({ top: 16, bottom: 16 });
+        }, Divider);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Product description
+            Column.create();
+            // Product description
+            Column.width(Const.FULL_WIDTH);
+            // Product description
+            Column.alignItems(HorizontalAlign.Start);
+            // Product description
+            Column.backgroundColor('rgba(255, 255, 255, 0.6)');
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create('å•†å“è¯¦æƒ…');
+            Text.fontSize(18);
+            Text.fontColor(Color.Black);
+            Text.fontWeight(FontWeight.Medium);
+            Text.width(Const.FULL_WIDTH);
+            Text.margin({ bottom: 16 });
+            Text.padding({ left: 16, right: 16 });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            If.create();
+            // Dynamic detail display based on type
+            if (this.product?.detail) {
+                this.ifElseBranchUpdateFunction(0, () => {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        If.create();
+                        if (typeof this.product.detail === 'string') {
+                            this.ifElseBranchUpdateFunction(0, () => {
+                                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                                    // Display text detail
+                                    Text.create(this.product.detail);
+                                    // Display text detail
+                                    Text.fontSize(14);
+                                    // Display text detail
+                                    Text.fontColor('#666666');
+                                    // Display text detail
+                                    Text.width(Const.FULL_WIDTH);
+                                    // Display text detail
+                                    Text.lineHeight(22);
+                                    // Display text detail
+                                    Text.margin({ bottom: 16 });
+                                    // Display text detail
+                                    Text.padding({ left: 16, right: 16 });
+                                }, Text);
+                                // Display text detail
+                                Text.pop();
+                            });
+                        }
+                        else if (Array.isArray(this.product.detail)) {
+                            this.ifElseBranchUpdateFunction(1, () => {
+                                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                                    // Display image array
+                                    ForEach.create();
+                                    const forEachItemGenFunction = _item => {
+                                        const imageUrl = _item;
+                                        this.observeComponentCreation2((elmtId, isInitialRender) => {
+                                            Image.create(imageUrl);
+                                            Image.width(Const.FULL_WIDTH);
+                                            Image.objectFit(ImageFit.Contain);
+                                            Image.backgroundColor(Color.Transparent);
+                                            Image.margin({ bottom: 16 });
+                                            Image.padding({ left: 16, right: 16 });
+                                        }, Image);
+                                    };
+                                    this.forEachUpdateFunction(elmtId, this.product.detail, forEachItemGenFunction, (imageUrl) => imageUrl, false, false);
+                                }, ForEach);
+                                // Display image array
+                                ForEach.pop();
+                            });
+                        }
+                        else {
+                            this.ifElseBranchUpdateFunction(2, () => {
+                            });
+                        }
+                    }, If);
+                    If.pop();
+                });
+            }
+            else {
+                this.ifElseBranchUpdateFunction(1, () => {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        // Default text if no detail
+                        Text.create('æš‚æ— å•†å“è¯¦æƒ…');
+                        // Default text if no detail
+                        Text.fontSize(14);
+                        // Default text if no detail
+                        Text.fontColor('#999999');
+                        // Default text if no detail
+                        Text.width(Const.FULL_WIDTH);
+                        // Default text if no detail
+                        Text.margin({ bottom: 16 });
+                        // Default text if no detail
+                        Text.padding({ left: 16, right: 16 });
+                    }, Text);
+                    // Default text if no detail
+                    Text.pop();
+                });
+            }
+        }, If);
+        If.pop();
+        // Product description
+        Column.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Divider
+            Divider.create();
+            // Divider
+            Divider.color('#E0E0E0');
+            // Divider
+            Divider.margin({ top: 16, bottom: 16 });
+        }, Divider);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Product reviews
+            Column.create();
+            // Product reviews
+            Column.width(Const.FULL_WIDTH);
+            // Product reviews
+            Column.alignItems(HorizontalAlign.Start);
+            // Product reviews
+            Column.backgroundColor('rgba(255, 255, 255, 0.6)');
+            // Product reviews
+            Column.margin({ bottom: 12 });
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create('å•†å“è¯„ä»·');
+            Text.fontSize(18);
+            Text.fontColor(Color.Black);
+            Text.fontWeight(FontWeight.Medium);
+            Text.width(Const.FULL_WIDTH);
+            Text.margin({ bottom: 16 });
+            Text.padding({ left: 16, right: 16 });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Review summary
+            Row.create();
+            // Review summary
+            Row.width(Const.FULL_WIDTH);
+            // Review summary
+            Row.padding({ left: 16, right: 16 });
+            // Review summary
+            Row.margin({ bottom: 16 });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.alignItems(HorizontalAlign.Center);
+            Column.margin({ right: 32 });
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create('4.8');
+            Text.fontSize(32);
+            Text.fontColor(Color.Black);
+            Text.fontWeight(FontWeight.Bold);
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create('ç»¼åˆè¯„åˆ†');
+            Text.fontSize(12);
+            Text.fontColor('#999999');
+            Text.margin({ top: 4 });
+        }, Text);
+        Text.pop();
+        Column.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            ForEach.create();
+            const forEachItemGenFunction = (_item, index) => {
+                const stat = _item;
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Row.create();
+                    Row.margin({ bottom: 12 });
+                }, Row);
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Text.create(this.reviewValues[index]);
+                    Text.fontSize(16);
+                    Text.fontColor(Color.Black);
+                    Text.fontWeight(FontWeight.Medium);
+                    Text.margin({ right: 8 });
+                }, Text);
+                Text.pop();
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Text.create(stat);
+                    Text.fontSize(14);
+                    Text.fontColor('#666666');
+                }, Text);
+                Text.pop();
+                Row.pop();
+            };
+            this.forEachUpdateFunction(elmtId, this.reviewStats, forEachItemGenFunction, (stat) => stat, true, false);
+        }, ForEach);
+        ForEach.pop();
+        Column.pop();
+        // Review summary
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Review examples
+            Column.create();
+            // Review examples
+            Column.width(Const.FULL_WIDTH);
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            ForEach.create();
+            const forEachItemGenFunction = _item => {
+                const index = _item;
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Column.create();
+                    Column.width(Const.FULL_WIDTH);
+                    Column.padding({ left: 16, right: 16, bottom: 16 });
+                }, Column);
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Row.create();
+                    Row.width(Const.FULL_WIDTH);
+                    Row.margin({ bottom: 8 });
+                }, Row);
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Text.create('ç”¨æˆ·' + (10000 + index));
+                    Text.fontSize(14);
+                    Text.fontColor('#666666');
+                    Text.margin({ right: 16 });
+                }, Text);
+                Text.pop();
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Text.create('â˜…â˜…â˜…â˜…â˜…');
+                    Text.fontSize(14);
+                    Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                }, Text);
+                Text.pop();
+                Row.pop();
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Text.create('æ‰‹æœºå¾ˆå¥½ç”¨ï¼Œè¿è¡Œæµç•…ï¼Œæ‹ç…§æ•ˆæœå‡ºè‰²ï¼Œç”µæ± ç»­èˆªä¹Ÿå¾ˆæ»¡æ„ã€‚');
+                    Text.fontSize(14);
+                    Text.fontColor('#666666');
+                    Text.lineHeight(20);
+                    Text.width(Const.FULL_WIDTH);
+                    Text.margin({ bottom: 8 });
+                }, Text);
+                Text.pop();
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Text.create('2023-06-' + (10 + index));
+                    Text.fontSize(12);
+                    Text.fontColor('#999999');
+                    Text.width(Const.FULL_WIDTH);
+                }, Text);
+                Text.pop();
+                Column.pop();
+            };
+            this.forEachUpdateFunction(elmtId, this.reviews, forEachItemGenFunction, (index) => index.toString(), false, false);
+        }, ForEach);
+        ForEach.pop();
+        // Review examples
+        Column.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // View all reviews button
+            Row.create();
+            // View all reviews button
+            Row.width(Const.FULL_WIDTH);
+            // View all reviews button
+            Row.justifyContent(FlexAlign.Center);
+            // View all reviews button
+            Row.padding({ top: 8, bottom: 16 });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create('æŸ¥çœ‹å…¨éƒ¨è¯„ä»·');
+            Text.fontSize(14);
+            Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create('â†’');
+            Text.fontSize(14);
+            Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.margin({ left: 4 });
+        }, Text);
+        Text.pop();
+        // View all reviews button
+        Row.pop();
+        // Product reviews
+        Column.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Divider
+            Divider.create();
+            // Divider
+            Divider.color('#E0E0E0');
+            // Divider
+            Divider.margin({ top: 16, bottom: 16 });
+        }, Divider);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Shipping and after-sales info
+            Column.create();
+            // Shipping and after-sales info
+            Column.width(Const.FULL_WIDTH);
+            // Shipping and after-sales info
+            Column.alignItems(HorizontalAlign.Start);
+            // Shipping and after-sales info
+            Column.backgroundColor('rgba(255, 255, 255, 0.6)');
+            // Shipping and after-sales info
+            Column.margin({ bottom: 12 });
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create('é…é€ä¸å”®å');
+            Text.fontSize(18);
+            Text.fontColor(Color.Black);
+            Text.fontWeight(FontWeight.Medium);
+            Text.width(Const.FULL_WIDTH);
+            Text.margin({ bottom: 16 });
+            Text.padding({ left: 16, right: 16 });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.width(Const.FULL_WIDTH);
+            Row.padding({ left: 16, right: 16, bottom: 16 });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            ForEach.create();
+            const forEachItemGenFunction = _item => {
+                const item = _item;
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Column.create();
+                    Column.width('20%');
+                    Column.alignItems(HorizontalAlign.Center);
+                }, Column);
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Text.create(item.icon);
+                    Text.fontSize(24);
+                    Text.margin({ bottom: 8 });
+                }, Text);
+                Text.pop();
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Text.create(item.text);
+                    Text.fontSize(12);
+                    Text.fontColor('#666666');
+                }, Text);
+                Text.pop();
+                Column.pop();
+            };
+            this.forEachUpdateFunction(elmtId, this.shippingInfo, forEachItemGenFunction, (item) => item.text, false, false);
+        }, ForEach);
+        ForEach.pop();
+        Row.pop();
+        // Shipping and after-sales info
+        Column.pop();
+        // Product info
+        Column.pop();
+        Column.pop();
+        Scroll.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // Purchase button bar
+            Row.create();
+            // Purchase button bar
+            Row.width(Const.FULL_WIDTH);
+            // Purchase button bar
+            Row.height(50);
+            // Purchase button bar
+            Row.padding({ left: 16, right: 16, bottom: 16 });
+            // Purchase button bar
+            Row.backgroundColor('rgba(255, 255, 255, 0.6)');
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Button.createWithLabel('ç«‹å³è´­ä¹°');
+            Button.type(ButtonType.Normal);
+            Button.backgroundColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Button.fontColor(Color.White);
+            Button.fontSize(16);
+            Button.width('50%');
+            Button.height(50);
+            Button.onClick(() => {
+                // Handle purchase action
+                console.info('Purchase clicked');
+            });
+        }, Button);
+        Button.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Button.createWithLabel('åŠ å…¥è´­ç‰©è½¦');
+            Button.type(ButtonType.Normal);
+            Button.backgroundColor('#FFE5E5');
+            Button.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Button.fontSize(16);
+            Button.width('50%');
+            Button.height(50);
+            Button.onClick(() => {
+                // Handle add to cart action
+                console.info('Add to cart clicked');
+            });
+        }, Button);
+        Button.pop();
+        // Purchase button bar
+        Row.pop();
+        Column.pop();
+    }
+    rerender() {
+        this.updateDirtyElements();
+    }
+    static getEntryName() {
+        return "ProductDetailPage";
+    }
+}
+registerNamedRoute(() => new ProductDetailPage(undefined, {}), "", { bundleName: "com.huawei.waterflow", moduleName: "entry", pagePath: "pages/ProductDetailPage", pageFullPath: "entry/src/main/ets/pages/ProductDetailPage", integratedHsp: "false", moduleType: "followWithHap" });
+//# sourceMappingURL=ProductDetailPage.js.mapÂ’Ùm hvigor_ignore_C:_tools_develop_tools_Harmony_DevEco_Studio_sdk_default_openharmony_ets_api_@ohos.router.d.tsÙpC:\tools\develop_tools\Harmony\HarmonyProjects\WaterFlow\entry\src\main\ets\common\constants\CommonConstants.etsÙgC:\tools\develop_tools\Harmony\HarmonyProjects\WaterFlow\entry\src\main\ets\pages\ProductDetailPage.etsÔrB›ªmoduleName±isLocalDependency¯isNodeEntryFile§pkgPath±belongProjectPath§pkgNameªpkgVersion±dependencyPkgInfo°belongModulePath§checker¬shouldEmitJs¥entryÃÂÙ>C:\tools\develop_tools\Harmony\HarmonyProjects\WaterFlow\entryÙ8C:\tools\develop_tools\Harmony\HarmonyProjects\WaterFlow¥entry¥1.0.0Ô  Ù>C:\tools\develop_tools\Harmony\HarmonyProjects\WaterFlow\entryÔrCÜ ®¬getNodeCount²getIdentifierCount®getSymbolCount¬getTypeCountµgetInstantiationCountµgetRelationCacheSizes±isUndefinedSymbol±isArgumentsSymbol¯isUnknownSymbol¯getMergedSymbol®getDiagnostics´getGlobalDiagnostics´getRecursionIdentity¶getUnmatchedProperties¹getTypeOfSymbolAtLocation¯getTypeOfSymbolÙ(getSymbolsOfParameterPropertyDeclaration·getDeclaredTypeOfSymbol³getPropertiesOfType±getPropertyOfTypeÙ"getPrivateIdentifierPropertyOfType·getTypeOfPropertyOfType²getIndexInfoOfType³getIndexInfosOfTypeºgetIndexInfosOfIndexSymbol³getSignaturesOfType²getIndexTypeOfType¬getIndexType¬getBaseTypes¸getBaseTypeOfLiteralType®getWidenedType³getTypeFromTypeNode°getParameterTypeÙ$getParameterIdentifierNameAtPosition¸getPromisedTypeOfPromise®getAwaitedType¸getReturnTypeOfSignature®isNullableType¯getNullableType²getNonNullableType²getNonOptionalType°getTypeArguments®typeToTypeNodeÙ$indexInfoToIndexSignatureDeclaration¿signatureToSignatureDeclaration²symbolToEntityName²symbolToExpression¬symbolToNodeÙ!symbolToTypeParameterDeclarations¼symbolToParameterDeclarationºtypeParameterToDeclaration±getSymbolsInScope³getSymbolAtLocation·getIndexInfosAtLocationÙ!getShorthandAssignmentValueSymbolÙ#getExportSpecifierLocalTargetSymbol·getExportSymbolOfSymbol±getTypeAtLocationÙ tryGetTypeAtLocationWithoutCheckºgetTypeOfAssignmentPatternÙ*getPropertySymbolOfDestructuringAssignment±signatureToString¬typeToString®symbolToStringµtypePredicateToString®writeSignature©writeType«writeSymbol²writeTypePredicate¼getAugmentedPropertiesOfType®getRootSymbols²getSymbolOfExpando±getContextualTypeÙ(getContextualTypeForObjectLiteralElementÙ#getContextualTypeForArgumentAtIndexÙ getContextualTypeForJsxAttribute²isContextSensitiveÙ!getTypeOfPropertyOfContextualTypeµgetFullyQualifiedNameÙ#tryGetResolvedSignatureWithoutCheck´getResolvedSignatureÙ/getResolvedSignatureForStringLiteralCompletionsÙ$getResolvedSignatureForSignatureHelpµgetExpandedParameters¹hasEffectiveRestParameterºcontainsArgumentsReference°getConstantValueµisValidPropertyAccessÙ#isValidPropertyAccessForCompletions»getSignatureFromDeclarationºisImplementationOfOverload¹getImmediateAliasedSymbol°getAliasedSymbol¯getEmitResolver²getExportsOfModule¿getExportsAndPropertiesOfModuleÙ forEachExportAndPropertyOfModule¯getSymbolWalker±getAmbientModules¹getJsxIntrinsicTagNamesAt³isOptionalParameter»tryGetMemberInModuleExportsÙ(tryGetMemberInModuleExportsAndProperties´tryFindAmbientModuleÙ(tryFindAmbientModuleWithoutAugmentations¯getApparentType¬getUnionType²isTypeAssignableTo³createAnonymousType¯createSignature¬createSymbol¯createIndexInfoªgetAnyType­getStringType­getNumberType±createPromiseType¯createArrayType¹getElementTypeOfArrayType®getBooleanType¬getFalseType«getTrueType«getVoidType°getUndefinedType«getNullType¯getESSymbolType¬getNeverType¯getOptionalType®getPromiseType²getPromiseLikeType´getAsyncIterableType²isSymbolAccessible«isArrayType«isTupleType¯isArrayLikeTypeÙ#isTypeInvalidDueToUnionDiscriminantºgetExactOptionalProperties¿getAllPossiblePropertiesOfTypesÙ(getSuggestedSymbolForNonexistentPropertyÙ#getSuggestionForNonexistentPropertyÙ,getSuggestedSymbolForNonexistentJSXAttributeÙ&getSuggestedSymbolForNonexistentSymbolÙ!getSuggestionForNonexistentSymbolÙ&getSuggestedSymbolForNonexistentModuleÙ!getSuggestionForNonexistentExportÙ+getSuggestedSymbolForNonexistentClassMember·getBaseConstraintOfType»getDefaultFromTypeParameter«resolveName¯getJsxNamespaceµgetJsxFragmentFactory¸getAccessibleSymbolChain»getTypePredicateOfSignature¹resolveExternalModuleName»resolveExternalModuleSymbol°tryGetThisTypeAt¹getTypeArgumentConstraint¸getSuggestionDiagnostics¸runWithCancellationTokenÙ3getLocalTypeParametersOfClassOrInterfaceOrTypeAlias´isDeclarationVisible´isPropertyAccessible»getTypeOnlyAliasDeclaration¿getMemberOverrideModifierStatusÙ!isTypeParameterPossiblyReferenced²getConstEnumRelate´clearConstEnumRelateµdeleteConstEnumRelateÙ$getTypeArgumentsForResolvedSignatureµgetCheckedSourceFilesÙ"collectHaveTsNoCheckFilesForLinter·clearQualifiedNameCache®isStaticRecord²isStaticSourceFile³createIntrinsicTypeÔ  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  ÃÃÚ8’
+import router from '@ohos.router';
+import ProductItem from '../viewmodel/ProductItem';
+import { CommonConstants as Const } from '../common/constants/CommonConstants';
+
+// Define interfaces for shipping info
+interface ShippingInfoItem {
+  icon: string;
+  text: string;
+}
+
+/**
+ * Product detail page (purchase page).
+ */
+@Entry
+@Component
+struct ProductDetailPage {
+  @StorageLink('topRectHeight') topRectHeight: number = 0;
+  @State product: ProductItem | null = null;
+  @State selectedColor: string = '';
+  @State selectedStorage: string = '';
+  @State selectedVersion: string = '';
+
+  // Define data as member constants
+  private colors: string[] = ['é»‘è‰²', 'ç™½è‰²', 'è“è‰²', 'ç»¿è‰²'];
+  private storages: string[] = ['64GB', '128GB', '256GB', '512GB'];
+  private versions: string[] = ['æ ‡å‡†ç‰ˆ', 'Proç‰ˆ', 'Pro Maxç‰ˆ'];
+  private features: string[] = [
+    'é«˜æ€§èƒ½å¤„ç†å™¨ï¼Œæµç•…è¿è¡Œå¤§å‹åº”ç”¨',
+    'å¤šæ‘„åƒå¤´ç³»ç»Ÿï¼Œæ”¯æŒå¤œæ™¯æ¨¡å¼å’Œè¶…å¹¿è§’æ‹æ‘„',
+    'é«˜åˆ·æ–°ç‡å±å¹•ï¼Œæä¾›æµç•…çš„è§†è§‰ä½“éªŒ',
+    'å¤§å®¹é‡ç”µæ± ï¼Œæ”¯æŒå¿«é€Ÿå……ç”µ',
+    'è½»è–„æœºèº«è®¾è®¡ï¼Œèˆ’é€‚æ¡æŒæ„Ÿ'
+  ];
+  private reviewStats: string[] = ['å¥½è¯„ç‡', 'å·²è¯„ä»·', 'è¿½è¯„'];
+  private reviewValues: string[] = ['98%', '1256', '328'];
+  private reviews: number[] = [1, 2, 3];
+  private shippingInfo: ShippingInfoItem[] = [
+    { icon: 'ğŸšš', text: 'å…¨åœºåŒ…é‚®' },
+    { icon: 'â°', text: '48å°æ—¶å‘è´§' },
+    { icon: 'ğŸ”„', text: '7å¤©æ— ç†ç”±é€€æ¢è´§' },
+    { icon: 'ğŸ›¡ï¸', text: 'å…¨å›½è”ä¿' },
+    { icon: 'ğŸ’¬', text: 'åœ¨çº¿å®¢æœ' }
+  ];
+
+  aboutToAppear() {
+    // Get product data from router params
+    // Note: getParams is deprecated but still functional
+    const params = router.getParams() as Record<string, Object> | undefined;
+    if (params && params['product']) {
+      this.product = params['product'] as ProductItem;
+    }
+    // Initialize selected values
+    this.selectedColor = 'é»‘è‰²';
+    this.selectedStorage = '64GB';
+    this.selectedVersion = 'æ ‡å‡†ç‰ˆ';
+  }
+
+  build() {
+    Column() {
+      // Blurred background image
+      if (this.product?.image_url) {
+        Image(this.product.image_url)
+          .width(Const.FULL_WIDTH)
+          .height(Const.FULL_WIDTH)
+          .objectFit(ImageFit.Cover)
+          .blur(90) // Apply blur effect (6x stronger)
+          .transform({
+            scale: 1.5 // Scale up by 50%
+          })
+          .position({ x: 0, y: 0 })
+          .zIndex(-1)
+      }
+      
+      // Header with back button
+      Row() {
+        Row() {
+          Text('â†')
+            .fontSize(24)
+            .fontColor(Color.Black)
+        }
+        .width(48)
+        .height(48)
+        .justifyContent(FlexAlign.Center)
+        .onClick(() => {
+          // Note: back() is deprecated but still functional
+          try {
+            router.back();
+          } catch (err) {
+            console.error(`Failed to go back: ${err}`);
+          }
+        })
+        Blank()
+        Text('å•†å“è¯¦æƒ…')
+          .fontSize(18)
+          .fontColor(Color.Black)
+          .fontWeight(FontWeight.Medium)
+        Blank()
+        Blank()
+      }
+      .width(Const.FULL_WIDTH)
+      .height(56)
+      .padding({ left: 16, right: 16 })
+      .backgroundColor('rgba(255, 255, 255, 0.6)')
+      .margin({ top: this.getUIContext().px2vp(this.topRectHeight) })
+
+      Scroll() {
+        Column()
+          {
+          // Product image
+          Image(this.product?.image_url)
+            .width(Const.FULL_WIDTH)
+            .objectFit(ImageFit.Contain)
+            .backgroundColor(Color.Transparent)
+
+          // Product info
+            Column()
+              {
+            // Product name
+            Text(this.product?.name || '')
+              .fontSize(20)
+              .fontColor(Color.Black)
+              .fontWeight(FontWeight.Medium)
+              .width(Const.FULL_WIDTH)
+              .margin({ top: 16, bottom: 8 })
+
+            // Price and discount
+            Row() {
+              Text(this.product?.price || '')
+                .fontSize(28)
+                .fontColor($r('app.color.focus_color'))
+                .fontWeight(FontWeight.Bold)
+              if (this.product?.discount) {
+                Text(this.product.discount)
+                  .fontSize(14)
+                  .fontColor(Color.Gray)
+                  .margin({ left: 12 })
+              }
+
+            }
+            .backgroundColor("0x99FFFFFF")
+            .width(Const.FULL_WIDTH)
+            .margin({ bottom: 16 })
+
+            // Promotion and bonus points
+            Row() {
+              if (this.product?.promotion) {
+                Text(this.product.promotion)
+                  .height(24)
+                  .fontSize(12)
+                  .fontColor(Color.White)
+                  .borderRadius(4)
+                  .backgroundColor($r('app.color.focus_color'))
+                  .padding({ left: 8, right: 8 })
+                  .margin({ right: 8 })
+              }
+              if (this.product?.bonus_points) {
+                Text(this.product.bonus_points)
+                  .height(24)
+                  .fontSize(12)
+                  .fontColor($r('app.color.focus_color'))
+                  .borderRadius(4)
+                  .borderWidth(1)
+                  .borderColor($r('app.color.focus_color'))
+                  .padding({ left: 8, right: 8 })
+              }
+            }
+            .width(Const.FULL_WIDTH)
+            .margin({ bottom: 24 })
+
+
+
+
+
+
+
+            // Divider
+            Divider()
+              .color('#E0E0E0')
+              .margin({ top: 16, bottom: 16 })
+
+            // Product description
+            Column() {
+              Text('å•†å“è¯¦æƒ…')
+                .fontSize(18)
+                .fontColor(Color.Black)
+                .fontWeight(FontWeight.Medium)
+                .width(Const.FULL_WIDTH)
+                .margin({ bottom: 16 })
+                .padding({ left: 16, right: 16 })
+              
+              // Dynamic detail display based on type
+              if (this.product?.detail) {
+                if (typeof this.product.detail === 'string') {
+                  // Display text detail
+                  Text(this.product.detail)
+                    .fontSize(14)
+                    .fontColor('#666666')
+                    .width(Const.FULL_WIDTH)
+                    .lineHeight(22)
+                    .margin({ bottom: 16 })
+                    .padding({ left: 16, right: 16 })
+                } else if (Array.isArray(this.product.detail)) {
+                  // Display image array
+                  ForEach(this.product.detail, (imageUrl: string) => {
+                    Image(imageUrl)
+                      .width(Const.FULL_WIDTH)
+                      .objectFit(ImageFit.Contain)
+                      .backgroundColor(Color.Transparent)
+                      .margin({ bottom: 16 })
+                      .padding({ left: 16, right: 16 })
+                  }, (imageUrl: string) => imageUrl)
+                }
+              } else {
+                // Default text if no detail
+                Text('æš‚æ— å•†å“è¯¦æƒ…')
+                  .fontSize(14)
+                  .fontColor('#999999')
+                  .width(Const.FULL_WIDTH)
+                  .margin({ bottom: 16 })
+                  .padding({ left: 16, right: 16 })
+              }
+              
+
+            }
+            .width(Const.FULL_WIDTH)
+            .alignItems(HorizontalAlign.Start)
+            .backgroundColor('rgba(255, 255, 255, 0.6)')
+
+            // Divider
+            Divider()
+              .color('#E0E0E0')
+              .margin({ top: 16, bottom: 16 })
+
+            // Product reviews
+            Column() {
+              Text('å•†å“è¯„ä»·')
+                .fontSize(18)
+                .fontColor(Color.Black)
+                .fontWeight(FontWeight.Medium)
+                .width(Const.FULL_WIDTH)
+                .margin({ bottom: 16 })
+                .padding({ left: 16, right: 16 })
+              
+              // Review summary
+              Row() {
+                Column() {
+                  Text('4.8')
+                    .fontSize(32)
+                    .fontColor(Color.Black)
+                    .fontWeight(FontWeight.Bold)
+                  Text('ç»¼åˆè¯„åˆ†')
+                    .fontSize(12)
+                    .fontColor('#999999')
+                    .margin({ top: 4 })
+                }
+                .alignItems(HorizontalAlign.Center)
+                .margin({ right: 32 })
+                
+                Column() {
+                  ForEach(this.reviewStats, (stat: string, index: number) => {
+                    Row() {
+                      Text(this.reviewValues[index])
+                        .fontSize(16)
+                        .fontColor(Color.Black)
+                        .fontWeight(FontWeight.Medium)
+                        .margin({ right: 8 })
+                      Text(stat)
+                        .fontSize(14)
+                        .fontColor('#666666')
+                    }
+                    .margin({ bottom: 12 })
+                  }, (stat: string) => stat)
+                }
+              }
+              .width(Const.FULL_WIDTH)
+              .padding({ left: 16, right: 16 })
+              .margin({ bottom: 16 })
+              
+              // Review examples
+              Column() {
+                ForEach(this.reviews, (index: number) => {
+                  Column() {
+                    Row() {
+                      Text('ç”¨æˆ·' + (10000 + index))
+                        .fontSize(14)
+                        .fontColor('#666666')
+                        .margin({ right: 16 })
+                      Text('â˜…â˜…â˜…â˜…â˜…')
+                        .fontSize(14)
+                        .fontColor($r('app.color.focus_color'))
+                    }
+                    .width(Const.FULL_WIDTH)
+                    .margin({ bottom: 8 })
+                    
+                    Text('æ‰‹æœºå¾ˆå¥½ç”¨ï¼Œè¿è¡Œæµç•…ï¼Œæ‹ç…§æ•ˆæœå‡ºè‰²ï¼Œç”µæ± ç»­èˆªä¹Ÿå¾ˆæ»¡æ„ã€‚')
+                      .fontSize(14)
+                      .fontColor('#666666')
+                      .lineHeight(20)
+                      .width(Const.FULL_WIDTH)
+                      .margin({ bottom: 8 })
+                    
+                    Text('2023-06-' + (10 + index))
+                      .fontSize(12)
+                      .fontColor('#999999')
+                      .width(Const.FULL_WIDTH)
+                  }
+                  .width(Const.FULL_WIDTH)
+                  .padding({ left: 16, right: 16, bottom: 16 })
+                }, (index: number) => index.toString())
+              }
+              .width(Const.FULL_WIDTH)
+              
+              // View all reviews button
+              Row() {
+                Text('æŸ¥çœ‹å…¨éƒ¨è¯„ä»·')
+                  .fontSize(14)
+                  .fontColor($r('app.color.focus_color'))
+                Text('â†’')
+                  .fontSize(14)
+                  .fontColor($r('app.color.focus_color'))
+                  .margin({ left: 4 })
+              }
+              .width(Const.FULL_WIDTH)
+              .justifyContent(FlexAlign.Center)
+              .padding({ top: 8, bottom: 16 })
+            }
+            .width(Const.FULL_WIDTH)
+            .alignItems(HorizontalAlign.Start)
+            .backgroundColor('rgba(255, 255, 255, 0.6)')
+            .margin({ bottom: 12 })
+
+            // Divider
+            Divider()
+              .color('#E0E0E0')
+              .margin({ top: 16, bottom: 16 })
+
+            // Shipping and after-sales info
+            Column() {
+              Text('é…é€ä¸å”®å')
+                .fontSize(18)
+                .fontColor(Color.Black)
+                .fontWeight(FontWeight.Medium)
+                .width(Const.FULL_WIDTH)
+                .margin({ bottom: 16 })
+                .padding({ left: 16, right: 16 })
+              
+              Row() {
+                ForEach(this.shippingInfo, (item: ShippingInfoItem) => {
+                  Column() {
+                    Text(item.icon)
+                      .fontSize(24)
+                      .margin({ bottom: 8 })
+                    Text(item.text)
+                      .fontSize(12)
+                      .fontColor('#666666')
+                  }
+                  .width('20%')
+                  .alignItems(HorizontalAlign.Center)
+                }, (item: ShippingInfoItem) => item.text)
+              }
+              .width(Const.FULL_WIDTH)
+              .padding({ left: 16, right: 16, bottom: 16 })
+            }
+            .width(Const.FULL_WIDTH)
+            .alignItems(HorizontalAlign.Start)
+            .backgroundColor('rgba(255, 255, 255, 0.6)')
+            .margin({ bottom: 12 })
+          }
+            .backgroundColor("0x99FFFFFF")
+          .width(Const.FULL_WIDTH)
+            .backgroundColor('rgba(255, 255, 255, 0.6)')
+            .borderRadius({ topLeft: 20, topRight: 20 })
+          .padding({ left: 16, right: 16, bottom: 100 })
+        }
+      }
+      .backgroundColor(Color.Transparent)
+      .layoutWeight(1)
+
+      // Purchase button bar
+      Row() {
+        Button('ç«‹å³è´­ä¹°')
+          .type(ButtonType.Normal)
+          .backgroundColor($r('app.color.focus_color'))
+          .fontColor(Color.White)
+          .fontSize(16)
+          .width('50%')
+          .height(50)
+          .onClick(() => {
+            // Handle purchase action
+            console.info('Purchase clicked');
+          })
+        Button('åŠ å…¥è´­ç‰©è½¦')
+          .type(ButtonType.Normal)
+          .backgroundColor('#FFE5E5')
+          .fontColor($r('app.color.focus_color'))
+          .fontSize(16)
+          .width('50%')
+          .height(50)
+          .onClick(() => {
+            // Handle add to cart action
+            console.info('Add to cart clicked');
+          })
+      }
+      .width(Const.FULL_WIDTH)
+      .height(50)
+      .padding({ left: 16, right: 16, bottom: 16 })
+      .backgroundColor('rgba(255, 255, 255, 0.6)')
+    }
+    .width(Const.FULL_WIDTH)
+    .height(Const.FULL_WIDTH)
+    .backgroundColor(Color.Transparent)
+  }
+}
+
+ÀÔrD’¬@ohos.routerÙ#../common/constants/CommonConstantsÔrE—ªassertions¨external¢id¤meta±moduleSideEffectsªresolvedByµsyntheticNamedExportsAÃÙm hvigor_ignore_C:_tools_develop_tools_Harmony_DevEco_Studio_sdk_default_openharmony_ets_api_@ohos.router.d.tsÔrF‘¯hostModulesInfo’ÔrG’²hostDependencyName®hostModuleName¬@ohos.router¥entryG¬@ohos.router¥entryÃªoh-resolveÂEAÂÙpC:\tools\develop_tools\Harmony\HarmonyProjects\WaterFlow\entry\src\main\ets\common\constants\CommonConstants.etsAÃªoh-resolveÂ“ÔrH–§version¤fileªsourceRoot§sources¥names¨mappings´ProductDetailPage.js ‘µProductDetailPage.etsÜ–”   ” ” ” ”! !”" "š”   ” ”	 	” ” ”! !”# #”) )”ÌN ÌN”ÌO ÌO’” ” ‘”  ””6 ”ÌE ”ÌG 8”ÌH 9’”6 '”: +’”< !”> #’”> #”Ì@ %’”> #”Ì@ %š” ” ” "” $”! (”# *”' .”) 0”- 4”. 5š” ”  ” &”! (”( /”* 1”1 8”3 :”: ÌA”; ÌB˜” ”  ” %”  '”& -”( /”2 9”3 :‘” ’” ” ’” ”! ’” ” ’” ” ’”  ”  ‘”	 !˜” ""” "#”! "(”# "*”( "/”* "1”. "5”/ "6˜” ##” #$”" #)”$ #+”* #1”, #3”1 #8”2 #9˜” $” $” $ ” $"” $#” $%” $&”  $'‘” %-š” &” &” &
+” &” &” &” &”  &”& &”( & š” '” '” '
+” '” '” '” '” '”' '”) '!š” (” (” (
+” (” (” (” (”  (”* ("”, ($š” )” )” )
+” )” )” )” )”! )”' )”) )!š” *” *” *
+” *” *” *” *”  *”& *”( * ‘”	 +‘” 	’”  ” -’”  ” -’” 	” ’” 	” ’” 	” ’” 	” ’” 	” ’” 	” ’” 	” ’” 	” ’” -” -’” .”. .*’” /”= /9™” 0” 0
+” 0” 0” 0” 0”' 0#”) 0ÌK”* 0ÌL™” 1” 1” 1” 1” 1” 1”& 1"”' 1#”) 1%š” 2” 2
+” 2” 2” 2”! 2”" 2”+ 2%”, 25”- 26‘”	 3’” 4”% 4!—” 5” 5” 5	” 5” 5”! 5”" 5—” 6” 6” 6	” 6” 6”% 6!”& 6"—” 7” 7” 7	” 7” 7”$ 7 ”% 7!’” 8” 8‘” :’” ;” ;
+˜” ;” ;
+” Í™” Í™
+” Í™” Í™” Í™”) Í™˜” ;” ;
+” Íš” Íš” Íš” Íš”  Íš”* Íš˜” ;” ;
+” Í›”" Í›”# Í›”( Í›”) Í›”4 Í›&’” <”' <!˜” =” =
+” =” =” =” =”' =!”) =#˜” >” >”% >”) >”* >”1 >”2 >”; >$˜” >” >” ?”# ?”$ ?”) ?”* ?”4 ?!˜” >” >” Ì@”$ Ì@”% Ì@”* Ì@”+ Ì@”5 Ì@"˜” >” >” ÌA”' ÌA”( ÌA”0 ÌA”1 ÌA”6 ÌA#–” >” >” ÌB”" ÌB”# ÌB”% ÌB•” >” >” ÌC”' ÌC”( ÌC–” ÌD”! ÌD”# ÌD”& ÌD”' ÌD”9 ÌD)‘” ÌE” >” >” ÌF”& ÌF”' ÌF”) ÌF”* ÌF”, ÌF”- ÌF”/ ÌF”0 ÌF”2 ÌF”3 ÌF ”5 ÌF"—” >” >” ÌG”$ ÌG”% ÌG”& ÌG”' ÌG‘” ÌH’” ÌJ”& ÌJ ‘” ÌH’” ÌJ”& ÌJ ’” ÌK” ÌK	’” ÌJ”& ÌJ ˜” ÌK” ÌK	” Ìd” Ìd” Ìd” Ìd” Ìd”& Ìd’” ÌJ”& ÌJ –” ÌK” ÌK	” Ìe” Ìe” Ìe” Ìe’” ÌJ”& ÌJ ” ÌK” ÌK	” Ìf” Ìf” Ìf” Ìf” Ìf”  Ìf”" Ìf”$ Ìf”) Ìf ”+ Ìf"”- Ìf$”/ Ìf&’” ÌJ”& ÌJ –” ÌK” ÌK	” Ìg” Ìg”  Ìg”: Ìg1’” ÌJ”& ÌJ Ü ” ÌK” ÌK	” Ìh” Ìh” Ìh” Ìh” Ìh” Ìh”" Ìh”# Ìh”/ Ìh&”1 Ìh(”2 Ìh)”7 Ìh.”8 Ìh/”< Ìh3”= Ìh4”ÌJ ÌhÌA”ÌK ÌhÌB”ÌM ÌhÌD’” ÌL” ÌL–” ÌL” ÌL” ÌQ	” ÌQ” ÌQ” ÌQ–” ÌL” ÌL” ÌR	” ÌR” ÌR” ÌR˜” ÌL” ÌL” ÌS	” ÌS” ÌS”( ÌS!”) ÌS"”/ ÌS(—” ÌL” ÌL” ÌT	” ÌT” ÌT” ÌT” ÌT’” ÌU
+”ÌB ÌU<’” ÌV
+” ÌV–” ÌW” ÌW” ÌW” ÌW”! ÌW”" ÌW‘” ÌX”” ÌX” ÌX” ÌX” ÌXš” ÌY” ÌY” ÌY”! ÌY”" ÌY”8 ÌY0”; ÌY3”= ÌY5”> ÌY6”? ÌY7‘” ÌZ’” Ì[” Ì[	”” ÌM
+” ÌM” ÌM” ÌM–” ÌM
+” ÌM” ÌN” ÌN” ÌN” ÌN˜” ÌM
+” ÌM” ÌO” ÌO” ÌO”  ÌO”! ÌO”& ÌO"’” ÌM
+” ÌM’” ÌL” ÌL’” Ì\” Ì\’” Ì\” Ì\”” Ì]” Ì]” Ì]” Ì]–” Ì]” Ì]” Ì^” Ì^” Ì^” Ì^˜” Ì]” Ì]” Ì_” Ì_” Ì_”  Ì_”! Ì_”& Ì_ ˜” Ì]” Ì]” Ì`” Ì`” Ì`”& Ì` ”' Ì`!”- Ì`'’” Ì]” Ì]’” Ìa” Ìa’” Ìa” Ìa’” Ìb” Ìb’” Ìb” Ìb’” ÌJ”" ÌJ ’” ÌK” ÌK	’” Ìj” Ìj˜” Ìj” Ìj” Íx”" Íx”# Íx”( Íx”) Íx”4 Íx(–” Ìj” Ìj” Íy” Íy”  Íy”! Íy’” Ìk” Ìk’” Ìm
+” Ìm˜” Ìn
+” Ìn” Ìn” Ìn” Ìn”% Ìn”' Ìn”0 Ìn'’” Ìm
+” Ìm˜” Ìn
+” Ìn” Ìo” Ìo” Ìo” Ìo” Ìo”( Ìo#’” Ìm
+” Ìm˜” Ìn
+” Ìn” Ìp” Ìp” Ìp”$ Ìp”% Ìp ”, Ìp'’” Ìm
+” Ìm˜” Ìn
+” Ìn” Ìq”! Ìq”" Ìq”' Ìq"”( Ìq#”3 Ìq.’” Ìs
+” Ìs’” Ìt” Ìt’” Ìs
+” Ìs–” Ìt” Ìt” Íq”" Íq”# Íq”/ Íq)’” Ìs
+” Ìs˜” Ìt” Ìt” Ír” Ír” Ír” Ír” Ír”) Ír!’” Ìs
+” Ìs–” Ìt” Ìt” Ís”" Ís”# Ís”= Ís7’” Ìs
+” Ìs” Ìt” Ìt” Ít” Ít”  Ít”" Ít”) Ít#”+ Ít%”- Ít'”/ Ít)”7 Ít1”9 Ít3”; Ít5”= Ít7’” Ìs
+” ÌsÜ ” Ìt” Ìt” Íu” Íu” Íu” Íu”! Íu”# Íu”% Íu”' Íu”, Íu$”. Íu&”0 Íu(”2 Íu*”8 Íu0”: Íu2”= Íu5”? Íu7’” Ìv” Ìvš” Ìw” Ìw” Ìw” Ìw” Ìw”$ Ìw”& Ìw”* Ìw#”. Ìw'”0 Ìw)’” Ìv” Ìv–” Ìw” Ìw” Ìx” Ìx” Ìx” Ìx’” Ìv” Ìv˜” Ìw” Ìw” Ìy” Ìy” Ìy”  Ìy”! Ìy”& Ìy$’” Ìv” Ìv˜” Ìw” Ìw” Ìz” Ìz” Ìz”& Ìz$”' Ìz%”- Ìz+’” Ìv” Ìv˜” Ìw” Ìw” Ì{” Ì{” Ì{” Ì{” Ì{”' Ì{%’” Ìv” Ìv” Ìw” Ìw” Ì|” Ì|” Ì|” Ì|” Ì|” Ì|”! Ì|”# Ì|!”) Ì|'”+ Ì|)”, Ì|*”. Ì|,’” Ìv” Ìv’” Ìw” Ìw’” Ì~”! Ì~!’” Ì” Ì’” Ì~”! Ì~!–” Ì” Ì” ÌŒ” ÌŒ”  ÌŒ”, ÌŒ)’” Ì~”! Ì~!˜” Ì” Ì” Ì” Ì” Ì” Ì” Ì”& Ì#’” Ì~”! Ì~!š” Ì” Ì” Ì” Ì” Ì” Ì” Ì”! Ì”# Ì ”% Ì"š” Ì€” Ì€” Ì€” Ì€” Ì€”$ Ì€”& Ì€!”+ Ì€&”/ Ì€*”1 Ì€,–” Ì€” Ì€” Ì” Ì” Ì” Ì”” Ì€” Ì€” Ì‚” Ì‚˜” Ì€” Ì€” Ìƒ” Ìƒ” Ìƒ”& Ìƒ&”' Ìƒ'”+ Ìƒ+’” Ì€” Ì€˜” Ì„” Ì„” Ì„” Ì„” Ì„” Ì„ ”& Ì„(”( Ì„*˜” Ì…” Ì…”$ Ì…”( Ì…”) Ì…”0 Ì…!”1 Ì…"”9 Ì…*–” Ì…” Ì…” Ì†”% Ì†”& Ì†”( Ì†˜” Ì…” Ì…” Ì‡”& Ì‡”' Ì‡”, Ì‡"”- Ì‡#”1 Ì‡'š” Ì…” Ì…” Ìˆ”# Ìˆ”$ Ìˆ”& Ìˆ”* Ìˆ ”, Ìˆ"”. Ìˆ$”0 Ìˆ&’” Ì…” Ì…‘” Ì‰‘” Ì‰’” Ì~” Ì~!’” Ì” Ì’” Ì”) Ì)’” Ì‘” Ì‘’” Ì”) Ì)˜” Ì‘” Ì‘” Ì§” Ì§” Ì§” Ì§” Ì§”& Ì§#’” Ì”) Ì)š” Ì‘” Ì‘” Ì¨” Ì¨” Ì¨” Ì¨” Ì¨”! Ì¨”# Ì¨ ”% Ì¨"˜” Ì’” Ì’” Ì’” Ì’” Ì’” Ì’ ”' Ì’)”) Ì’+˜” Ì“” Ì“”$ Ì“”( Ì“”) Ì“”0 Ì“!”1 Ì“"”: Ì“+–” Ì“” Ì“” Ì””# Ì””$ Ì””& Ì”–” Ì“” Ì“” Ì•”% Ì•”& Ì•”( Ì•˜” Ì“” Ì“” Ì–”& Ì–”' Ì–”, Ì–"”- Ì–#”2 Ì–(–” Ì“” Ì“” Ì—”) Ì—”* Ì— ”+ Ì—!”” Ì“” Ì“” Ì˜”, Ì˜"” Ì“” Ì“” Ì™”$ Ì™”% Ì™”' Ì™”+ Ì™!”- Ì™#”. Ì™$”0 Ì™&”5 Ì™+”7 Ì™-”8 Ì™.”: Ì™0š” Ì“” Ì“” Ìš”# Ìš”$ Ìš”& Ìš”+ Ìš!”- Ìš#”. Ìš$”0 Ìš&’” Ì“” Ì“‘” Ì›‘” Ì›˜” Ìœ” Ìœ” Ìœ” Ìœ” Ìœ” Ìœ ”* Ìœ,”, Ìœ.˜” Ì” Ì”$ Ì”( Ì”) Ì”0 Ì!”1 Ì"”= Ì.–” Ì” Ì” Ì”# Ì”$ Ì”& Ì–” Ì” Ì” ÌŸ”% ÌŸ”& ÌŸ”( ÌŸ”” Ì” Ì” Ì ”& Ì –” Ì” Ì” Ì¡”) Ì¡”* Ì¡ ”+ Ì¡!–” Ì” Ì” Ì¢”( Ì¢”) Ì¢”* Ì¢ ”” Ì” Ì” Ì£”( Ì£” Ì” Ì” Ì¤”$ Ì¤”% Ì¤”' Ì¤”+ Ì¤!”- Ì¤#”. Ì¤$”0 Ì¤&”5 Ì¤+”7 Ì¤-”8 Ì¤.”: Ì¤0’” Ì” Ì‘” Ì¥‘” Ì¥’” Ì”% Ì)’” Ì‘” Ì‘’” Ì°” Ì°’” Ì±” Ì±’” Ì°” Ì°–” Ì±” Ì±” Ì²” Ì²” Ì²”# Ì²’” Ì°” Ì°” Ì±” Ì±” Ì³” Ì³” Ì³” Ì³”  Ì³”" Ì³”$ Ì³”& Ì³!”, Ì³'”. Ì³)”0 Ì³+”2 Ì³-’” Ìµ”" Ìµ"’” Ì¶” Ì¶’” Ìµ”" Ìµ"˜” Ì¶” Ì¶” Ìá” Ìá” Ìá” Ìá” Ìá”) Ìá#’” Ìµ”" Ìµ"˜” Ì¶” Ì¶” Ìâ” Ìâ” Ìâ”- Ìâ'”. Ìâ(”3 Ìâ-’” Ìµ”" Ìµ"–” Ì¶” Ì¶” Ìã”" Ìã”# Ìã”= Ìã7”” Ì·” Ì·” Ì·” Ì·–” Ì·” Ì·” Ì¸” Ì¸” Ì¸” Ì¸˜” Ì·” Ì·” Ì¹” Ì¹” Ì¹”  Ì¹ ”! Ì¹!”& Ì¹&˜” Ì·” Ì·” Ìº” Ìº” Ìº”& Ìº&”' Ìº'”- Ìº-˜” Ì·” Ì·” Ì»” Ì»” Ì»” Ì»” Ì»”' Ì»'š” Ì·” Ì·” Ì¼” Ì¼” Ì¼” Ì¼”  Ì¼ ”" Ì¼"”$ Ì¼$”& Ì¼&” Ì·” Ì·” Ì½” Ì½” Ì½” Ì½” Ì½”! Ì½!”# Ì½#”% Ì½%”* Ì½*”, Ì½,”. Ì½.”0 Ì½0’” Ì·” Ì·’” Ì¿”3 Ì¿5˜” ÌÀ” ÌÀ” ÌÀ” ÌÀ” ÌÀ” ÌÀ ”$ ÌÀ&”& ÌÀ(›” ÌÁ” ÌÁ”# ÌÁ”' ÌÁ”( ÌÁ ”/ ÌÁ'”0 ÌÁ(”6 ÌÁ.”; ÌÁ3”ÌC ÌÁ;”ÌE ÌÁ=’”$ ÌÂ”: ÌÂ(˜”$ ÌÃ”( ÌÃ”0 ÌÃ”4 ÌÃ”5 ÌÃ”< ÌÃ#”= ÌÃ$”ÌC ÌÃ*’”$ ÌÂ”: ÌÂ(–”$ ÌÃ”( ÌÃ”) ÌÄ”1 ÌÄ”2 ÌÄ”4 ÌÄ ’”$ ÌÂ”: ÌÂ(–”$ ÌÃ”( ÌÃ”) ÌÅ”2 ÌÅ”3 ÌÅ”< ÌÅ(’”$ ÌÂ”: ÌÂ(˜”$ ÌÃ”( ÌÃ”) ÌÆ”. ÌÆ”/ ÌÆ”4 ÌÆ ”5 ÌÆ!”? ÌÆ+’”$ ÌÂ”: ÌÂ(–”$ ÌÃ”( ÌÃ”) ÌÇ”3 ÌÇ”4 ÌÇ ”6 ÌÇ"’”$ ÌÂ”: ÌÂ(š”$ ÌÃ”( ÌÃ”) ÌÈ”/ ÌÈ”0 ÌÈ”2 ÌÈ”8 ÌÈ$”: ÌÈ&”< ÌÈ(”> ÌÈ*’”$ ÌÂ”: ÌÂ(”$ ÌÃ”( ÌÃ”) ÌÉ”0 ÌÉ”1 ÌÉ”3 ÌÉ”7 ÌÉ#”9 ÌÉ%”; ÌÉ'”= ÌÉ)”ÌB ÌÉ.”ÌD ÌÉ0”ÌF ÌÉ2”ÌH ÌÉ4’”  ÌÂ”6 ÌÂ(’”  ÌÃ”$ ÌÃ‘” ÌÊ” ÌÊ”! ÌÊ”& ÌÊ ”' ÌÊ!”. ÌÊ(”/ ÌÊ)”3 ÌÊ-”4 ÌÊ.”; ÌÊ5”< ÌÊ6”ÌB ÌÊ<”ÌC ÌÊ=”ÌE ÌÊ?’”$ ÌË”: ÌË(’”$ ÌÌ”+ ÌÌ””, ÌÍ”1 ÌÍ”9 ÌÍ”ÌA ÌÍ"˜”, ÌÍ”1 ÌÍ”2 ÌÎ”7 ÌÎ”8 ÌÎ”= ÌÎ"”> ÌÎ#”ÌH ÌÎ-˜”, ÌÍ”1 ÌÍ”2 ÌÏ”; ÌÏ ”< ÌÏ!”ÌD ÌÏ)”ÌE ÌÏ*”ÌL ÌÏ1˜”, ÌÍ”1 ÌÍ”2 ÌĞ”ÌA ÌĞ&”ÌB ÌĞ'”ÌG ÌĞ,”ÌH ÌĞ-”ÌS ÌĞ8š”, ÌÍ”1 ÌÍ”2 ÌÑ”8 ÌÑ”9 ÌÑ”; ÌÑ ”ÌA ÌÑ&”ÌC ÌÑ(”ÌE ÌÑ*”ÌG ÌÑ,”, ÌÍ”1 ÌÍ”2 ÌÒ”9 ÌÒ”: ÌÒ”< ÌÒ!”Ì@ ÌÒ%”ÌB ÌÒ'”ÌD ÌÒ)”ÌF ÌÒ+”ÌK ÌÒ0”ÌM ÌÒ2”ÌO ÌÒ4”ÌQ ÌÒ6”ÌG ÌÌ”ÌK ÌÌ”ÌL ÌÌ”ÌS ÌÌ&”ÌT ÌÌ'”ÌZ ÌÌ-”Ìt ÌÓ”Ìu ÌÓ”Ì} ÌÓ&”Ì ÌÓ(”Ì ÌÓ*”Ì‚ ÌÓ+”ÌŠ ÌÓ3’”  ÌË”6 ÌË(’”  ÌÌ”' ÌÌ‘” ÌÔ‘” ÌÔ‘” ÌÕ‘” ÌÕ’” ÌÖ”4 ÌÖ,”” Ì×” Ì×”$ Ì×”, Ì×’” ÌÖ”4 ÌÖ,–” Ì×” Ì×” ÌØ”% ÌØ”& ÌØ”( ÌØ’” ÌÖ”4 ÌÖ,–” Ì×” Ì×” ÌÙ”& ÌÙ”' ÌÙ”0 ÌÙ&’” ÌÖ”4 ÌÖ,˜” Ì×” Ì×” ÌÚ”" ÌÚ”# ÌÚ”( ÌÚ”) ÌÚ”3 ÌÚ)’” ÌÖ”4 ÌÖ,š” Ì×” Ì×” ÌÛ”# ÌÛ”$ ÌÛ”& ÌÛ”, ÌÛ"”. ÌÛ$”0 ÌÛ&”2 ÌÛ(’” ÌÖ”4 ÌÖ,” Ì×” Ì×” ÌÜ”$ ÌÜ”% ÌÜ”' ÌÜ”+ ÌÜ!”- ÌÜ#”/ ÌÜ%”1 ÌÜ'”6 ÌÜ,”8 ÌÜ.”: ÌÜ0”< ÌÜ2’” ÌÖ”0 ÌÖ,’” Ì×” Ì×‘” Ìİ’” Ìµ” Ìµ"’” Ì¶” Ì¶’” Ìå” Ìå’” Ìæ” Ìæ’” Ìå” Ìå–” Ìæ” Ìæ” Ìç” Ìç” Ìç”# Ìç’” Ìå” Ìå” Ìæ” Ìæ” Ìè” Ìè” Ìè” Ìè”  Ìè”" Ìè”$ Ìè”& Ìè!”, Ìè'”. Ìè)”0 Ìè+”2 Ìè-’” Ìê” Ìê’” Ìë” Ìë’” Ìê” Ìê˜” Ìë” Ìë” ÍG” ÍG” ÍG” ÍG” ÍG”) ÍG#’” Ìê” Ìê˜” Ìë” Ìë” ÍH” ÍH” ÍH”- ÍH'”. ÍH(”3 ÍH-’” Ìê” Ìê–” Ìë” Ìë” ÍI”" ÍI”# ÍI”= ÍI7’” Ìê” Ìêš” Ìë” Ìë” ÍJ” ÍJ” ÍJ” ÍJ”" ÍJ”$ ÍJ”& ÍJ ”( ÍJ"”” Ìì” Ìì” Ìì” Ìì–” Ìì” Ìì” Ìí” Ìí” Ìí” Ìí˜” Ìì” Ìì” Ìî” Ìî” Ìî”  Ìî ”! Ìî!”& Ìî&˜” Ìì” Ìì” Ìï” Ìï” Ìï”& Ìï&”' Ìï'”- Ìï-˜” Ìì” Ìì” Ìğ” Ìğ” Ìğ” Ìğ” Ìğ”' Ìğ'š” Ìì” Ìì” Ìñ” Ìñ” Ìñ” Ìñ”  Ìñ ”" Ìñ"”$ Ìñ$”& Ìñ&” Ìì” Ìì” Ìò” Ìò” Ìò” Ìò” Ìò”! Ìò!”# Ìò#”% Ìò%”* Ìò*”, Ìò,”. Ìò.”0 Ìò0’” Ìì” Ìì’” Ìô” Ìô’” Ìõ” Ìõ’” Ìô” Ìô˜” Ìõ” Ìõ” Í” Í” Í” Í” Í”& Í%’” Ìô” Ìô” Ìõ” Ìõ” Í” Í” Í” Í” Í”  Í”" Í!”$ Í#”) Í(”+ Í*”- Í,”/ Í.’” Ìô” Ìôš” Ìõ” Ìõ” Í” Í” Í” Í” Í”! Í ”# Í"”% Í$’” Ìö” Ìö˜” Ìö” Ìö” Í ” Í ” Í ”- Í +”. Í ,”4 Í 2š” Ìö” Ìö” Í” Í” Í” Í”! Í”# Í!”% Í#”' Í%”” Ì÷” Ì÷” Ì÷” Ì÷–” Ì÷” Ì÷” Ìø” Ìø” Ìø” Ìø ˜” Ì÷” Ì÷” Ìù” Ìù” Ìù”  Ìù$”! Ìù%”& Ìù*˜” Ì÷” Ì÷” Ìú” Ìú” Ìú ”& Ìú*”' Ìú+”+ Ìú/’” Ì÷” Ì÷”” Ìû” Ìû” Ìû” Ìû–” Ìû” Ìû” Ìü” Ìü” Ìü” Ìü –” Ìû” Ìû” Ìı” Ìı” Ìı”$ Ìı(š” Ìû” Ìû” Ìş” Ìş” Ìş” Ìş” Ìş!” Ìş#”  Ìş$”" Ìş&’” Ìû” Ìû’” Ìö” Ìö’” Í” Í’” Í” Í’”3 Í;”8 ÍÌH’” Í” Íš” Í” Í” Í” Í” Í”! Í”' Í$”) Í&”+ Í(”- Í*™” Í” Í”  Í”$ Í”% Í ”1 Í,”2 Í-”7 Í2”8 Í3–” Í” Í” Í”! Í!”" Í"”$ Í$˜” Í” Í” Í”" Í"”# Í#”( Í(”) Í)”. Í.˜” Í” Í” Í	”# Í	#”$ Í	$”. Í	.”/ Í	/”5 Í	5š” Í” Í” Í
+” Í
+”  Í
+ ”" Í
+"”' Í
+'”) Í
+)”* Í
+*”, Í
+,’” Í” Í”” Í” Í”  Í”$ Í–” Í” Í” Í”! Í!”" Í"”$ Í$–” Í” Í” Í”" Í"”# Í#”, Í,’” Í” Í’” Í” Í›”/ Í”3 Í”4 Í”? Í*”ÌY Í”ÌZ Í”Ì^ Í"”Ì` Í$”Ìb Í&”Ìc Í'”Ìg Í+’” Í” Í’” Í” Í’” Ìô” Ìô’” Ìõ” Ìõ’” Í” Í ’” Í” Í’” Í” Í ˜” Í” Í” Í7” Í7” Í7” Í7” Í7”) Í7%’” Í” Í’” Í” Í˜” Í” Í” Í3”  Í3”! Í3”& Í3”' Í3”1 Í3)Ü ” Í” Í” Í4”" Í4”# Í4”% Í4”) Í4!”+ Í4#”- Í4%”/ Í4'”4 Í4,”6 Í4.”8 Í40”: Í42”Ì@ Í48”ÌB Í4:”ÌD Í4<”ÌF Í4>’” Í” Í˜” Í” Í” Í$” Í$” Í$”# Í$ ”$ Í$!”. Í$+š” Í” Í” Í%” Í%” Í%”! Í%”' Í%$”) Í%&”* Í%'”, Í%)š” Í” Í”  Í”$ Í”' Í"”( Í#”- Í(”0 Í+”5 Í0”6 Í1–” Í” Í” Í”! Í!”" Í"”$ Í$–” Í” Í” Í”" Í"”# Í#”, Í,š” Í” Í” Í” Í”  Í ”" Í"”' Í'”) Í)”+ Í+”- Í-’” Í” Í”” Í ” Í ”  Í ”' Í "–” Í ” Í ” Í!”! Í!!”" Í!"”$ Í!$”” Í ” Í ” Í"”" Í""’” Í ” Í ’” Í” Í”” Í'” Í'”  Í'”= Í'6–” Í'” Í'” Í(”! Í(”" Í( ”$ Í("–” Í'” Í'” Í)”" Í) ”# Í)!”, Í)*–” Í'” Í'” Í*”# Í*!”$ Í*"”& Í*$˜” Í'” Í'” Í+” Í+” Í+”$ Í+"”% Í+#”/ Í+-š” Í'” Í'” Í,” Í,”  Í,”" Í, ”( Í,&”* Í,(”+ Í,)”- Í,+’” Í'” Í'š” Í.” Í.”  Í.”* Í.#”- Í.&”. Í.'”0 Í.)”3 Í.,”8 Í.1”9 Í.2–” Í.” Í.” Í/”! Í/”" Í/ ”$ Í/"–” Í.” Í.” Í0”" Í0 ”# Í0!”, Í0*˜” Í.” Í.” Í1” Í1” Í1”$ Í1"”% Í1#”/ Í1-’” Í.” Í.’” Í” Í”/ Í”3 Í”4 Í”; Í$”ÌU Í5”ÌV Í5”Ì[ Í5!”Ì] Í5#”Ì_ Í5%”Ì` Í5&”Ìe Í5+”Ìf Í5,”Ìn Í54”Ìp Í56’” Í” Í’” Í” Í ’” Í” Í’” Í9”& Í9(’” Í:” Í:’” Í9”& Í9(˜” Í:” Í:” ÍC” ÍC” ÍC” ÍC” ÍC”& ÍC%’” Í9”& Í9(˜” Í:” Í:” ÍD” ÍD” ÍD”( ÍD'”) ÍD(”/ ÍD.’” Í9”& Í9(” Í:” Í:” ÍE” ÍE” ÍE” ÍE” ÍE” ÍE”  ÍE”" ÍE!”( ÍE'”* ÍE)”, ÍE+”. ÍE-”” Í;” Í;” Í;”  Í;–” Í;” Í;” Í<” Í<” Í<” Í<”” Í;” Í;” Í=” Í=’” Í;” Í;”” Í>” Í>” Í>” Í>–” Í>” Í>” Í?” Í?” Í?” Í?”” Í>” Í>” Í@” Í@š” Í>” Í>” ÍA” ÍA” ÍA” ÍA” ÍA ”  ÍA"”! ÍA#”# ÍA%’” Í>” Í>’” Í9”" Í9(’” Í:” Í:’” Ìê” Ìê’” Ìë” Ìë’” ÍL” ÍL’” ÍM” ÍM’” ÍL” ÍL–” ÍM” ÍM” ÍN” ÍN” ÍN”# ÍN’” ÍL” ÍL” ÍM” ÍM” ÍO” ÍO” ÍO” ÍO”  ÍO”" ÍO”$ ÍO”& ÍO!”, ÍO'”. ÍO)”0 ÍO+”2 ÍO-’” ÍQ”, ÍQ,’” ÍR” ÍR’” ÍQ”, ÍQ,˜” ÍR” ÍR” Íl” Íl” Íl” Íl” Íl”) Íl#’” ÍQ”, ÍQ,˜” ÍR” ÍR” Ím” Ím” Ím”- Ím'”. Ím(”3 Ím-’” ÍQ”, ÍQ,–” ÍR” ÍR” Ín”" Ín”# Ín”= Ín7’” ÍQ”, ÍQ,š” ÍR” ÍR” Ío” Ío” Ío” Ío”" Ío”$ Ío”& Ío ”( Ío"”” ÍS” ÍS” ÍS” ÍS–” ÍS” ÍS” ÍT” ÍT” ÍT” ÍT˜” ÍS” ÍS” ÍU” ÍU” ÍU”  ÍU ”! ÍU!”& ÍU&˜” ÍS” ÍS” ÍV” ÍV” ÍV”& ÍV&”' ÍV'”- ÍV-˜” ÍS” ÍS” ÍW” ÍW” ÍW” ÍW” ÍW”' ÍW'š” ÍS” ÍS” ÍX” ÍX” ÍX” ÍX”  ÍX ”" ÍX"”$ ÍX$”& ÍX&” ÍS” ÍS” ÍY” ÍY” ÍY” ÍY” ÍY”! ÍY!”# ÍY#”% ÍY%”* ÍY*”, ÍY,”. ÍY.”0 ÍY0’” ÍS” ÍS’” Í[” Í[˜” Í[” Í[” Íi” Íi” Íi” Íi” Íi”& Íi%Ü ” Í[” Í[” Íj” Íj” Íj” Íj” Íj”  Íj”" Íj!”$ Íj#”) Íj(”+ Íj*”- Íj,”/ Íj.”5 Íj4”7 Íj6”9 Íj8”; Íj:’” Í\” Í\’” Í]” Í]–” Í]” Í]” Íe”  Íe”! Íe”& Íe˜” Í]” Í]” Íf”% Íf”& Íf”5 Íf-”6 Íf.”< Íf4–” Í^” Í^”  Í^”$ Í^”% Í^”) Í^"–” Í^” Í^” Í_”! Í_”" Í_ ”$ Í_"š” Í^” Í^” Í`” Í`”  Í`”" Í` ”( Í`&”* Í`(”+ Í`)”- Í`+’” Í^” Í^–” Ía” Ía”  Ía”$ Ía”% Ía”) Ía"–” Ía” Ía” Íb”! Íb”" Íb ”$ Íb"–” Ía” Ía” Íc”" Íc ”# Íc!”, Íc*’” Ía” Ía’” Í]” Í]”/ Í\”3 Í\”4 Í\”Ì@ Í\)”ÌZ Íg”Ì[ Íg”Ì_ Íg*”Ìa Íg,”Ìc Íg.”Ìd Íg/”Ìh Íg3”Ìi Íg4”Ìm Íg8’” Í\” Í\’” Í[” Í[’” ÍQ”( ÍQ,’” ÍR” ÍR’” Ìs
+” Ìs’” Ìt” Ìt’” Ìk” Ìk’” Ìj” Ìj’” Í{”" Í{’” Í|” Í|	’” Í{”" Í{˜” Í|” Í|	” Í”” Í”” Í”” Í”” Í””& Í”’” Í{”" Í{–” Í|” Í|	” Í•” Í•” Í•” Í•’” Í{”" Í{Ü ” Í|” Í|	” Í–” Í–” Í–” Í–” Í–”  Í–”" Í–”$ Í–”) Í– ”+ Í–"”- Í–$”/ Í–&”5 Í–,”7 Í–.”9 Í–0”; Í–2’” Í{”" Í{–” Í|” Í|	” Í—” Í—”  Í—”: Í—1”” Í}” Í}”# Í}”) Í}˜” Í}” Í}” Í~” Í~” Í~”" Í~”# Í~”) Í~!”” Í}” Í}” Í”" Í˜” Í}” Í}” Í€” Í€” Í€”" Í€”# Í€”( Í€ –” Í}” Í}” Í” Í” Í” Í–” Í}” Í}” Í‚” Í‚” Í‚” Í‚–” Í}” Í}” Íƒ” Íƒ” Íƒ” Íƒ—” Í}” Í}” Í„” Í„” Í„” Í„”  Í„’” Í…”) Í…%˜” Í†” Í†” Í†” Í†” Í†”/ Í†+”0 Í†,”1 Í†-’” Í‡
+” Í‡’” Í}” Í}”” Íˆ” Íˆ”# Íˆ”* Íˆ˜” Íˆ” Íˆ” Í‰” Í‰” Í‰”" Í‰”# Í‰”) Í‰!–” Íˆ” Íˆ” ÍŠ”" ÍŠ”# ÍŠ”, ÍŠ$”” Íˆ” Íˆ” Í‹” Í‹–” Íˆ” Íˆ” ÍŒ” ÍŒ” ÍŒ” ÍŒ–” Íˆ” Íˆ” Í” Í” Í” Í–” Íˆ” Íˆ” Í” Í” Í” Í—” Íˆ” Íˆ” Í” Í” Í” Í”  Í’” Í”, Í(˜” Í‘” Í‘” Í‘” Í‘” Í‘”2 Í‘.”3 Í‘/”4 Í‘0’” Í’
+” Í’’” Íˆ” Íˆ’” Í{” Í{’” Í|” Í|	’” ;” ;
+‘” ÍœÔrI–§version¤file§sources®sourcesContent¥names¨mappingsÀ‘À‘ÀÜ
+‘”    ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”  	 ‘”  
+ ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”    ‘”  ! ‘”  " ‘”  # ‘”  $ ‘”  % ‘”  & ‘”  ' ‘”  ( ‘”  ) ‘”  * ‘”  + ‘”  , ‘”  - ‘”  . ‘”  / ‘”  0 ‘”  1 ‘”  2 ‘”  3 ‘”  4 ‘”  5 ‘”  6 ‘”  7 ‘”  8 ‘”  9 ‘”  : ‘”  ; ‘”  < ‘”  = ‘”  > ‘”  ? ‘”  Ì@ ‘”  ÌA ‘”  ÌB ‘”  ÌC ‘”  ÌD ‘”  ÌE ‘”  ÌF ‘”  ÌG ‘”  ÌH ‘”  ÌI ‘”  ÌJ ‘”  ÌK ‘”  ÌL ‘”  ÌM ‘”  ÌN ‘”  ÌO ‘”  ÌP ‘”  ÌQ ‘”  ÌR ‘”  ÌS ‘”  ÌT ‘”  ÌU ‘”  ÌV ‘”  ÌW ‘”  ÌX ‘”  ÌY ‘”  ÌZ ‘”  Ì[ ‘”  Ì\ ‘”  Ì] ‘”  Ì^ ‘”  Ì_ ‘”  Ì` ‘”  Ìa ‘”  Ìb ‘”  Ìc ‘”  Ìd ‘”  Ìe ‘”  Ìf ‘”  Ìg ‘”  Ìh ‘”  Ìi ‘”  Ìj ‘”  Ìk ‘”  Ìl ‘”  Ìm ‘”  Ìn ‘”  Ìo ‘”  Ìp ‘”  Ìq ‘”  Ìr ‘”  Ìs ‘”  Ìt ‘”  Ìu ‘”  Ìv ‘”  Ìw ‘”  Ìx ‘”  Ìy ‘”  Ìz ‘”  Ì{ ‘”  Ì| ‘”  Ì} ‘”  Ì~ ‘”  Ì ‘”  Ì€ ‘”  Ì ‘”  Ì‚ ‘”  Ìƒ ‘”  Ì„ ‘”  Ì… ‘”  Ì† ‘”  Ì‡ ‘”  Ìˆ ‘”  Ì‰ ‘”  ÌŠ ‘”  Ì‹ ‘”  ÌŒ ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì‘ ‘”  Ì’ ‘”  Ì“ ‘”  Ì” ‘”  Ì• ‘”  Ì– ‘”  Ì— ‘”  Ì˜ ‘”  Ì™ ‘”  Ìš ‘”  Ì› ‘”  Ìœ ‘”  Ì ‘”  Ì ‘”  ÌŸ ‘”  Ì  ‘”  Ì¡ ‘”  Ì¢ ‘”  Ì£ ‘”  Ì¤ ‘”  Ì¥ ‘”  Ì¦ ‘”  Ì§ ‘”  Ì¨ ‘”  Ì© ‘”  Ìª ‘”  Ì« ‘”  Ì¬ ‘”  Ì­ ‘”  Ì® ‘”  Ì¯ ‘”  Ì° ‘”  Ì± ‘”  Ì² ‘”  Ì³ ‘”  Ì´ ‘”  Ìµ ‘”  Ì¶ ‘”  Ì· ‘”  Ì¸ ‘”  Ì¹ ‘”  Ìº ‘”  Ì» ‘”  Ì¼ ‘”  Ì½ ‘”  Ì¾ ‘”  Ì¿ ‘”  ÌÀ ‘”  ÌÁ ‘”  ÌÂ ‘”  ÌÃ ‘”  ÌÄ ‘”  ÌÅ ‘”  ÌÆ ‘”  ÌÇ ‘”  ÌÈ ‘”  ÌÉ ‘”  ÌÊ ‘”  ÌË ‘”  ÌÌ ‘”  ÌÍ ‘”  ÌÎ ‘”  ÌÏ ‘”  ÌĞ ‘”  ÌÑ ‘”  ÌÒ ‘”  ÌÓ ‘”  ÌÔ ‘”  ÌÕ ‘”  ÌÖ ‘”  Ì× ‘”  ÌØ ‘”  ÌÙ ‘”  ÌÚ ‘”  ÌÛ ‘”  ÌÜ ‘”  Ìİ ‘”  ÌŞ ‘”  Ìß ‘”  Ìà ‘”  Ìá ‘”  Ìâ ‘”  Ìã ‘”  Ìä ‘”  Ìå ‘”  Ìæ ‘”  Ìç ‘”  Ìè ‘”  Ìé ‘”  Ìê ‘”  Ìë ‘”  Ìì ‘”  Ìí ‘”  Ìî ‘”  Ìï ‘”  Ìğ ‘”  Ìñ ‘”  Ìò ‘”  Ìó ‘”  Ìô ‘”  Ìõ ‘”  Ìö ‘”  Ì÷ ‘”  Ìø ‘”  Ìù ‘”  Ìú ‘”  Ìû ‘”  Ìü ‘”  Ìı ‘”  Ìş ‘”  Ìÿ ‘”  Í  ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í	 ‘”  Í
+ ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í  ‘”  Í! ‘”  Í" ‘”  Í# ‘”  Í$ ‘”  Í% ‘”  Í& ‘”  Í' ‘”  Í( ‘”  Í) ‘”  Í* ‘”  Í+ ‘”  Í, ‘”  Í- ‘”  Í. ‘”  Í/ ‘”  Í0 ‘”  Í1 ‘”  Í2 ‘”  Í3 ‘”  Í4 ‘”  Í5 ‘”  Í6 ‘”  Í7 ‘”  Í8 ‘”  Í9 ‘”  Í: ‘”  Í; ‘”  Í< ‘”  Í= ‘”  Í> ‘”  Í? ‘”  Í@ ‘”  ÍA ‘”  ÍB ‘”  ÍC ‘”  ÍD ‘”  ÍE ‘”  ÍF ‘”  ÍG ‘”  ÍH ‘”  ÍI ‘”  ÍJ ‘”  ÍK ‘”  ÍL ‘”  ÍM ‘”  ÍN ‘”  ÍO ‘”  ÍP ‘”  ÍQ ‘”  ÍR ‘”  ÍS ‘”  ÍT ‘”  ÍU ‘”  ÍV ‘”  ÍW ‘”  ÍX ‘”  ÍY ‘”  ÍZ ‘”  Í[ ‘”  Í\ ‘”  Í] ‘”  Í^ ‘”  Í_ ‘”  Í` ‘”  Ía ‘”  Íb ‘”  Íc ‘”  Íd ‘”  Íe ‘”  Íf ‘”  Íg ‘”  Íh ‘”  Íi ‘”  Íj ‘”  Ík ‘”  Íl ‘”  Ím ‘”  Ín ‘”  Ío ‘”  Íp ‘”  Íq ‘”  Ír ‘”  Ís ‘”  Ít ‘”  Íu ‘”  Ív ‘”  Íw ‘”  Íx ‘”  Íy ‘”  Íz ‘”  Í{ ‘”  Í| ‘”  Í} ‘”  Í~ ‘”  Í ‘”  Í€ ‘”  Í ‘”  Í‚ ‘”  Íƒ ‘”  Í„ ‘”  Í… ‘”  Í† ‘”  Í‡ ‘”  Íˆ ‘”  Í‰ ‘”  ÍŠ ‘”  Í‹ ‘”  ÍŒ ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í‘ ‘”  Í’ ‘”  Í“ ‘”  Í” ‘”  Í• ‘”  Í– ‘”  Í— ‘”  Í˜ ‘”  Í™ ‘”  Íš ‘”  Í› ‘”  Íœ ‘”  Í ‘”  Í ‘”  ÍŸ ‘”  Í  ‘”  Í¡ ‘”  Í¢ ‘”  Í£ ‘”  Í¤ ‘”  Í¥ ‘”  Í¦ ‘”  Í§ ‘”  Í¨ ‘”  Í© ‘”  Íª ‘”  Í« ‘”  Í¬ ‘”  Í­ ‘”  Í® ‘”  Í¯ ‘”  Í° ‘”  Í± ‘”  Í² ‘”  Í³ ‘”  Í´ ‘”  Íµ ‘”  Í¶ ‘”  Í· ‘”  Í¸ ‘”  Í¹ ‘”  Íº ‘”  Í» ‘”  Í¼ ‘”  Í½ ‘”  Í¾ ‘”  Í¿ ‘”  ÍÀ ‘”  ÍÁ ‘”  ÍÂ ‘”  ÍÃ ‘”  ÍÄ ‘”  ÍÅ ‘”  ÍÆ ‘”  ÍÇ ‘”  ÍÈ ‘”  ÍÉ ‘”  ÍÊ ‘”  ÍË ‘”  ÍÌ ‘”  ÍÍ ‘”  ÍÎ ‘”  ÍÏ ‘”  ÍĞ ‘”  ÍÑ ‘”  ÍÒ ‘”  ÍÓ ‘”  ÍÔ ‘”  ÍÕ ‘”  ÍÖ ‘”  Í× ‘”  ÍØ ‘”  ÍÙ ‘”  ÍÚ ‘”  ÍÛ ‘”  ÍÜ ‘”  Íİ ‘”  ÍŞ ‘”  Íß ‘”  Íà ‘”  Íá ‘”  Íâ ‘”  Íã ‘”  Íä ‘”  Íå ‘”  Íæ ‘”  Íç ‘”  Íè ‘”  Íé ‘”  Íê ‘”  Íë ‘”  Íì ‘”  Íí ‘”  Íî ‘”  Íï ‘”  Íğ ‘”  Íñ ‘”  Íò ‘”  Íó ‘”  Íô ‘”  Íõ ‘”  Íö ‘”  Í÷ ‘”  Íø ‘”  Íù ‘”  Íú ‘”  Íû ‘”  Íü ‘”  Íı ‘”  Íş ‘”  Íÿ ‘”  Í  ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í	 ‘”  Í
+ ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í  ‘”  Í! ‘”  Í" ‘”  Í# ‘”  Í$ ‘”  Í% ‘”  Í& ‘”  Í' ‘”  Í( ‘”  Í) ‘”  Í* ‘”  Í+ ‘”  Í, ‘”  Í- ‘”  Í. ‘”  Í/ ‘”  Í0 ‘”  Í1 ‘”  Í2 ‘”  Í3 ‘”  Í4 ‘”  Í5 ‘”  Í6 ‘”  Í7 ‘”  Í8 ‘”  Í9 ‘”  Í: ‘”  Í; ‘”  Í< ‘”  Í= ‘”  Í> ‘”  Í? ‘”  Í@ ‘”  ÍA ‘”  ÍB ‘”  ÍC ‘”  ÍD ‘”  ÍE ‘”  ÍF ‘”  ÍG ‘”  ÍH ‘”  ÍI ‘”  ÍJ ‘”  ÍK ‘”  ÍL ‘”  ÍM ‘”  ÍN ‘”  ÍO ‘”  ÍP ‘”  ÍQ ‘”  ÍR ‘”  ÍS ‘”  ÍT ‘”  ÍU ‘”  ÍV ‘”  ÍW ‘”  ÍX ‘”  ÍY ‘”  ÍZ ‘”  Í[ ‘”  Í\ ‘”  Í] ‘”  Í^ ‘”  Í_ ‘”  Í` ‘”  Ía ‘”  Íb ‘”  Íc ‘”  Íd ‘”  Íe ‘”  Íf ‘”  Íg ‘”  Íh ‘”  Íi ‘”  Íj ‘”  Ík ‘”  Íl ‘”  Ím ‘”  Ín ‘”  Ío ‘”  Íp ‘”  Íq ‘”  Ír ‘”  Ís ‘”  Ít ‘”  Íu ‘”  Ív ‘”  Íw ‘”  Íx ‘”  Íy ‘”  Íz ‘”  Í{ ‘”  Í| ‘”  Í} ‘”  Í~ ‘”  Í ‘”  Í€ ‘”  Í ‘”  Í‚ ‘”  Íƒ ‘”  Í„ ‘”  Í… ‘”  Í† ‘”  Í‡ ‘”  Íˆ ‘”  Í‰ ‘”  ÍŠ ‘”  Í‹ ‘”  ÍŒ ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í‘ ‘”  Í’ ‘”  Í“ ‘”  Í” ‘”  Í• ‘”  Í– ‘”  Í— ‘”  Í˜ ‘”  Í™ ‘”  Íš ‘”  Í› ‘”  Íœ ‘”  Í ‘”  Í ‘”  ÍŸ ‘”  Í  ‘”  Í¡ ‘”  Í¢ ‘”  Í£ ‘”  Í¤ ‘”  Í¥ ‘”  Í¦ ‘”  Í§ ‘”  Í¨ ‘”  Í© ‘”  Íª ‘”  Í« ‘”  Í¬ ‘”  Í­ ‘”  Í® ‘”  Í¯ ‘”  Í° ‘”  Í± ‘”  Í² ‘”  Í³ ‘”  Í´ ‘”  Íµ ‘”  Í¶ ‘”  Í· ‘”  Í¸ ‘”  Í¹ ‘”  Íº ‘”  Í» ‘”  Í¼ ‘”  Í½ ‘”  Í¾ ‘”  Í¿ ‘”  ÍÀ ‘”  ÍÁ ‘”  ÍÂ ‘”  ÍÃ ‘”  ÍÄ ‘”  ÍÅ ‘”  ÍÆ ‘”  ÍÇ ‘”  ÍÈ ‘”  ÍÉ ‘”  ÍÊ ‘”  ÍË ‘”  ÍÌ ‘”  ÍÍ ‘”  ÍÎ ‘”  ÍÏ ‘”  ÍĞ ‘”  ÍÑ ‘”  ÍÒ ‘”  ÍÓ ‘”  ÍÔ ‘”  ÍÕ ‘”  ÍÖ ‘”  Í× ‘”  ÍØ ‘”  ÍÙ ‘”  ÍÚ ‘”  ÍÛ ‘”  ÍÜ ‘”  Íİ ‘”  ÍŞ ‘”  Íß ‘”  Íà ‘”  Íá ‘”  Íâ ‘”  Íã ‘”  Íä ‘”  Íå ‘”  Íæ ‘”  Íç ‘”  Íè ‘”  Íé ‘”  Íê ‘”  Íë ‘”  Íì ‘”  Íí ‘”  Íî ‘”  Íï ‘”  Íğ ‘”  Íñ ‘”  Íò ‘”  Íó ‘”  Íô ‘”  Íõ ‘”  Íö ‘”  Í÷ ‘”  Íø ‘”  Íù ‘”  Íú ‘”  Íû ‘”  Íü ‘”  Íı ‘”  Íş ‘”  Íÿ ‘”  Í  ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í	 ÔrJ’§missing¦pluginÃ¦genAbcÂÔ  ÔrK”²dynamicImportCache¹exportAllDeclarationCache»exportNamedDeclarationCache«importCache’ÔrL•¤type¥start£endªspecifiers¦source±ImportDeclarationÌ€Ì¢‘ÔrM”¤type¥start£end¥local¶ImportDefaultSpecifierÌ‡ÌÔrN”¤type¥start£end¤nameªIdentifierÌ‡Ì¦routerÔrO•¤type¥start£end¥value£raw§LiteralÌ“Ì¡¬@ohos.router®'@ohos.router'L±ImportDeclarationÌ¤Ìó‘ÔrP•¤type¥start£end¨imported¥local¯ImportSpecifierÌ­ÌÅNªIdentifierÌ­Ì¼¯CommonConstantsNªIdentifierÌÀÌÅ¥ConstO§LiteralÌÍÌòÙ#../common/constants/CommonConstantsÙ%'../common/constants/CommonConstants'

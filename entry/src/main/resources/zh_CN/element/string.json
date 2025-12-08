@@ -1,0 +1,56 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "华为商城"
+    },
+    {
+      "name": "title_bar_homepage",
+      "value": "首页"
+    },
+    {
+      "name": "title_bar_phone",
+      "value": "手机"
+    },
+    {
+      "name": "title_bar_computer",
+      "value": "电脑"
+    },
+    {
+      "name": "title_bar_foods",
+      "value": "美食"
+    },
+    {
+      "name": "title_bar_men_wear",
+      "value": "穿戴"
+    },
+    {
+      "name": "title_bar_fresh",
+      "value": "耳机"
+    },
+    {
+      "name": "title_bar_furniture_kitchenware",
+      "value": "家具"
+    },
+    {
+      "name": "title_bar_classification",
+      "value": "分类"
+    },
+    {
+      "name": "search_text",
+      "value": "儿童餐椅"
+    },
+    {
+      "name": "footer_text",
+      "value": "已经到底了"
+    }
+  ]
+}
