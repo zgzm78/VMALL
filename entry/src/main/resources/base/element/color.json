@@ -15,6 +15,10 @@
     {
       "name": "home_background_color",
       "value": "#F1F3F5"
+    },
+    {
+      "name": "error_color",
+      "value": "#FFA500"
     }
   ]
 }

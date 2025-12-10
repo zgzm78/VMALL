@@ -122,20 +122,192 @@ struct HomePage {
 
   // 购物车页面由 CartPage 组件实现
 
-  // 我的占位页
   @Builder
   private ProfilePage() {
     Column() {
-      Text('我的')
-        .fontSize($r('app.float.middle_font_size'))
-        .fontColor(Color.White)
-      Text('个人中心功能待实现')
-        .fontSize($r('app.float.small_font_size'))
-        .fontColor(Color.White)
-        .opacity(Const.SIXTY_OPACITY)
-        .margin({ top: 8 })
+      Row() {
+        Image($r('app.media.ic_tab_profile'))
+          .width(96)
+          .height(96)
+          .borderRadius(48)
+          .border({ width: 2, color: $r('app.color.home_background_color') })
+          .shadow({ radius: 8, color: '#40000000', offsetY: 4 })
+          .margin({ right: 20 })
+
+        Column() {
+          Text('用户')
+            .fontSize(20)
+            .fontColor('#333')
+            .fontWeight(FontWeight.Bold)
+          Text('test123')
+            .fontSize(14)
+            .margin({ top: 6 })
+            .fontColor('#666')
+        }
+        .layoutWeight(1)
+
+        Row() {
+          Button('退出登录')
+            .width(96)
+            .height(36)
+            .fontSize(14)
+            .backgroundColor('#FFF')
+            .fontColor($r('app.color.error_color'))
+            .border({ width: 1, color: $r('app.color.error_color') })
+            .borderRadius(18)
+        }
+      }
+      .padding(16)
+      .backgroundColor(Color.White)
+      .borderRadius(16)
+      .margin(12)
+      .width('100%')
+      Row() {
+          Column() {
+            Text('优惠券')
+              .fontSize(14)
+              .fontColor('#666')
+            Text('2张')
+              .fontSize(16)
+              .fontColor('#333')
+              .margin({ top: 4 })
+          }
+
+
+          Column() {
+            Text('余额')
+              .fontSize(14)
+              .fontColor('#666')
+            Text('¥3.14')
+              .fontSize(16)
+              .fontColor('#333')
+              .margin({ top: 4 })
+          }
+
+
+          Column() {
+            Text('红包')
+              .fontSize(14)
+              .fontColor('#666')
+            Text('3个')
+              .fontSize(16)
+              .fontColor('#333')
+              .margin({ top: 4 })
+          }
+
+
+          Column() {
+            Text('省钱卡')
+              .fontSize(14)
+              .fontColor('#666')
+            Text('已开通')
+              .fontSize(16)
+              .fontColor(Color.Green)
+              .margin({ top: 4 })
+          }
+
+      }
+      .padding(16)
+      .backgroundColor(Color.White)
+      .borderRadius(16)
+      .width('100%')
+      .margin(12)
+      .justifyContent(FlexAlign.SpaceBetween)
+      Row() {
+          Column() {
+            Text('我的足迹')
+              .fontSize(14)
+              .fontColor('#333')
+          }
+          .borderRadius(8)
+          .onClick(() => {})
+
+          Column() {
+            Text('我的收藏')
+              .fontSize(14)
+              .fontColor('#333')
+          }
+          .borderRadius(8)
+          .onClick(() => {})
+
+          Column() {
+            Text('我的关注')
+              .fontSize(14)
+              .fontColor('#333')
+          }
+          .borderRadius(8)
+          .onClick(() => {})
+
+      }
+      .width('80%')
+      .justifyContent(FlexAlign.SpaceBetween)
+      Column() {
+        Row() {
+          Text('我的订单')
+            .fontSize(18)
+            .fontColor('#333')
+            .fontWeight(FontWeight.Medium)
+
+          Blank()
+
+          Text('查看全部 >')
+            .fontSize(14)
+            .fontColor('#666')
+            .onClick(() => {})
+        }
+        .width('100%')
+        .margin({ bottom: 16 })
+
+        Row() {
+          Column() {
+            Image($r('app.media.icon_zhif'))
+              .width(50)
+            Text('待付款')
+              .fontSize(14)
+              .fontColor('#666')
+              .margin({ top: 8 })
+          }
+
+          Column() {
+            Image($r('app.media.icon_lotion'))
+              .width(50)
+            Text('待收货')
+              .fontSize(14)
+              .fontColor('#666')
+              .margin({ top: 8 })
+          }
+
+          Column() {
+            Image($r('app.media.carmine'))
+              .width(50)
+            Text('待评价')
+              .fontSize(14)
+              .fontColor('#666')
+              .margin({ top: 8 })
+          }
+
+          Column() {
+            Image($r('app.media.icon_gwc'))
+              .width(50)
+            Text('退换/售后')
+              .fontSize(14)
+              .fontColor('#666')
+              .margin({ top: 8 })
+          }
+
+        }
+        .padding(16)
+        .backgroundColor(Color.White)
+        .borderRadius(16)
+        .width('100%')
+        .justifyContent(FlexAlign.SpaceBetween)
+      }
+      .padding(16)
+      .backgroundColor(Color.White)
+      .borderRadius(16)
+      .width('100%')
+      .margin(12)
     }
-    .justifyContent(FlexAlign.Center)
     .alignItems(HorizontalAlign.Center)
     .width(Const.FULL_WIDTH)
     .height(Const.FULL_HEIGHT)
