@@ -1,4 +1,4 @@
-Ôr@Ÿªassertions¤code´customTransformCache¬dependencies¢id¤meta±moduleSideEffects¬originalCode±originalSourcemap«resolvedIds®sourcemapChainµsyntheticNamedExportsµtransformDependencies®transformFiles¨cacheAstÔrAÚ'_if (!("finalizeConstruction" in ViewPU.prototype)) {
+Ôr@Ÿªassertions¤code´customTransformCache¬dependencies¢id¤meta±moduleSideEffects¬originalCode±originalSourcemap«resolvedIds®sourcemapChainµsyntheticNamedExportsµtransformDependencies®transformFiles¨cacheAstÔrAÚ'if (!("finalizeConstruction" in ViewPU.prototype)) {
     Reflect.set(ViewPU.prototype, "finalizeConstruction", () => { });
 }
 /*
@@ -51,7 +51,6 @@ export default class FlowItemComponent extends ViewPU {
                 right: { "id": 16777255, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
                 bottom: { "id": 16777253, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
             });
-            Column.height('250vp');
             Column.onClick(() => {
                 // Navigate to product detail page
                 router.pushUrl({
@@ -99,17 +98,13 @@ export default class FlowItemComponent extends ViewPU {
         }, Text);
         Text.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Row.create();
-            Row.width(Const.FULL_WIDTH);
-            Row.justifyContent(FlexAlign.Start);
-            Row.alignItems(VerticalAlign.Center);
-        }, Row);
-        this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create(this.item?.price);
             Text.fontSize({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Normal);
             Text.lineHeight({ "id": 16777251, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.width(Const.FULL_WIDTH);
+            Text.textAlign(TextAlign.Start);
         }, Text);
         Text.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -118,16 +113,19 @@ export default class FlowItemComponent extends ViewPU {
                 this.ifElseBranchUpdateFunction(0, () => {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         Text.create(`${this.item?.promotion}`);
-                        Text.height({ "id": 16777263, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.fontSize({ "id": 16777257, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.fontColor(Color.White);
                         Text.borderRadius({ "id": 16777262, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.backgroundColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.padding({
                             left: { "id": 16777260, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
-                            right: { "id": 16777261, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
+                            right: { "id": 16777261, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+                            top: 2,
+                            bottom: 2
                         });
-                        Text.margin({ left: 4 });
+                        Text.textAlign(TextAlign.Start);
+                        Text.margin({ top: { "id": 16777240, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
+                        Text.alignSelf(ItemAlign.Start);
                     }, Text);
                     Text.pop();
                 });
@@ -138,7 +136,6 @@ export default class FlowItemComponent extends ViewPU {
             }
         }, If);
         If.pop();
-        Row.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             If.create();
             if (this.item?.bonus_points) {
@@ -178,7 +175,7 @@ export default class FlowItemComponent extends ViewPU {
         this.updateDirtyElements();
     }
 }
-//# sourceMappingURL=FlowItemComponent.js.mapÂ“Ùf hvigor_ignore_C:_Program Files_Huawei_DevEco Studio_sdk_default_openharmony_ets_api_@ohos.router.d.tsÙ\C:\Users\22879\Desktop\soft-oh\VMALL\entry\src\main\ets\common\constants\CommonConstants.etsÙSC:\Users\22879\Desktop\soft-oh\VMALL\entry\src\main\ets\viewmodel\HomeViewModel.etsÙRC:\Users\22879\Desktop\soft-oh\VMALL\entry\src\main\ets\view\FlowItemComponent.etsÔrBœªmoduleName±isLocalDependency¯isNodeEntryFile§pkgPath±belongProjectPath§pkgNameªpkgVersion±dependencyPkgInfo¯hostModulesInfo°belongModulePath§checker¬shouldEmitJs¥entryÃÂÙ*C:\Users\22879\Desktop\soft-oh\VMALL\entryÙ$C:\Users\22879\Desktop\soft-oh\VMALL¥entry¥1.0.0Ô  ‘ÔrC’²hostDependencyName®hostModuleName¹../view/FlowItemComponent¥entryÙ*C:\Users\22879\Desktop\soft-oh\VMALL\entryÔrDÜ ®¬getNodeCount²getIdentifierCount®getSymbolCount¬getTypeCountµgetInstantiationCountµgetRelationCacheSizes±isUndefinedSymbol±isArgumentsSymbol¯isUnknownSymbol¯getMergedSymbol®getDiagnostics´getGlobalDiagnostics´getRecursionIdentity¶getUnmatchedProperties¹getTypeOfSymbolAtLocation¯getTypeOfSymbolÙ(getSymbolsOfParameterPropertyDeclaration·getDeclaredTypeOfSymbol³getPropertiesOfType±getPropertyOfTypeÙ"getPrivateIdentifierPropertyOfType·getTypeOfPropertyOfType²getIndexInfoOfType³getIndexInfosOfTypeºgetIndexInfosOfIndexSymbol³getSignaturesOfType²getIndexTypeOfType¬getIndexType¬getBaseTypes¸getBaseTypeOfLiteralType®getWidenedType³getTypeFromTypeNode°getParameterTypeÙ$getParameterIdentifierNameAtPosition¸getPromisedTypeOfPromise®getAwaitedType¸getReturnTypeOfSignature®isNullableType¯getNullableType²getNonNullableType²getNonOptionalType°getTypeArguments®typeToTypeNodeÙ$indexInfoToIndexSignatureDeclaration¿signatureToSignatureDeclaration²symbolToEntityName²symbolToExpression¬symbolToNodeÙ!symbolToTypeParameterDeclarations¼symbolToParameterDeclarationºtypeParameterToDeclaration±getSymbolsInScope³getSymbolAtLocation·getIndexInfosAtLocationÙ!getShorthandAssignmentValueSymbolÙ#getExportSpecifierLocalTargetSymbol·getExportSymbolOfSymbol±getTypeAtLocationÙ tryGetTypeAtLocationWithoutCheckºgetTypeOfAssignmentPatternÙ*getPropertySymbolOfDestructuringAssignment±signatureToString¬typeToString®symbolToStringµtypePredicateToString®writeSignature©writeType«writeSymbol²writeTypePredicate¼getAugmentedPropertiesOfType®getRootSymbols²getSymbolOfExpando±getContextualTypeÙ(getContextualTypeForObjectLiteralElementÙ#getContextualTypeForArgumentAtIndexÙ getContextualTypeForJsxAttribute²isContextSensitiveÙ!getTypeOfPropertyOfContextualTypeµgetFullyQualifiedNameÙ#tryGetResolvedSignatureWithoutCheck´getResolvedSignatureÙ/getResolvedSignatureForStringLiteralCompletionsÙ$getResolvedSignatureForSignatureHelpµgetExpandedParameters¹hasEffectiveRestParameterºcontainsArgumentsReference°getConstantValueµisValidPropertyAccessÙ#isValidPropertyAccessForCompletions»getSignatureFromDeclarationºisImplementationOfOverload¹getImmediateAliasedSymbol°getAliasedSymbol¯getEmitResolver²getExportsOfModule¿getExportsAndPropertiesOfModuleÙ forEachExportAndPropertyOfModule¯getSymbolWalker±getAmbientModules¹getJsxIntrinsicTagNamesAt³isOptionalParameter»tryGetMemberInModuleExportsÙ(tryGetMemberInModuleExportsAndProperties´tryFindAmbientModuleÙ(tryFindAmbientModuleWithoutAugmentations¯getApparentType¬getUnionType²isTypeAssignableTo³createAnonymousType¯createSignature¬createSymbol¯createIndexInfoªgetAnyType­getStringType­getNumberType±createPromiseType¯createArrayType¹getElementTypeOfArrayType®getBooleanType¬getFalseType«getTrueType«getVoidType°getUndefinedType«getNullType¯getESSymbolType¬getNeverType¯getOptionalType®getPromiseType²getPromiseLikeType´getAsyncIterableType²isSymbolAccessible«isArrayType«isTupleType¯isArrayLikeTypeÙ#isTypeInvalidDueToUnionDiscriminantºgetExactOptionalProperties¿getAllPossiblePropertiesOfTypesÙ(getSuggestedSymbolForNonexistentPropertyÙ#getSuggestionForNonexistentPropertyÙ,getSuggestedSymbolForNonexistentJSXAttributeÙ&getSuggestedSymbolForNonexistentSymbolÙ!getSuggestionForNonexistentSymbolÙ&getSuggestedSymbolForNonexistentModuleÙ!getSuggestionForNonexistentExportÙ+getSuggestedSymbolForNonexistentClassMember·getBaseConstraintOfType»getDefaultFromTypeParameter«resolveName¯getJsxNamespaceµgetJsxFragmentFactory¸getAccessibleSymbolChain»getTypePredicateOfSignature¹resolveExternalModuleName»resolveExternalModuleSymbol°tryGetThisTypeAt¹getTypeArgumentConstraint¸getSuggestionDiagnostics¸runWithCancellationTokenÙ3getLocalTypeParametersOfClassOrInterfaceOrTypeAlias´isDeclarationVisible´isPropertyAccessible»getTypeOnlyAliasDeclaration¿getMemberOverrideModifierStatusÙ!isTypeParameterPossiblyReferenced²getConstEnumRelate´clearConstEnumRelateµdeleteConstEnumRelateÙ$getTypeArgumentsForResolvedSignatureµgetCheckedSourceFilesÙ"collectHaveTsNoCheckFilesForLinter·clearQualifiedNameCache®isStaticRecord²isStaticSourceFile³createIntrinsicTypeÔ  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  ÃÃÚy/*
+//# sourceMappingURL=FlowItemComponent.js.mapÂ“Ùm hvigor_ignore_C:_tools_develop_tools_Harmony_DevEco_Studio_sdk_default_openharmony_ets_api_@ohos.router.d.tsÙ\C:\tools\develop_tools\Harmony\VMALL\entry\src\main\ets\common\constants\CommonConstants.etsÙSC:\tools\develop_tools\Harmony\VMALL\entry\src\main\ets\viewmodel\HomeViewModel.etsÙRC:\tools\develop_tools\Harmony\VMALL\entry\src\main\ets\view\FlowItemComponent.etsÔrBœªmoduleName±isLocalDependency¯isNodeEntryFile§pkgPath±belongProjectPath§pkgNameªpkgVersion±dependencyPkgInfo¯hostModulesInfo°belongModulePath§checker¬shouldEmitJs¥entryÃÂÙ*C:\tools\develop_tools\Harmony\VMALL\entryÙ$C:\tools\develop_tools\Harmony\VMALL¥entry¥1.0.0Ô  ‘ÔrC’²hostDependencyName®hostModuleName¹../view/FlowItemComponent¥entryÙ*C:\tools\develop_tools\Harmony\VMALL\entryÔrDÜ ®¬getNodeCount²getIdentifierCount®getSymbolCount¬getTypeCountµgetInstantiationCountµgetRelationCacheSizes±isUndefinedSymbol±isArgumentsSymbol¯isUnknownSymbol¯getMergedSymbol®getDiagnostics´getGlobalDiagnostics´getRecursionIdentity¶getUnmatchedProperties¹getTypeOfSymbolAtLocation¯getTypeOfSymbolÙ(getSymbolsOfParameterPropertyDeclaration·getDeclaredTypeOfSymbol³getPropertiesOfType±getPropertyOfTypeÙ"getPrivateIdentifierPropertyOfType·getTypeOfPropertyOfType²getIndexInfoOfType³getIndexInfosOfTypeºgetIndexInfosOfIndexSymbol³getSignaturesOfType²getIndexTypeOfType¬getIndexType¬getBaseTypes¸getBaseTypeOfLiteralType®getWidenedType³getTypeFromTypeNode°getParameterTypeÙ$getParameterIdentifierNameAtPosition¸getPromisedTypeOfPromise®getAwaitedType¸getReturnTypeOfSignature®isNullableType¯getNullableType²getNonNullableType²getNonOptionalType°getTypeArguments®typeToTypeNodeÙ$indexInfoToIndexSignatureDeclaration¿signatureToSignatureDeclaration²symbolToEntityName²symbolToExpression¬symbolToNodeÙ!symbolToTypeParameterDeclarations¼symbolToParameterDeclarationºtypeParameterToDeclaration±getSymbolsInScope³getSymbolAtLocation·getIndexInfosAtLocationÙ!getShorthandAssignmentValueSymbolÙ#getExportSpecifierLocalTargetSymbol·getExportSymbolOfSymbol±getTypeAtLocationÙ tryGetTypeAtLocationWithoutCheckºgetTypeOfAssignmentPatternÙ*getPropertySymbolOfDestructuringAssignment±signatureToString¬typeToString®symbolToStringµtypePredicateToString®writeSignature©writeType«writeSymbol²writeTypePredicate¼getAugmentedPropertiesOfType®getRootSymbols²getSymbolOfExpando±getContextualTypeÙ(getContextualTypeForObjectLiteralElementÙ#getContextualTypeForArgumentAtIndexÙ getContextualTypeForJsxAttribute²isContextSensitiveÙ!getTypeOfPropertyOfContextualTypeµgetFullyQualifiedNameÙ#tryGetResolvedSignatureWithoutCheck´getResolvedSignatureÙ/getResolvedSignatureForStringLiteralCompletionsÙ$getResolvedSignatureForSignatureHelpµgetExpandedParameters¹hasEffectiveRestParameterºcontainsArgumentsReference°getConstantValueµisValidPropertyAccessÙ#isValidPropertyAccessForCompletions»getSignatureFromDeclarationºisImplementationOfOverload¹getImmediateAliasedSymbol°getAliasedSymbol¯getEmitResolver²getExportsOfModule¿getExportsAndPropertiesOfModuleÙ forEachExportAndPropertyOfModule¯getSymbolWalker±getAmbientModules¹getJsxIntrinsicTagNamesAt³isOptionalParameter»tryGetMemberInModuleExportsÙ(tryGetMemberInModuleExportsAndProperties´tryFindAmbientModuleÙ(tryFindAmbientModuleWithoutAugmentations¯getApparentType¬getUnionType²isTypeAssignableTo³createAnonymousType¯createSignature¬createSymbol¯createIndexInfoªgetAnyType­getStringType­getNumberType±createPromiseType¯createArrayType¹getElementTypeOfArrayType®getBooleanType¬getFalseType«getTrueType«getVoidType°getUndefinedType«getNullType¯getESSymbolType¬getNeverType¯getOptionalType®getPromiseType²getPromiseLikeType´getAsyncIterableType²isSymbolAccessible«isArrayType«isTupleType¯isArrayLikeTypeÙ#isTypeInvalidDueToUnionDiscriminantºgetExactOptionalProperties¿getAllPossiblePropertiesOfTypesÙ(getSuggestedSymbolForNonexistentPropertyÙ#getSuggestionForNonexistentPropertyÙ,getSuggestedSymbolForNonexistentJSXAttributeÙ&getSuggestedSymbolForNonexistentSymbolÙ!getSuggestionForNonexistentSymbolÙ&getSuggestedSymbolForNonexistentModuleÙ!getSuggestionForNonexistentExportÙ+getSuggestedSymbolForNonexistentClassMember·getBaseConstraintOfType»getDefaultFromTypeParameter«resolveName¯getJsxNamespaceµgetJsxFragmentFactory¸getAccessibleSymbolChain»getTypePredicateOfSignature¹resolveExternalModuleName»resolveExternalModuleSymbol°tryGetThisTypeAt¹getTypeArgumentConstraint¸getSuggestionDiagnostics¸runWithCancellationTokenÙ3getLocalTypeParametersOfClassOrInterfaceOrTypeAlias´isDeclarationVisible´isPropertyAccessible»getTypeOnlyAliasDeclaration¿getMemberOverrideModifierStatusÙ!isTypeParameterPossiblyReferenced²getConstEnumRelate´clearConstEnumRelateµdeleteConstEnumRelateÙ$getTypeArgumentsForResolvedSignatureµgetCheckedSourceFilesÙ"collectHaveTsNoCheckFilesForLinter·clearQualifiedNameCache®isStaticRecord²isStaticSourceFile³createIntrinsicTypeÔ  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  Ô  ÃÃÚh/*
  * Copyright (c) 2023 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -234,29 +231,30 @@ export default struct FlowItemComponent {
         })
         .maxLines(2)
         .textOverflow({ overflow: TextOverflow.Ellipsis })
-      Row() {
-        Text(this.item?.price)
-          .fontSize($r('app.float.middle_font_size'))
-          .fontColor($r('app.color.focus_color'))
-          .fontWeight(FontWeight.Normal)
-          .lineHeight($r('app.float.piece_line_height'))
-        if (this.item?.promotion) {
-          Text(`${this.item?.promotion}`)
-            .height($r('app.float.promotion_text_height'))
-            .fontSize($r('app.float.promotion_font_size'))
-            .fontColor(Color.White)
-            .borderRadius($r('app.float.promotion_radius'))
-            .backgroundColor($r('app.color.focus_color'))
-            .padding({
-              left: $r('app.float.promotion_padding_left'),
-              right: $r('app.float.promotion_padding_right')
-            })
-            .margin({ left: 4 })
-        }
+      Text(this.item?.price)
+        .fontSize($r('app.float.middle_font_size'))
+        .fontColor($r('app.color.focus_color'))
+        .fontWeight(FontWeight.Normal)
+        .lineHeight($r('app.float.piece_line_height'))
+        .width(Const.FULL_WIDTH)
+        .textAlign(TextAlign.Start)
+      
+      if (this.item?.promotion) {
+        Text(`${this.item?.promotion}`)
+          .fontSize($r('app.float.promotion_font_size'))
+          .fontColor(Color.White)
+          .borderRadius($r('app.float.promotion_radius'))
+          .backgroundColor($r('app.color.focus_color'))
+          .padding({
+            left: $r('app.float.promotion_padding_left'),
+            right: $r('app.float.promotion_padding_right'),
+            top: 2,
+            bottom: 2
+          })
+          .textAlign(TextAlign.Start)
+          .margin({ top: $r('app.float.discount_text_bottom') })
+          .alignSelf(ItemAlign.Start)
       }
-      .width(Const.FULL_WIDTH)
-      .justifyContent(FlexAlign.Start)
-      .alignItems(VerticalAlign.Center)
 
       if (this.item?.bonus_points) {
         Row() {
@@ -284,7 +282,6 @@ export default struct FlowItemComponent {
       right: $r('app.float.product_layout_margin_right'),
       bottom: $r('app.float.product_layout_margin_bottom')
     })
-    .height('250vp')
     .onClick(() => {
       // Navigate to product detail page
       router.pushUrl({
@@ -298,13 +295,12 @@ export default struct FlowItemComponent {
     })
   }
 }
-ÀÔrE“¬@ohos.routerÙ#../common/constants/CommonConstantsº../viewmodel/HomeViewModelÔrF—ªassertions¨external¢id¤meta±moduleSideEffectsªresolvedByµsyntheticNamedExportsAÃÙf hvigor_ignore_C:_Program Files_Huawei_DevEco Studio_sdk_default_openharmony_ets_api_@ohos.router.d.tsAÃªoh-resolveÂFAÂÙ\C:\Users\22879\Desktop\soft-oh\VMALL\entry\src\main\ets\common\constants\CommonConstants.etsAÃªoh-resolveÂFAÂÙSC:\Users\22879\Desktop\soft-oh\VMALL\entry\src\main\ets\viewmodel\HomeViewModel.etsAÃªoh-resolveÂ“ÔrG–§version¤fileªsourceRoot§sources¥names¨mappings´FlowItemComponent.js ‘µFlowItemComponent.etsÜ °‘”    ‘” –”   ” ” ” ”! !”" "š”   ” ”	 	” ” ”! !”# #”) )”ÌN ÌN”ÌO ÌO˜”   ” ”	 	” ” ” ”: :”; ;–”   ” ” ” ” ”& '‘”  •” ”! #”" $”# %”$ &‘” ;‘” ’” ” 
+ÀÔrE“¬@ohos.routerº../viewmodel/HomeViewModelÙ#../common/constants/CommonConstantsÔrF—ªassertions¨external¢id¤meta±moduleSideEffectsªresolvedByµsyntheticNamedExportsAÃÙm hvigor_ignore_C:_tools_develop_tools_Harmony_DevEco_Studio_sdk_default_openharmony_ets_api_@ohos.router.d.tsAÃªoh-resolveÂFAÂÙSC:\tools\develop_tools\Harmony\VMALL\entry\src\main\ets\viewmodel\HomeViewModel.etsAÃªoh-resolveÂFAÂÙ\C:\tools\develop_tools\Harmony\VMALL\entry\src\main\ets\common\constants\CommonConstants.etsAÃªoh-resolveÂ“ÔrG–§version¤fileªsourceRoot§sources¥names¨mappings´FlowItemComponent.js ‘µFlowItemComponent.etsÜ ­‘”    ‘” –”   ” ” ” ”! !”" "š”   ” ”	 	” ” ”! !”# #”) )”ÌN ÌN”ÌO ÌO˜”   ” ”	 	” ” ” ”: :”; ;–”   ” ” ” ” ”& '‘”  •” ”! #”" $”# %”$ &‘” ;‘” ’” ” 
 ”” ” 
-” Ìc” Ìc˜” ” 
-” Ìd”" Ìd”# Ìd”( Ìd”) Ìd”. Ìd •” ” 
-” Ìe” Ìe” Ìe“” Ìf” Ìf
-”Ì€ Ìf6“” Ìg” Ìg”Ì Ìg8“” Ìh” Ìh”Ì‚ Ìh:‘” Ìi–” ” 
-” Ìj” Ìj” Ìj”! Ìj—” ” 
+” Ìd” Ìd˜” ” 
+” Ìe”" Ìe”# Ìe”( Ìe”) Ìe”. Ìe •” ” 
+” Ìf” Ìf” Ìf“” Ìg” Ìg
+”Ì€ Ìg6“” Ìh” Ìh”Ì Ìh8“” Ìi” Ìi”Ì‚ Ìi:‘” Ìj—” ” 
 ” Ìk” Ìk” Ìk” Ìk”  Ìk’” Ìl”2 Ìl(•” Ìm” Ìm” Ìm” Ìm” Ìm”” Ìn” Ìn” Ìn”2 Ìn&“” Ìo” Ìo” Ìo–” Ìp
 ” Ìp”! Ìp”% Ìp”& Ìp”* Ìp‘” Ìq	™” Ìr” Ìr” Ìr	” Ìr” Ìr” Ìr” Ìr” Ìr”! Ìrœ” Ìs” Ìs” Ìs”! Ìs”" Ìs”ÌV ÌsÌJ”ÌY ÌsÌM”ÌZ ÌsÌN”Ìa ÌsÌU”Ìc ÌsÌW”Ìd ÌsÌX”Ìe ÌsÌY”” Ìt” Ìt” Ìt” Ìt	’” Ìu” Ìu˜” ” ” ” ” ”" ”$ ”-  ”” ” ” 	” ”” ” ”  	”  ˜” ” ” !	” !” !”$ !”% !”, !#•” ” ” "	” "” "“” #
 ” #”Ì #3“” $
@@ -327,26 +323,26 @@ export default struct FlowItemComponent {
 ” 4”Ì‚ 46‘” 5	–” -” -
 ” 6	” 6” 6” 6œ” -” -
 ” 7	” 7” 7”  7”( 7 ”* 7"”6 7.”7 7/”? 77”ÌA 79’” -” -
-’” 8” 8	˜” 8” 8	” ÌL” ÌL” ÌL” ÌL” ÌL”& ÌL˜” 8” 8	” ÌM” ÌM” ÌM”( ÌM”) ÌM ”. ÌM%˜” 8” 8	” ÌN” ÌN” ÌN”( ÌN”) ÌN ”/ ÌN&˜” 9” 9” 9” 9” 9”! 9”# 9”( 9”” 9” 9” :” :”” 9” 9” ;” ;˜” 9” 9” <” <” <”& < ”' <!”- <'”” 9” 9” =” =’” 9” 9˜” >” >” >” >” >” >”$ > ”& >"š” ?
-” ?”$ ?”' ?”+ ?”, ?”0 ?”2 ?”; ?&”= ?(”” ?
-” ?” Ì@”# Ì@”” ?
-” ?” ÌA”% ÌA˜” ?
-” ?” ÌB”& ÌB”' ÌB”, ÌB”- ÌB”2 ÌB"”” ?
-” ?” ÌC”) ÌC”” ?
-” ?” ÌD”, ÌD•” ?
-” ?” ÌE”$ ÌE”% ÌE“” ÌF”  ÌF”ÌŒ ÌF:“” ÌG”! ÌG”Ì ÌG<‘” ÌHš” ?
-” ?” ÌI”# ÌI”$ ÌI”& ÌI”* ÌI”, ÌI”- ÌI”/ ÌI’” ?
-” ?‘” ÌJ	‘” ÌJ	’” 8” 8	˜” ÌP” ÌP
-” ÌP” ÌP” ÌP” ÌP”' ÌP!”) ÌP#’” ÌQ” ÌQ˜” ÌQ” ÌQ” Ì_	”! Ì_”" Ì_”' Ì_”( Ì_”2 Ì_˜” ÌQ” ÌQ” Ì`	”* Ì`”+ Ì`”4 Ì`!”5 Ì`"”: Ì`'š” ÌR
-” ÌR”$ ÌR”* ÌR”. ÌR”/ ÌR”3 ÌR”5 ÌR ”ÌA ÌR,”ÌC ÌR.”” ÌR
-” ÌR” ÌS”# ÌS”” ÌR
-” ÌR” ÌT”% ÌT”” ÌR
-” ÌR” ÌU”& ÌU”” ÌR
-” ÌR” ÌV”) ÌV”” ÌR
-” ÌR” ÌW”( ÌW”” ÌR
-” ÌR” ÌX”( ÌX•” ÌR
-” ÌR” ÌY”$ ÌY”% ÌY“” ÌZ”  ÌZ”ÌŒ ÌZ=“” Ì[”! Ì[”Ì Ì[?‘” Ì\™” ÌR
-” ÌR” Ì]”# Ì]”$ Ì]”& Ì]”) Ì]”Ì• Ì]ÌB”Ì— Ì]ÌD’” ÌR
-” ÌR’” ÌQ” ÌQ‘” Ìa‘” Ìa’” ” 
-‘” ÌvÔrH–§version¤file§sources®sourcesContent¥names¨mappingsÀ‘À‘ÀÜ µ‘”    ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”  	 ‘”  
- ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”    ‘”  ! ‘”  " ‘”  # ‘”  $ ‘”  % ‘”  & ‘”  ' ‘”  ( ‘”  ) ‘”  * ‘”  + ‘”  , ‘”  - ‘”  . ‘”  / ‘”  0 ‘”  1 ‘”  2 ‘”  3 ‘”  4 ‘”  5 ‘”  6 ‘”  7 ‘”  8 ‘”  9 ‘”  : ‘”  ; ‘”  < ‘”  = ‘”  > ‘”  ? ‘”  Ì@ ‘”  ÌA ‘”  ÌB ‘”  ÌC ‘”  ÌD ‘”  ÌE ‘”  ÌF ‘”  ÌG ‘”  ÌH ‘”  ÌI ‘”  ÌJ ‘”  ÌK ‘”  ÌL ‘”  ÌM ‘”  ÌN ‘”  ÌO ‘”  ÌP ‘”  ÌQ ‘”  ÌR ‘”  ÌS ‘”  ÌT ‘”  ÌU ‘”  ÌV ‘”  ÌW ‘”  ÌX ‘”  ÌY ‘”  ÌZ ‘”  Ì[ ‘”  Ì\ ‘”  Ì] ‘”  Ì^ ‘”  Ì_ ‘”  Ì` ‘”  Ìa ‘”  Ìb ‘”  Ìc ‘”  Ìd ‘”  Ìe ‘”  Ìf ‘”  Ìg ‘”  Ìh ‘”  Ìi ‘”  Ìj ‘”  Ìk ‘”  Ìl ‘”  Ìm ‘”  Ìn ‘”  Ìo ‘”  Ìp ‘”  Ìq ‘”  Ìr ‘”  Ìs ‘”  Ìt ‘”  Ìu ‘”  Ìv ‘”  Ìw ‘”  Ìx ‘”  Ìy ‘”  Ìz ‘”  Ì{ ‘”  Ì| ‘”  Ì} ‘”  Ì~ ‘”  Ì ‘”  Ì€ ‘”  Ì ‘”  Ì‚ ‘”  Ìƒ ‘”  Ì„ ‘”  Ì… ‘”  Ì† ‘”  Ì‡ ‘”  Ìˆ ‘”  Ì‰ ‘”  ÌŠ ‘”  Ì‹ ‘”  ÌŒ ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì‘ ‘”  Ì’ ‘”  Ì“ ‘”  Ì” ‘”  Ì• ‘”  Ì– ‘”  Ì— ‘”  Ì˜ ‘”  Ì™ ‘”  Ìš ‘”  Ì› ‘”  Ìœ ‘”  Ì ‘”  Ì ‘”  ÌŸ ‘”  Ì  ‘”  Ì¡ ‘”  Ì¢ ‘”  Ì£ ‘”  Ì¤ ‘”  Ì¥ ‘”  Ì¦ ‘”  Ì§ ‘”  Ì¨ ‘”  Ì© ‘”  Ìª ‘”  Ì« ‘”  Ì¬ ‘”  Ì­ ‘”  Ì® ‘”  Ì¯ ‘”  Ì° ‘”  Ì± ‘”  Ì² ‘”  Ì³ ‘”  Ì´ ÔrI’§missing¦pluginÃ¦genAbcÂÔ  ÔrJ”²dynamicImportCache¹exportAllDeclarationCache»exportNamedDeclarationCache«importCache“ÔrK•¤type¥start£endªspecifiers¦source±ImportDeclarationÍîÍ‘ÔrL”¤type¥start£end¥local¶ImportDefaultSpecifierÍõÍûÔrM”¤type¥start£end¤nameªIdentifierÍõÍû¦routerÔrN•¤type¥start£end¥value£raw§LiteralÍÍ¬@ohos.router®'@ohos.router'K±ImportDeclarationÍÍa‘ÔrO•¤type¥start£end¨imported¥local¯ImportSpecifierÍÍ3MªIdentifierÍÍ*¯CommonConstantsMªIdentifierÍ.Í3¥ConstN§LiteralÍ;Í`Ù#../common/constants/CommonConstantsÙ%'../common/constants/CommonConstants'K±ImportDeclarationÍcÍ‘O¯ImportSpecifierÍlÍyMªIdentifierÍlÍy­waterFlowDataMªIdentifierÍlÍy­waterFlowDataN§LiteralÍÍº../viewmodel/HomeViewModel¼'../viewmodel/HomeViewModel'
+˜” 8” 8
+” 8” 8” 8”! 8”# 8”( 8”” 8” 8
+” 9	” 9”” 8” 8
+” :	” :˜” 8” 8
+” ;	” ;” ;”& ;”' ;”- ;%”” 8” 8
+” <	” <˜” 8” 8
+” =	” =” =” =” =”' =˜” 8” 8
+” >	” >” >”$ >”% >”* >"’” 8” 8
+˜” Ì@” Ì@
+” Ì@” Ì@” Ì@” Ì@”$ Ì@”& Ì@ š” ÌA” ÌA”$ ÌA”' ÌA”+ ÌA”, ÌA”0 ÌA”2 ÌA”; ÌA$”= ÌA&”” ÌA” ÌA” ÌB”% ÌB˜” ÌA” ÌA” ÌC”& ÌC”' ÌC”, ÌC”- ÌC”2 ÌC ”” ÌA” ÌA” ÌD”) ÌD”” ÌA” ÌA” ÌE”, ÌE•” ÌA” ÌA” ÌF”$ ÌF”% ÌF“” ÌG”  ÌG”ÌŒ ÌG8“” ÌH”! ÌH”Ì ÌH:”” ÌI” ÌI”! ÌI”" ÌI”” ÌJ”" ÌJ”$ ÌJ”% ÌJ‘” ÌK˜” ÌA” ÌA” ÌL”& ÌL”' ÌL”0 ÌL”1 ÌL”6 ÌL$™” ÌA” ÌA” ÌM”# ÌM”$ ÌM”& ÌM”) ÌM”Ì• ÌM=”Ì— ÌM?˜” ÌA” ÌA” ÌN”& ÌN”' ÌN”0 ÌN”1 ÌN”6 ÌN$’” ÌA” ÌA‘” ÌO‘” ÌO˜” ÌQ” ÌQ
+” ÌQ” ÌQ” ÌQ” ÌQ”' ÌQ!”) ÌQ#’” ÌR” ÌR˜” ÌR” ÌR” Ì`	”! Ì`”" Ì`”' Ì`”( Ì`”2 Ì`˜” ÌR” ÌR” Ìa	”* Ìa”+ Ìa”4 Ìa!”5 Ìa"”: Ìa'š” ÌS
+” ÌS”$ ÌS”* ÌS”. ÌS”/ ÌS”3 ÌS”5 ÌS ”ÌA ÌS,”ÌC ÌS.”” ÌS
+” ÌS” ÌT”# ÌT”” ÌS
+” ÌS” ÌU”% ÌU”” ÌS
+” ÌS” ÌV”& ÌV”” ÌS
+” ÌS” ÌW”) ÌW”” ÌS
+” ÌS” ÌX”( ÌX”” ÌS
+” ÌS” ÌY”( ÌY•” ÌS
+” ÌS” ÌZ”$ ÌZ”% ÌZ“” Ì[”  Ì[”ÌŒ Ì[=“” Ì\”! Ì\”Ì Ì\?‘” Ì]™” ÌS
+” ÌS” Ì^”# Ì^”$ Ì^”& Ì^”) Ì^”Ì• Ì^ÌB”Ì— Ì^ÌD’” ÌS
+” ÌS’” ÌR” ÌR‘” Ìb‘” Ìb’” ” 
+‘” ÌvÔrH–§version¤file§sources®sourcesContent¥names¨mappingsÀ‘À‘ÀÜ ²‘”    ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”  	 ‘”  
+ ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”    ‘”  ! ‘”  " ‘”  # ‘”  $ ‘”  % ‘”  & ‘”  ' ‘”  ( ‘”  ) ‘”  * ‘”  + ‘”  , ‘”  - ‘”  . ‘”  / ‘”  0 ‘”  1 ‘”  2 ‘”  3 ‘”  4 ‘”  5 ‘”  6 ‘”  7 ‘”  8 ‘”  9 ‘”  : ‘”  ; ‘”  < ‘”  = ‘”  > ‘”  ? ‘”  Ì@ ‘”  ÌA ‘”  ÌB ‘”  ÌC ‘”  ÌD ‘”  ÌE ‘”  ÌF ‘”  ÌG ‘”  ÌH ‘”  ÌI ‘”  ÌJ ‘”  ÌK ‘”  ÌL ‘”  ÌM ‘”  ÌN ‘”  ÌO ‘”  ÌP ‘”  ÌQ ‘”  ÌR ‘”  ÌS ‘”  ÌT ‘”  ÌU ‘”  ÌV ‘”  ÌW ‘”  ÌX ‘”  ÌY ‘”  ÌZ ‘”  Ì[ ‘”  Ì\ ‘”  Ì] ‘”  Ì^ ‘”  Ì_ ‘”  Ì` ‘”  Ìa ‘”  Ìb ‘”  Ìc ‘”  Ìd ‘”  Ìe ‘”  Ìf ‘”  Ìg ‘”  Ìh ‘”  Ìi ‘”  Ìj ‘”  Ìk ‘”  Ìl ‘”  Ìm ‘”  Ìn ‘”  Ìo ‘”  Ìp ‘”  Ìq ‘”  Ìr ‘”  Ìs ‘”  Ìt ‘”  Ìu ‘”  Ìv ‘”  Ìw ‘”  Ìx ‘”  Ìy ‘”  Ìz ‘”  Ì{ ‘”  Ì| ‘”  Ì} ‘”  Ì~ ‘”  Ì ‘”  Ì€ ‘”  Ì ‘”  Ì‚ ‘”  Ìƒ ‘”  Ì„ ‘”  Ì… ‘”  Ì† ‘”  Ì‡ ‘”  Ìˆ ‘”  Ì‰ ‘”  ÌŠ ‘”  Ì‹ ‘”  ÌŒ ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì‘ ‘”  Ì’ ‘”  Ì“ ‘”  Ì” ‘”  Ì• ‘”  Ì– ‘”  Ì— ‘”  Ì˜ ‘”  Ì™ ‘”  Ìš ‘”  Ì› ‘”  Ìœ ‘”  Ì ‘”  Ì ‘”  ÌŸ ‘”  Ì  ‘”  Ì¡ ‘”  Ì¢ ‘”  Ì£ ‘”  Ì¤ ‘”  Ì¥ ‘”  Ì¦ ‘”  Ì§ ‘”  Ì¨ ‘”  Ì© ‘”  Ìª ‘”  Ì« ‘”  Ì¬ ‘”  Ì­ ‘”  Ì® ‘”  Ì¯ ‘”  Ì° ‘”  Ì± ÔrI’§missing¦pluginÃ¦genAbcÂÔ  ÔrJ”²dynamicImportCache¹exportAllDeclarationCache»exportNamedDeclarationCache«importCache“ÔrK•¤type¥start£endªspecifiers¦source±ImportDeclarationÍîÍ‘ÔrL”¤type¥start£end¥local¶ImportDefaultSpecifierÍõÍûÔrM”¤type¥start£end¤nameªIdentifierÍõÍû¦routerÔrN•¤type¥start£end¥value£raw§LiteralÍÍ¬@ohos.router®'@ohos.router'K±ImportDeclarationÍÍa‘ÔrO•¤type¥start£end¨imported¥local¯ImportSpecifierÍÍ3MªIdentifierÍÍ*¯CommonConstantsMªIdentifierÍ.Í3¥ConstN§LiteralÍ;Í`Ù#../common/constants/CommonConstantsÙ%'../common/constants/CommonConstants'K±ImportDeclarationÍcÍ‘O¯ImportSpecifierÍlÍyMªIdentifierÍlÍy­waterFlowDataMªIdentifierÍlÍy­waterFlowDataN§LiteralÍÍº../viewmodel/HomeViewModel¼'../viewmodel/HomeViewModel'

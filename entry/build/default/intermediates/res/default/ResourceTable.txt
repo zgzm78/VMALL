@@ -12,6 +12,7 @@ string title_bar_furniture_kitchenware 0x0100000b
 string title_bar_homepage 0x0100000c
 string title_bar_men_wear 0x0100000d
 string title_bar_phone 0x0100000e
+color error_color 0x01000056
 color focus_color 0x0100000f
 color home_background_color 0x01000010
 color indicator_select 0x01000011
@@ -65,6 +66,7 @@ float water_flow_image_bottom 0x01000040
 float water_flow_image_top 0x01000041
 float water_flow_row_gap 0x01000042
 media app_icon 0x01000001
+media carmine 0x01000057
 media ic_app_background 0x01000043
 media ic_coupons 0x01000044
 media ic_holder_50e 0x01000045
@@ -83,4 +85,7 @@ media ic_tab_cart 0x01000053
 media ic_tab_home 0x01000054
 media ic_tab_profile 0x01000055
 media icon 0x01000051
+media icon_gwc 0x01000058
+media icon_lotion 0x01000059
+media icon_zhif 0x0100005a
 profile main_pages 0x01000052

@@ -343,5 +343,25 @@
 			"type":	"media",
 			"name":	"ic_tab_profile",
 			"id":	"0x01000055"
+		}, {
+			"type":	"color",
+			"name":	"error_color",
+			"id":	"0x01000056"
+		}, {
+			"type":	"media",
+			"name":	"carmine",
+			"id":	"0x01000057"
+		}, {
+			"type":	"media",
+			"name":	"icon_gwc",
+			"id":	"0x01000058"
+		}, {
+			"type":	"media",
+			"name":	"icon_lotion",
+			"id":	"0x01000059"
+		}, {
+			"type":	"media",
+			"name":	"icon_zhif",
+			"id":	"0x0100005A"
 		}]
 }

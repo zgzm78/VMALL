@@ -125,6 +125,23 @@ struct HomePage {
   @Builder
   private ProfilePage() {
     Column() {
+      // 添加"我的信息"标题容器
+      Column() {
+        Text('我的信息')
+            .fontSize(24)
+            .fontColor('#FFF')
+            .fontWeight(FontWeight.Bold)
+            .alignSelf(ItemAlign.Center)
+      }
+      .width(Const.FULL_WIDTH)
+      .height(70)
+      .justifyContent(FlexAlign.Center)
+      .alignItems(HorizontalAlign.Center)
+      .borderRadius(12)
+      .margin({ bottom: 16 })
+      .shadow({ radius: 2, color: '#1F000000', offsetY: 1 })
+      
+      // 用户信息卡片
       Row() {
         Image($r('app.media.ic_tab_profile'))
           .width(96)
@@ -157,94 +174,125 @@ struct HomePage {
             .borderRadius(18)
         }
       }
-      .padding(16)
+      .padding(20)
       .backgroundColor(Color.White)
       .borderRadius(16)
-      .margin(12)
-      .width('100%')
+      .margin({ left: 20, right: 20, bottom: 20 })
+      .width('calc(100% - 40px)')
+      .shadow({ radius: 4, color: '#1F000000', offsetY: 2 })
+      
+      // 资产统计区域
       Row() {
           Column() {
             Text('优惠券')
               .fontSize(14)
               .fontColor('#666')
             Text('2张')
-              .fontSize(16)
+              .fontSize(18)
               .fontColor('#333')
+              .fontWeight(FontWeight.Medium)
               .margin({ top: 4 })
           }
-
+          .flexGrow(1)
+          .alignItems(HorizontalAlign.Center)
+          .padding(12)
 
           Column() {
             Text('余额')
               .fontSize(14)
               .fontColor('#666')
             Text('¥3.14')
-              .fontSize(16)
+              .fontSize(18)
               .fontColor('#333')
+              .fontWeight(FontWeight.Medium)
               .margin({ top: 4 })
           }
-
+          .flexGrow(1)
+          .alignItems(HorizontalAlign.Center)
+          .padding(12)
 
           Column() {
             Text('红包')
               .fontSize(14)
               .fontColor('#666')
             Text('3个')
-              .fontSize(16)
+              .fontSize(18)
               .fontColor('#333')
+              .fontWeight(FontWeight.Medium)
               .margin({ top: 4 })
           }
-
+          .flexGrow(1)
+          .alignItems(HorizontalAlign.Center)
+          .padding(12)
 
           Column() {
             Text('省钱卡')
               .fontSize(14)
               .fontColor('#666')
             Text('已开通')
-              .fontSize(16)
+              .fontSize(18)
               .fontColor(Color.Green)
+              .fontWeight(FontWeight.Medium)
               .margin({ top: 4 })
           }
+          .flexGrow(1)
+          .alignItems(HorizontalAlign.Center)
+          .padding(12)
 
       }
       .padding(16)
       .backgroundColor(Color.White)
       .borderRadius(16)
-      .width('100%')
-      .margin(12)
+      .margin({ left: 20, right: 20, bottom: 20 })
+      .width('calc(100% - 40px)')
       .justifyContent(FlexAlign.SpaceBetween)
+      .shadow({ radius: 4, color: '#1F000000', offsetY: 2 })
+      
+      // 快捷入口区域
       Row() {
           Column() {
             Text('我的足迹')
-              .fontSize(14)
+              .fontSize(16)
               .fontColor('#333')
+              .padding(12)
+              .backgroundColor(Color.White)
+              .borderRadius(12)
+              .shadow({ radius: 2, color: '#1F000000', offsetY: 1 })
           }
-          .borderRadius(8)
           .onClick(() => {})
 
           Column() {
             Text('我的收藏')
-              .fontSize(14)
+              .fontSize(16)
               .fontColor('#333')
+              .padding(12)
+              .backgroundColor(Color.White)
+              .borderRadius(12)
+              .shadow({ radius: 2, color: '#1F000000', offsetY: 1 })
           }
-          .borderRadius(8)
           .onClick(() => {})
 
           Column() {
             Text('我的关注')
-              .fontSize(14)
+              .fontSize(16)
               .fontColor('#333')
+              .padding(12)
+              .backgroundColor(Color.White)
+              .borderRadius(12)
+              .shadow({ radius: 2, color: '#1F000000', offsetY: 1 })
           }
-          .borderRadius(8)
           .onClick(() => {})
 
       }
-      .width('80%')
+      .width('calc(100% - 80px)')
       .justifyContent(FlexAlign.SpaceBetween)
+      .margin({ bottom: 20 })
+      
+      // 我的订单区域
       Column() {
         Row() {
           Text('我的订单')
-            .fontSize(18)
+            .fontSize(20)
             .fontColor('#333')
             .fontWeight(FontWeight.Medium)
 
@@ -256,7 +304,7 @@ struct HomePage {
             .onClick(() => {})
         }
         .width('100%')
-        .margin({ bottom: 16 })
+        .margin({ bottom: 20 })
 
         Row() {
           Column() {
@@ -267,6 +315,8 @@ struct HomePage {
               .fontColor('#666')
               .margin({ top: 8 })
           }
+          .flexGrow(1)
+          .alignItems(HorizontalAlign.Center)
 
           Column() {
             Image($r('app.media.icon_lotion'))
@@ -276,6 +326,8 @@ struct HomePage {
               .fontColor('#666')
               .margin({ top: 8 })
           }
+          .flexGrow(1)
+          .alignItems(HorizontalAlign.Center)
 
           Column() {
             Image($r('app.media.carmine'))
@@ -285,6 +337,8 @@ struct HomePage {
               .fontColor('#666')
               .margin({ top: 8 })
           }
+          .flexGrow(1)
+          .alignItems(HorizontalAlign.Center)
 
           Column() {
             Image($r('app.media.icon_gwc'))
@@ -294,22 +348,27 @@ struct HomePage {
               .fontColor('#666')
               .margin({ top: 8 })
           }
+          .flexGrow(1)
+          .alignItems(HorizontalAlign.Center)
 
         }
-        .padding(16)
+        .padding(20)
         .backgroundColor(Color.White)
         .borderRadius(16)
         .width('100%')
         .justifyContent(FlexAlign.SpaceBetween)
       }
-      .padding(16)
+      .padding(20)
       .backgroundColor(Color.White)
       .borderRadius(16)
-      .width('100%')
-      .margin(12)
+      .margin({ left: 20, right: 20 })
+      .width('calc(100% - 40px)')
+      .shadow({ radius: 4, color: '#1F000000', offsetY: 2 })
     }
     .alignItems(HorizontalAlign.Center)
     .width(Const.FULL_WIDTH)
     .height(Const.FULL_HEIGHT)
+    .padding({ bottom: 20 })
+
   }
 }

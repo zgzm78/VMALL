@@ -16,7 +16,8 @@
         "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
         "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
         "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityLifecycleCallback.d.ts",
-        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
       ],
       "error": false
     },
@@ -42,7 +43,8 @@
         "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\folder_stack.d.ts",
         "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\nav_destination.d.ts",
         "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\navigation.d.ts",
-        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
       ],
       "error": false
     },
@@ -89,7 +91,8 @@
         "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cryptoFramework.d.ts",
         "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.print.d.ts",
         "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.data.preferences.d.ts",
-        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
       ],
       "error": false
     },
@@ -629,7 +632,9 @@
         "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
         "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets",
         "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
-        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
       ],
       "error": false
     },
@@ -1461,7 +1466,8 @@
       "children": [],
       "parent": [
         "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow2\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
-        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+        "C:\\tools\\develop_tools\\Harmony\\HarmonyProjects\\WaterFlow\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
       ],
       "error": false
     },
@@ -4500,6 +4506,191 @@
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
         "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
         "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\utils\\Logger.ets": {
+      "mtimeMs": 1765279176853.5642,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.hilog.d.ts"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets": {
+      "mtimeMs": 1765279176855.564,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets": {
+      "mtimeMs": 1765279176853.5642,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets": {
+      "mtimeMs": 1765279176857.563,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets": {
+      "mtimeMs": 1765279176859.564,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\utils\\SearchHistoryManager.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\SwiperComponent.ets": {
+      "mtimeMs": 1765279176859.564,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets": {
+      "mtimeMs": 1765279176859.564,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets": {
+      "mtimeMs": 1765279176855.564,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets": {
+      "mtimeMs": 1765512301483.4067,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets": {
+      "mtimeMs": 1765443624389.005,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets": {
+      "mtimeMs": 1765279176861.564,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\utils\\SearchHistoryManager.ets": {
+      "mtimeMs": 1765279176854.563,
+      "children": [],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\WaterFlowDataSource.ets": {
+      "mtimeMs": 1765279176862.563,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets"
+      ],
+      "error": false
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets": {
+      "mtimeMs": 1765443932574.699,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "parent": [
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets"
+      ],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets": {
+      "mtimeMs": 1765279176857.563,
+      "children": [
+        "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
+        "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
       ],
       "parent": [],
       "error": true,

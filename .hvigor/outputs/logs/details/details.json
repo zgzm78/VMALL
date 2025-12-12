@@ -3,7 +3,10 @@
     "MODULES": [
       {
         "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
-        "API_TYPE": "stageMode"
+        "API_TYPE": "stageMode",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": true
+        }
       }
     ],
     "NATIVE_COMPILER": "Default",
@@ -16,21 +19,23 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "1043bfc77febe75fafec0c4309faccf1": {
-        "CreateModuleInfo": 425800,
-        "ConfigureCmake": 171500,
-        "PreCheckSyscap": 316300,
-        "GeneratePkgContextInfo": 1520500,
-        "ProcessIntegratedHsp": 393400,
-        "BuildNativeWithCmake": 205900,
-        "SyscapTransform": 1436100,
-        "ProcessStartupConfig": 779400,
-        "BuildNativeWithNinja": 368900,
-        "BuildJS": 3058300,
-        "ProcessCompiledResources": 863700,
-        "PackingCheck": 4866900,
-        "SignHap": 1003500,
-        "CollectDebugSymbol": 2011000,
-        "assembleHap": 524900
+        "CreateModuleInfo": 1275700,
+        "ConfigureCmake": 444300,
+        "PreCheckSyscap": 634100,
+        "GeneratePkgContextInfo": 10199600,
+        "ProcessIntegratedHsp": 1304500,
+        "BuildNativeWithCmake": 575100,
+        "SyscapTransform": 14998600,
+        "ProcessStartupConfig": 2224000,
+        "BuildNativeWithNinja": 829100,
+        "BuildJS": 2956700,
+        "CompileArkTS": 21750968800,
+        "ProcessCompiledResources": 1260700,
+        "PackageHap": 454366000,
+        "PackingCheck": 12913100,
+        "SignHap": 2565400,
+        "CollectDebugSymbol": 1569200,
+        "assembleHap": 330300
       }
     },
     "APIS": [
@@ -41,6 +46,8 @@
       "getAllNodes",
       "getRootNode",
       "getNodeName",
+      "getStartParams",
+      "buildFinished",
       "getNodePath",
       "subNodes",
       "getExtraOption",
@@ -54,7 +61,7 @@
       "getCommandEntryTask"
     ],
     "CONFIG_PROPERTIES": {},
-    "TOTAL_TIME": 264366700,
-    "BUILD_ID": "202512082205572890"
+    "BUILD_ID": "202512121205153580",
+    "TOTAL_TIME": 45749902900
   }
 }

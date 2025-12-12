@@ -1,10 +1,10 @@
 {
   "modulePathMap": {
-    "entry": "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry"
+    "entry": "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry"
   },
   "compileMode": "esmodule",
-  "projectRootPath": "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL",
-  "nodeModulesPath": "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+  "projectRootPath": "C:\\tools\\develop_tools\\Harmony\\VMALL",
+  "nodeModulesPath": "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
   "byteCodeHarInfo": {},
   "declarationEntry": [],
   "moduleName": "entry",
@@ -17,9 +17,9 @@
   "routerMap": [],
   "hspResourcesMap": {},
   "updateVersionInfo": {},
-  "anBuildOutPut": "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildOutPut": "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
   "anBuildMode": "type",
   "patchConfig": {
-    "changedFileList": "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+    "changedFileList": "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
   }
 }

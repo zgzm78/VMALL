@@ -9,7 +9,7 @@
 		"SELECT_BUILD_PRODUCT":"default",
 		"BUNDLE_NAME":"com.huawei.waterflow",
 		"BUILD_PATH":{
-			"OUTPUT_PATH":"C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\build\\outputs\\default"
+			"OUTPUT_PATH":"C:\\tools\\develop_tools\\Harmony\\VMALL\\build\\outputs\\default"
 		},
 		"SELECT_BUILD_MODE":""
 	}

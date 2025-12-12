@@ -54,29 +54,30 @@ export default struct FlowItemComponent {
         })
         .maxLines(2)
         .textOverflow({ overflow: TextOverflow.Ellipsis })
-      Row() {
-        Text(this.item?.price)
-          .fontSize($r('app.float.middle_font_size'))
-          .fontColor($r('app.color.focus_color'))
-          .fontWeight(FontWeight.Normal)
-          .lineHeight($r('app.float.piece_line_height'))
-        if (this.item?.promotion) {
-          Text(`${this.item?.promotion}`)
-            .height($r('app.float.promotion_text_height'))
-            .fontSize($r('app.float.promotion_font_size'))
-            .fontColor(Color.White)
-            .borderRadius($r('app.float.promotion_radius'))
-            .backgroundColor($r('app.color.focus_color'))
-            .padding({
-              left: $r('app.float.promotion_padding_left'),
-              right: $r('app.float.promotion_padding_right')
-            })
-            .margin({ left: 4 })
-        }
+      Text(this.item?.price)
+        .fontSize($r('app.float.middle_font_size'))
+        .fontColor($r('app.color.focus_color'))
+        .fontWeight(FontWeight.Normal)
+        .lineHeight($r('app.float.piece_line_height'))
+        .width(Const.FULL_WIDTH)
+        .textAlign(TextAlign.Start)
+      
+      if (this.item?.promotion) {
+        Text(`${this.item?.promotion}`)
+          .fontSize($r('app.float.promotion_font_size'))
+          .fontColor(Color.White)
+          .borderRadius($r('app.float.promotion_radius'))
+          .backgroundColor($r('app.color.focus_color'))
+          .padding({
+            left: $r('app.float.promotion_padding_left'),
+            right: $r('app.float.promotion_padding_right'),
+            top: 2,
+            bottom: 2
+          })
+          .textAlign(TextAlign.Start)
+          .margin({ top: $r('app.float.discount_text_bottom') })
+          .alignSelf(ItemAlign.Start)
       }
-      .width(Const.FULL_WIDTH)
-      .justifyContent(FlexAlign.Start)
-      .alignItems(VerticalAlign.Center)
 
       if (this.item?.bonus_points) {
         Row() {
@@ -104,7 +105,6 @@ export default struct FlowItemComponent {
       right: $r('app.float.product_layout_margin_right'),
       bottom: $r('app.float.product_layout_margin_bottom')
     })
-    .height('250vp')
     .onClick(() => {
       // Navigate to product detail page
       router.pushUrl({
