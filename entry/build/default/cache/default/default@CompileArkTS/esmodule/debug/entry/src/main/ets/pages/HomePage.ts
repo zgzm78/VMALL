@@ -284,32 +284,23 @@ class HomePage extends ViewPU {
             Column.padding({ bottom: 20 });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            // 添加"我的信息"标题容器
             Column.create();
-            // 添加"我的信息"标题容器
             Column.width(Const.FULL_WIDTH);
-            // 添加"我的信息"标题容器
             Column.height(70);
-            // 添加"我的信息"标题容器
             Column.justifyContent(FlexAlign.Center);
-            // 添加"我的信息"标题容器
             Column.alignItems(HorizontalAlign.Center);
-            // 添加"我的信息"标题容器
             Column.borderRadius(12);
-            // 添加"我的信息"标题容器
             Column.margin({ bottom: 16 });
-            // 添加"我的信息"标题容器
             Column.shadow({ radius: 2, color: '#1F000000', offsetY: 1 });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Text.create('我的信息');
+            Text.create('个人中心');
             Text.fontSize(24);
             Text.fontColor('#FFF');
             Text.fontWeight(FontWeight.Bold);
             Text.alignSelf(ItemAlign.Center);
         }, Text);
         Text.pop();
-        // 添加"我的信息"标题容器
         Column.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             // 用户信息卡片

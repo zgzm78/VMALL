@@ -4612,7 +4612,7 @@
       ]
     },
     "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets": {
-      "mtimeMs": 1765512301483.4067,
+      "mtimeMs": 1765522107312.5833,
       "children": [
         "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
         "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",

@@ -125,9 +125,8 @@ struct HomePage {
   @Builder
   private ProfilePage() {
     Column() {
-      // 添加"我的信息"标题容器
       Column() {
-        Text('我的信息')
+        Text('个人中心')
             .fontSize(24)
             .fontColor('#FFF')
             .fontWeight(FontWeight.Bold)
