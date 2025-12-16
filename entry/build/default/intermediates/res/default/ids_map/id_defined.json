@@ -363,5 +363,37 @@
 			"type":	"media",
 			"name":	"icon_zhif",
 			"id":	"0x0100005A"
+		}, {
+			"type":	"media",
+			"name":	"detail1",
+			"id":	"0x0100005B"
+		}, {
+			"type":	"media",
+			"name":	"detail2",
+			"id":	"0x0100005C"
+		}, {
+			"type":	"media",
+			"name":	"mime",
+			"id":	"0x0100005D"
+		}, {
+			"type":	"media",
+			"name":	"search1",
+			"id":	"0x0100005E"
+		}, {
+			"type":	"media",
+			"name":	"search2",
+			"id":	"0x0100005F"
+		}, {
+			"type":	"media",
+			"name":	"shoppingcart1",
+			"id":	"0x01000060"
+		}, {
+			"type":	"media",
+			"name":	"shoppingcart2",
+			"id":	"0x01000061"
+		}, {
+			"type":	"media",
+			"name":	"shoppingcart3",
+			"id":	"0x01000062"
 		}]
 }

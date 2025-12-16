@@ -67,6 +67,8 @@ float water_flow_image_top 0x01000041
 float water_flow_row_gap 0x01000042
 media app_icon 0x01000001
 media carmine 0x01000057
+media detail1 0x0100005b
+media detail2 0x0100005c
 media ic_app_background 0x01000043
 media ic_coupons 0x01000044
 media ic_holder_50e 0x01000045
@@ -88,4 +90,10 @@ media icon 0x01000051
 media icon_gwc 0x01000058
 media icon_lotion 0x01000059
 media icon_zhif 0x0100005a
+media mime 0x0100005d
+media search1 0x0100005e
+media search2 0x0100005f
+media shoppingcart1 0x01000060
+media shoppingcart2 0x01000061
+media shoppingcart3 0x01000062
 profile main_pages 0x01000052

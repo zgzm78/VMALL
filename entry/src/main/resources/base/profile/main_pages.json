@@ -1,6 +1,8 @@
 {
   "src": [
     "pages/HomePage",
-    "pages/ProductDetailPage"
+    "pages/ProductDetailPage",
+    "pages/profile/ProfileCollectionsPage",
+    "pages/profile/OrderStatusPage"
   ]
 }

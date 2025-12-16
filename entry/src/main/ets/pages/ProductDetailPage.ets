@@ -19,6 +19,28 @@ interface CartItem {
   imageUrl: string;
 }
 
+interface FootprintRecord {
+  id: string;
+  title: string;
+  description: string;
+  time: string;
+  tag?: string;
+  imageUrl?: string;
+}
+
+interface OrderSummary {
+  id: string;
+  title: string;
+  description: string;
+  price: string;
+  quantity: number;
+  updatedAt: string;
+  status: 'pendingPayment' | 'pendingReceipt' | 'pendingReview' | 'afterSales' | 'all';
+  statusText: string;
+  imageUrl?: string;
+  imageKey?: string;
+}
+
 /**
  * Product detail page (purchase page).
  */
@@ -31,6 +53,8 @@ struct ProductDetailPage {
   @State selectedStorage: string = '';
   @State selectedVersion: string = '';
   @StorageLink('cartItems') cartItems: CartItem[] = [];
+  @StorageLink('footprintItems') footprintItems: FootprintRecord[] = [];
+  @StorageLink('orderItems') orderItems: OrderSummary[] = [];
 
   // Define data as member constants
   private colors: string[] = ['黑色', '白色', '蓝色', '绿色'];
@@ -49,7 +73,7 @@ struct ProductDetailPage {
   private shippingInfo: ShippingInfoItem[] = [
     { icon: '🚚', text: '全场包邮' },
     { icon: '⏰', text: '48小时发货' },
-    { icon: '🔄', text: '7天无理由退换货' },
+    { icon: '🔄', text: '7天无理由' },
     { icon: '🛡️', text: '全国联保' },
     { icon: '💬', text: '在线客服' }
   ];
@@ -60,6 +84,7 @@ struct ProductDetailPage {
     const params = router.getParams() as Record<string, Object> | undefined;
     if (params && params['product']) {
       this.product = params['product'] as ProductItem;
+      this.addFootprintRecord();
     }
     // Initialize selected values
     this.selectedColor = '黑色';
@@ -77,6 +102,80 @@ struct ProductDetailPage {
       return 0;
     }
     return value;
+  }
+
+  private formatTimestamp(date: Date): string {
+    const month: string = (date.getMonth() + 1).toString().padStart(2, '0');
+    const day: string = date.getDate().toString().padStart(2, '0');
+    const hour: string = date.getHours().toString().padStart(2, '0');
+    const minute: string = date.getMinutes().toString().padStart(2, '0');
+    return `${month}/${day} ${hour}:${minute}`;
+  }
+
+  private pickFootprintDescription(): string {
+    if (!this.product) {
+      return '';
+    }
+    const candidates: string[] = [];
+    if (typeof this.product.detail === 'string') {
+      candidates.push(this.product.detail);
+    } else if (Array.isArray(this.product.detail)) {
+      this.product.detail.forEach((item: string) => {
+        candidates.push(item);
+      });
+    }
+    if (this.product.promotion) {
+      candidates.push(this.product.promotion);
+    }
+    if (this.product.discount) {
+      candidates.push(this.product.discount);
+    }
+    for (let i = 0; i < candidates.length; i++) {
+      const text: string = candidates[i];
+      if (text && !text.startsWith('http')) {
+        return text;
+      }
+    }
+    return this.product.price ? `价格：${this.product.price}` : '浏览记录';
+  }
+
+  private addFootprintRecord(): void {
+    if (!this.product) {
+      return;
+    }
+    const descriptionText: string = this.pickFootprintDescription();
+    const record: FootprintRecord = {
+      id: Date.now().toString(),
+      title: this.product.name,
+      description: descriptionText,
+      time: this.formatTimestamp(new Date()),
+      tag: this.product.promotion ?? '浏览',
+      imageUrl: this.product.image_url
+    };
+    const filtered: FootprintRecord[] = this.footprintItems
+      ? this.footprintItems.filter((item: FootprintRecord) => item.title !== record.title)
+      : [];
+    filtered.unshift(record);
+    this.footprintItems = filtered.slice(0, 20);
+  }
+
+  private addPendingReceiptOrder(): void {
+    if (!this.product) {
+      return;
+    }
+    const order: OrderSummary = {
+      id: `OD${Date.now()}`,
+      title: this.product.name,
+      description: this.pickFootprintDescription(),
+      price: this.product.price,
+      quantity: 1,
+      updatedAt: this.formatTimestamp(new Date()),
+      status: 'pendingReceipt',
+      statusText: '运输中',
+      imageUrl: this.product.image_url
+    };
+    const updated: OrderSummary[] = [order, ...this.orderItems];
+    this.orderItems = updated.slice(0, 20);
   }
 
   private addToCart(): void {
@@ -472,17 +571,28 @@ struct ProductDetailPage {
 
       // Purchase button bar
       Row() {
-        Button('立即购买')
-          .type(ButtonType.Normal)
-          .backgroundColor($r('app.color.focus_color'))
-          .fontColor(Color.White)
-          .fontSize(16)
-          .width('50%')
-          .height(50)
-          .onClick(() => {
-            // Handle purchase action
-            console.info('Purchase clicked');
-          })
+      Button('立即购买')
+        .type(ButtonType.Normal)
+        .backgroundColor($r('app.color.focus_color'))
+        .fontColor(Color.White)
+        .fontSize(16)
+        .width('50%')
+        .height(50)
+        .onClick(() => {
+          if (!this.product) {
+            return;
+          }
+          AlertDialog.show({
+            title: '购买成功',
+            message: `已成功购买【${this.product.name}】，我们会尽快为您发货！`,
+            primaryButton: {
+              value: '确定',
+              action: () => {
+                this.addPendingReceiptOrder();
+              }
+            }
+          });
+        })
         Button('加入购物车')
           .type(ButtonType.Normal)
           .backgroundColor('#FFE5E5')

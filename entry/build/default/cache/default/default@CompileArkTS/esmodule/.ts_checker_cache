@@ -2356,7 +2356,7 @@
       "error": false
     },
     "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets": {
-      "mtimeMs": 1765162141567.8225,
+      "mtimeMs": 1765887196193.4785,
       "children": [
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.UIAbility.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
@@ -2880,7 +2880,10 @@
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets",
         "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
-        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets"
+        "C:\\Users\\22879\\Desktop\\soft-oh\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets",
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\ProfilePage.ets",
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\profile\\ProfileCollectionsPage.ets",
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\profile\\OrderStatusPage.ets"
       ],
       "error": false
     },
@@ -3727,7 +3730,10 @@
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets",
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets",
-        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets"
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets",
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\ProfilePage.ets",
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\profile\\ProfileCollectionsPage.ets",
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\profile\\OrderStatusPage.ets"
       ],
       "error": false
     },
@@ -3781,20 +3787,21 @@
       "error": false
     },
     "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets": {
-      "mtimeMs": 1765196200974.767,
+      "mtimeMs": 1765884967354.2205,
       "children": [
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\view\\ClassifyComponent.ets",
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\view\\SearchComponent.ets",
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\view\\SwiperComponent.ets",
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\view\\WaterFlowComponent.ets",
-        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets"
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets",
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\ProfilePage.ets"
       ],
       "parent": [],
       "error": false
     },
     "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets": {
-      "mtimeMs": 1765162141575.5093,
+      "mtimeMs": 1765881800774.2883,
       "children": [
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets"
       ],
@@ -3839,7 +3846,7 @@
       "error": false
     },
     "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\view\\FlowItemComponent.ets": {
-      "mtimeMs": 1765180335934.4126,
+      "mtimeMs": 1765881800773.6006,
       "children": [
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
@@ -3855,7 +3862,7 @@
       ]
     },
     "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\ProductDetailPage.ets": {
-      "mtimeMs": 1765197169006.2446,
+      "mtimeMs": 1765888145626.7458,
       "children": [
         "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
@@ -4316,7 +4323,7 @@
       "error": false
     },
     "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\CartPage.ets": {
-      "mtimeMs": 1765197179558.089,
+      "mtimeMs": 1765881797750.2805,
       "children": [
         "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
       ],
@@ -4691,6 +4698,44 @@
         "C:\\tools\\develop_tools\\Harmony\\DevEco_Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
         "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\viewmodel\\ProductItem.ets",
         "C:\\tools\\develop_tools\\Harmony\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\ProfilePage.ets": {
+      "mtimeMs": 1765885461069.9646,
+      "children": [
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\HomePage.ets"
+      ],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\profile\\ProfileCollectionsPage.ets": {
+      "mtimeMs": 1765887473456.3206,
+      "children": [
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": true,
+      "errorCodes": [
+        28007
+      ]
+    },
+    "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\pages\\profile\\OrderStatusPage.ets": {
+      "mtimeMs": 1765887289701.2341,
+      "children": [
+        "C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
+        "C:\\Users\\22879\\Desktop\\temp\\VMALL\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
       ],
       "parent": [],
       "error": true,

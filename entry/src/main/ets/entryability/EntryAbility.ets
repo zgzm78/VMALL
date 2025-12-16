@@ -55,6 +55,8 @@ export default class EntryAbility extends UIAbility {
         AppStorage.setOrCreate('selectedCategoryIndex', 0);
         // Initialize search keyword
         AppStorage.setOrCreate('searchKeyword', '');
+        // Initialize footprints storage
+        AppStorage.setOrCreate('footprintItems', []);
       } catch (error) {
         Logger.error('EntryAbility',
           `Failed to set the window layout to full-screen mode. Code is ${err.code}, message is ${err.message}`);
