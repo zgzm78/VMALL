@@ -150,9 +150,9 @@ export default class CartPage extends ViewPU {
             // 左侧选中圆圈（选中：实心红色 + 白色对勾；未选中：空心灰色圆圈）
             Text.borderWidth(1);
             // 左侧选中圆圈（选中：实心红色 + 白色对勾；未选中：空心灰色圆圈）
-            Text.borderColor(this.cartItems[index].selected ? { "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } : '#CCCCCC');
+            Text.borderColor(this.cartItems[index].selected ? { "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } : '#CCCCCC');
             // 左侧选中圆圈（选中：实心红色 + 白色对勾；未选中：空心灰色圆圈）
-            Text.backgroundColor(this.cartItems[index].selected ? { "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } : Color.White);
+            Text.backgroundColor(this.cartItems[index].selected ? { "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } : Color.White);
             // 左侧选中圆圈（选中：实心红色 + 白色对勾；未选中：空心灰色圆圈）
             Text.textAlign(TextAlign.Center);
             // 左侧选中圆圈（选中：实心红色 + 白色对勾；未选中：空心灰色圆圈）
@@ -192,7 +192,7 @@ export default class CartPage extends ViewPU {
             // 商品名称
             Text.create(item.name);
             // 商品名称
-            Text.fontSize({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777247, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             // 商品名称
             Text.fontColor(Color.Black);
             // 商品名称
@@ -210,7 +210,7 @@ export default class CartPage extends ViewPU {
         }, Row);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create('数量');
-            Text.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontColor(Color.Gray);
             Text.margin({ right: 4 });
         }, Text);
@@ -231,7 +231,7 @@ export default class CartPage extends ViewPU {
         Text.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create(this.cartItems[index].count.toString());
-            Text.fontSize({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777247, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontColor(Color.Black);
             Text.margin({ left: 8, right: 8 });
         }, Text);
@@ -260,14 +260,14 @@ export default class CartPage extends ViewPU {
         }, Row);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create('小计 ￥' + (item.price * item.count).toString());
-            Text.fontSize({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777247, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.layoutWeight(1);
         }, Text);
         Text.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create('移出');
-            Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777273, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontColor(Color.Gray);
             Text.onClick(() => {
                 this.removeItem(index);
@@ -305,8 +305,8 @@ export default class CartPage extends ViewPU {
             Text.height(20);
             Text.borderRadius(10);
             Text.borderWidth(1);
-            Text.borderColor(this.areAllItemsSelected() ? { "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } : '#CCCCCC');
-            Text.backgroundColor(this.areAllItemsSelected() ? { "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } : Color.White);
+            Text.borderColor(this.areAllItemsSelected() ? { "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } : '#CCCCCC');
+            Text.backgroundColor(this.areAllItemsSelected() ? { "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } : Color.White);
             Text.textAlign(TextAlign.Center);
             Text.fontColor(this.areAllItemsSelected() ? Color.White : Color.Transparent);
             Text.fontSize(14);
@@ -315,7 +315,7 @@ export default class CartPage extends ViewPU {
         Text.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create('全选');
-            Text.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontColor(Color.Black);
         }, Text);
         Text.pop();
@@ -329,14 +329,14 @@ export default class CartPage extends ViewPU {
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create('已选商品合计');
-            Text.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontColor(Color.Gray);
         }, Text);
         Text.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create('￥' + this.calculateSelectedTotalPrice().toString());
-            Text.fontSize({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777247, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
         }, Text);
         Text.pop();
         // 合计
@@ -345,7 +345,7 @@ export default class CartPage extends ViewPU {
             // 结算按钮
             Row.create();
             // 结算按钮
-            Row.backgroundColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Row.backgroundColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             // 结算按钮
             Row.borderRadius(20);
             // 结算按钮
@@ -357,7 +357,7 @@ export default class CartPage extends ViewPU {
         }, Row);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create('立即结算');
-            Text.fontSize({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777247, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontColor(Color.White);
         }, Text);
         Text.pop();
@@ -408,14 +408,14 @@ export default class CartPage extends ViewPU {
                     }, Column);
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         Text.create('购物车里还没有商品');
-                        Text.fontSize({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.fontSize({ "id": 16777247, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.fontColor('#333333');
                         Text.opacity(Const.FULL_OPACITY);
                     }, Text);
                     Text.pop();
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         Text.create('去首页逛逛，挑选喜欢的商品吧~');
-                        Text.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.fontColor('#666666');
                         Text.opacity(Const.FULL_OPACITY);
                         Text.margin({ top: 8 });

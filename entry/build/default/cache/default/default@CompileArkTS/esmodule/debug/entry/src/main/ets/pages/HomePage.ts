@@ -79,12 +79,12 @@ class HomePage extends ViewPU {
     initialRender() {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Stack.create({ alignContent: Alignment.Top });
-            Stack.backgroundColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Stack.backgroundColor({ "id": 16777233, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
         }, Stack);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Image.create({ "id": 16777283, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.create({ "id": 16777287, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Image.width(Const.FULL_WIDTH);
-            Image.height({ "id": 16777245, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.height({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Image.objectFit(ImageFit.Cover);
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -98,8 +98,8 @@ class HomePage extends ViewPU {
             Column.layoutWeight(1);
             // 主体内容区域根据底部导航切换
             Column.padding({
-                left: { "id": 16777243, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
-                right: { "id": 16777244, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+                left: { "id": 16777244, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+                right: { "id": 16777245, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
                 top: this.getUIContext().px2vp(this.topRectHeight)
             });
         }, Column);
@@ -259,7 +259,7 @@ class HomePage extends ViewPU {
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create(title);
-            Text.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontColor(this.currentTabIndex === index ? Color.Black : Color.Gray);
         }, Text);
         Text.pop();
@@ -281,13 +281,13 @@ class HomePage extends ViewPU {
                 offsetY: -2
             });
             Row.margin({
-                left: { "id": 16777243, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
-                right: { "id": 16777244, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
+                left: { "id": 16777244, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+                right: { "id": 16777245, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
             });
         }, Row);
-        this.BottomTabItem.bind(this)({ "id": 16777300, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }, '首页', 0);
-        this.BottomTabItem.bind(this)({ "id": 16777299, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }, '购物车', 1);
-        this.BottomTabItem.bind(this)({ "id": 16777301, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }, '我的', 2);
+        this.BottomTabItem.bind(this)({ "id": 16777302, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }, '首页', 0);
+        this.BottomTabItem.bind(this)({ "id": 16777301, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }, '购物车', 1);
+        this.BottomTabItem.bind(this)({ "id": 16777303, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }, '我的', 2);
         Row.pop();
     }
     rerender() {

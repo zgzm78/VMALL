@@ -526,7 +526,7 @@ class ProductDetailPage extends ViewPU {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create(this.product?.price || '');
             Text.fontSize(28);
-            Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Bold);
         }, Text);
         Text.pop();
@@ -538,10 +538,10 @@ class ProductDetailPage extends ViewPU {
                         Text.create(`积分${this.getBonusPoints()}`);
                         Text.height(24);
                         Text.fontSize(12);
-                        Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.fontColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.borderRadius(4);
                         Text.borderWidth(1);
-                        Text.borderColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.borderColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.padding({ left: 8, right: 8 });
                         Text.margin({ left: 12 });
                     }, Text);
@@ -842,7 +842,7 @@ class ProductDetailPage extends ViewPU {
                 this.observeComponentCreation2((elmtId, isInitialRender) => {
                     Text.create('★★★★★');
                     Text.fontSize(14);
-                    Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                    Text.fontColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                 }, Text);
                 Text.pop();
                 Row.pop();
@@ -882,13 +882,13 @@ class ProductDetailPage extends ViewPU {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create('查看全部评价');
             Text.fontSize(14);
-            Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
         }, Text);
         Text.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create('→');
             Text.fontSize(14);
-            Text.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.margin({ left: 4 });
         }, Text);
         Text.pop();
@@ -981,7 +981,7 @@ class ProductDetailPage extends ViewPU {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Button.createWithLabel('立即购买');
             Button.type(ButtonType.Normal);
-            Button.backgroundColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Button.backgroundColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Button.fontColor(Color.White);
             Button.fontSize(16);
             Button.width('50%');
@@ -1007,7 +1007,7 @@ class ProductDetailPage extends ViewPU {
             Button.createWithLabel('加入购物车');
             Button.type(ButtonType.Normal);
             Button.backgroundColor('#FFE5E5');
-            Button.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Button.fontColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Button.fontSize(16);
             Button.width('50%');
             Button.height(50);

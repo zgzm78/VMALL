@@ -61,339 +61,339 @@
 			"id":	"0x0100000E"
 		}, {
 			"type":	"color",
-			"name":	"focus_color",
+			"name":	"error_color",
 			"id":	"0x0100000F"
 		}, {
 			"type":	"color",
-			"name":	"home_background_color",
+			"name":	"focus_color",
 			"id":	"0x01000010"
 		}, {
 			"type":	"color",
-			"name":	"indicator_select",
+			"name":	"home_background_color",
 			"id":	"0x01000011"
 		}, {
 			"type":	"color",
-			"name":	"start_window_background",
+			"name":	"indicator_select",
 			"id":	"0x01000012"
 		}, {
-			"type":	"float",
-			"name":	"bonus_points_margin_top",
+			"type":	"color",
+			"name":	"start_window_background",
 			"id":	"0x01000013"
 		}, {
 			"type":	"float",
-			"name":	"bonus_points_padding_left",
+			"name":	"bonus_points_margin_top",
 			"id":	"0x01000014"
 		}, {
 			"type":	"float",
-			"name":	"bonus_points_padding_right",
+			"name":	"bonus_points_padding_left",
 			"id":	"0x01000015"
 		}, {
 			"type":	"float",
-			"name":	"bonus_points_radius_width",
+			"name":	"bonus_points_padding_right",
 			"id":	"0x01000016"
 		}, {
 			"type":	"float",
-			"name":	"classify_title_margin",
+			"name":	"bonus_points_radius_width",
 			"id":	"0x01000017"
 		}, {
 			"type":	"float",
-			"name":	"discount_text_bottom",
+			"name":	"classify_title_margin",
 			"id":	"0x01000018"
 		}, {
 			"type":	"float",
-			"name":	"footer_text_height",
+			"name":	"discount_text_bottom",
 			"id":	"0x01000019"
 		}, {
 			"type":	"float",
-			"name":	"footer_text_size",
+			"name":	"footer_text_height",
 			"id":	"0x0100001A"
 		}, {
 			"type":	"float",
-			"name":	"home_margin_left",
+			"name":	"footer_text_size",
 			"id":	"0x0100001B"
 		}, {
 			"type":	"float",
-			"name":	"home_margin_right",
+			"name":	"home_margin_left",
 			"id":	"0x0100001C"
 		}, {
 			"type":	"float",
-			"name":	"image_background_height",
+			"name":	"home_margin_right",
 			"id":	"0x0100001D"
 		}, {
 			"type":	"float",
-			"name":	"middle_font_size",
+			"name":	"image_background_height",
 			"id":	"0x0100001E"
 		}, {
 			"type":	"float",
-			"name":	"more_height",
+			"name":	"middle_font_size",
 			"id":	"0x0100001F"
 		}, {
 			"type":	"float",
-			"name":	"more_margin_left",
+			"name":	"more_height",
 			"id":	"0x01000020"
 		}, {
 			"type":	"float",
-			"name":	"more_margin_right",
+			"name":	"more_margin_left",
 			"id":	"0x01000021"
 		}, {
 			"type":	"float",
-			"name":	"more_width",
+			"name":	"more_margin_right",
 			"id":	"0x01000022"
 		}, {
 			"type":	"float",
-			"name":	"piece_line_height",
+			"name":	"more_width",
 			"id":	"0x01000023"
 		}, {
 			"type":	"float",
-			"name":	"product_image_size",
+			"name":	"piece_line_height",
 			"id":	"0x01000024"
 		}, {
 			"type":	"float",
-			"name":	"product_layout_margin_bottom",
+			"name":	"product_image_size",
 			"id":	"0x01000025"
 		}, {
 			"type":	"float",
-			"name":	"product_layout_margin_left",
+			"name":	"product_layout_margin_bottom",
 			"id":	"0x01000026"
 		}, {
 			"type":	"float",
-			"name":	"product_layout_margin_right",
+			"name":	"product_layout_margin_left",
 			"id":	"0x01000027"
 		}, {
 			"type":	"float",
-			"name":	"product_layout_radius",
+			"name":	"product_layout_margin_right",
 			"id":	"0x01000028"
 		}, {
 			"type":	"float",
-			"name":	"promotion_font_size",
+			"name":	"product_layout_radius",
 			"id":	"0x01000029"
 		}, {
 			"type":	"float",
-			"name":	"promotion_margin_right",
+			"name":	"promotion_font_size",
 			"id":	"0x0100002A"
 		}, {
 			"type":	"float",
-			"name":	"promotion_margin_top",
+			"name":	"promotion_margin_right",
 			"id":	"0x0100002B"
 		}, {
 			"type":	"float",
-			"name":	"promotion_padding_left",
+			"name":	"promotion_margin_top",
 			"id":	"0x0100002C"
 		}, {
 			"type":	"float",
-			"name":	"promotion_padding_right",
+			"name":	"promotion_padding_left",
 			"id":	"0x0100002D"
 		}, {
 			"type":	"float",
-			"name":	"promotion_radius",
+			"name":	"promotion_padding_right",
 			"id":	"0x0100002E"
 		}, {
 			"type":	"float",
-			"name":	"promotion_text_height",
+			"name":	"promotion_radius",
 			"id":	"0x0100002F"
 		}, {
 			"type":	"float",
-			"name":	"search_height",
+			"name":	"promotion_text_height",
 			"id":	"0x01000030"
 		}, {
 			"type":	"float",
-			"name":	"search_margin_left",
+			"name":	"search_height",
 			"id":	"0x01000031"
 		}, {
 			"type":	"float",
-			"name":	"search_margin_right",
+			"name":	"search_margin_left",
 			"id":	"0x01000032"
 		}, {
 			"type":	"float",
-			"name":	"search_margin_top",
+			"name":	"search_margin_right",
 			"id":	"0x01000033"
 		}, {
 			"type":	"float",
-			"name":	"search_radius",
+			"name":	"search_margin_top",
 			"id":	"0x01000034"
 		}, {
 			"type":	"float",
-			"name":	"search_swiper_height",
+			"name":	"search_radius",
 			"id":	"0x01000035"
 		}, {
 			"type":	"float",
-			"name":	"search_width",
+			"name":	"search_swiper_height",
 			"id":	"0x01000036"
 		}, {
 			"type":	"float",
-			"name":	"small_font_size",
+			"name":	"search_width",
 			"id":	"0x01000037"
 		}, {
 			"type":	"float",
-			"name":	"smaller_font_size",
+			"name":	"small_font_size",
 			"id":	"0x01000038"
 		}, {
 			"type":	"float",
-			"name":	"split_line_height",
+			"name":	"smaller_font_size",
 			"id":	"0x01000039"
 		}, {
 			"type":	"float",
-			"name":	"split_line_width",
+			"name":	"split_line_height",
 			"id":	"0x0100003A"
 		}, {
 			"type":	"float",
-			"name":	"swiper_image_height",
+			"name":	"split_line_width",
 			"id":	"0x0100003B"
 		}, {
 			"type":	"float",
-			"name":	"swiper_margin_bottom",
+			"name":	"swiper_image_height",
 			"id":	"0x0100003C"
 		}, {
 			"type":	"float",
-			"name":	"swiper_margin_top",
+			"name":	"swiper_margin_bottom",
 			"id":	"0x0100003D"
 		}, {
 			"type":	"float",
-			"name":	"swiper_radius",
+			"name":	"swiper_margin_top",
 			"id":	"0x0100003E"
 		}, {
 			"type":	"float",
-			"name":	"water_flow_columns_gap",
+			"name":	"swiper_radius",
 			"id":	"0x0100003F"
 		}, {
 			"type":	"float",
-			"name":	"water_flow_image_bottom",
+			"name":	"water_flow_columns_gap",
 			"id":	"0x01000040"
 		}, {
 			"type":	"float",
-			"name":	"water_flow_image_top",
+			"name":	"water_flow_image_bottom",
 			"id":	"0x01000041"
 		}, {
 			"type":	"float",
-			"name":	"water_flow_row_gap",
+			"name":	"water_flow_image_top",
 			"id":	"0x01000042"
 		}, {
-			"type":	"media",
-			"name":	"ic_app_background",
+			"type":	"float",
+			"name":	"water_flow_row_gap",
 			"id":	"0x01000043"
 		}, {
 			"type":	"media",
-			"name":	"ic_coupons",
+			"name":	"carmine",
 			"id":	"0x01000044"
 		}, {
 			"type":	"media",
-			"name":	"ic_holder_50e",
+			"name":	"detail1",
 			"id":	"0x01000045"
 		}, {
 			"type":	"media",
-			"name":	"ic_holder_60pro",
+			"name":	"detail2",
 			"id":	"0x01000046"
 		}, {
 			"type":	"media",
-			"name":	"ic_holder_computer",
+			"name":	"ic_app_background",
 			"id":	"0x01000047"
 		}, {
 			"type":	"media",
-			"name":	"ic_holder_mate50",
+			"name":	"ic_coupons",
 			"id":	"0x01000048"
 		}, {
 			"type":	"media",
-			"name":	"ic_holder_mouse",
+			"name":	"ic_holder_50e",
 			"id":	"0x01000049"
 		}, {
 			"type":	"media",
-			"name":	"ic_holder_pad",
+			"name":	"ic_holder_60pro",
 			"id":	"0x0100004A"
 		}, {
 			"type":	"media",
-			"name":	"ic_holder_xs2",
+			"name":	"ic_holder_computer",
 			"id":	"0x0100004B"
 		}, {
 			"type":	"media",
-			"name":	"ic_home_appliances_special",
+			"name":	"ic_holder_mate50",
 			"id":	"0x0100004C"
 		}, {
 			"type":	"media",
-			"name":	"ic_internal_purchase_price",
+			"name":	"ic_holder_mouse",
 			"id":	"0x0100004D"
 		}, {
 			"type":	"media",
-			"name":	"ic_more",
+			"name":	"ic_holder_pad",
 			"id":	"0x0100004E"
 		}, {
 			"type":	"media",
-			"name":	"ic_search",
+			"name":	"ic_holder_xs2",
 			"id":	"0x0100004F"
 		}, {
 			"type":	"media",
-			"name":	"ic_split_line",
+			"name":	"ic_home_appliances_special",
 			"id":	"0x01000050"
 		}, {
 			"type":	"media",
-			"name":	"icon",
+			"name":	"ic_internal_purchase_price",
 			"id":	"0x01000051"
 		}, {
-			"type":	"profile",
-			"name":	"main_pages",
+			"type":	"media",
+			"name":	"ic_more",
 			"id":	"0x01000052"
 		}, {
 			"type":	"media",
-			"name":	"ic_tab_cart",
+			"name":	"ic_search",
 			"id":	"0x01000053"
 		}, {
 			"type":	"media",
-			"name":	"ic_tab_home",
+			"name":	"ic_split_line",
 			"id":	"0x01000054"
 		}, {
 			"type":	"media",
-			"name":	"ic_tab_profile",
+			"name":	"ic_tab_cart",
 			"id":	"0x01000055"
 		}, {
-			"type":	"color",
-			"name":	"error_color",
+			"type":	"media",
+			"name":	"ic_tab_home",
 			"id":	"0x01000056"
 		}, {
 			"type":	"media",
-			"name":	"carmine",
+			"name":	"ic_tab_profile",
 			"id":	"0x01000057"
 		}, {
 			"type":	"media",
-			"name":	"icon_gwc",
+			"name":	"icon",
 			"id":	"0x01000058"
 		}, {
 			"type":	"media",
-			"name":	"icon_lotion",
+			"name":	"icon_gwc",
 			"id":	"0x01000059"
 		}, {
 			"type":	"media",
-			"name":	"icon_zhif",
+			"name":	"icon_lotion",
 			"id":	"0x0100005A"
 		}, {
 			"type":	"media",
-			"name":	"detail1",
+			"name":	"icon_zhif",
 			"id":	"0x0100005B"
 		}, {
 			"type":	"media",
-			"name":	"detail2",
+			"name":	"mime",
 			"id":	"0x0100005C"
 		}, {
 			"type":	"media",
-			"name":	"mime",
+			"name":	"search1",
 			"id":	"0x0100005D"
 		}, {
 			"type":	"media",
-			"name":	"search1",
+			"name":	"search2",
 			"id":	"0x0100005E"
 		}, {
 			"type":	"media",
-			"name":	"search2",
+			"name":	"shoppingcart1",
 			"id":	"0x0100005F"
 		}, {
 			"type":	"media",
-			"name":	"shoppingcart1",
+			"name":	"shoppingcart2",
 			"id":	"0x01000060"
 		}, {
 			"type":	"media",
-			"name":	"shoppingcart2",
+			"name":	"shoppingcart3",
 			"id":	"0x01000061"
 		}, {
-			"type":	"media",
-			"name":	"shoppingcart3",
+			"type":	"profile",
+			"name":	"main_pages",
 			"id":	"0x01000062"
 		}]
 }

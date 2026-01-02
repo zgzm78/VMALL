@@ -31,7 +31,7 @@ export default class SwiperComponent extends ViewPU {
     }
     private dotIndicator: DotIndicator;
     aboutToAppear() {
-        this.dotIndicator.selectedColor({ "id": 16777233, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+        this.dotIndicator.selectedColor({ "id": 16777234, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
     }
     initialRender() {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -42,8 +42,8 @@ export default class SwiperComponent extends ViewPU {
             Swiper.width(Const.FULL_WIDTH);
             Swiper.displayCount(1);
             Swiper.margin({
-                top: { "id": 16777277, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
-                bottom: { "id": 16777276, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
+                top: { "id": 16777278, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+                bottom: { "id": 16777277, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
             });
         }, Swiper);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -53,8 +53,8 @@ export default class SwiperComponent extends ViewPU {
                 this.observeComponentCreation2((elmtId, isInitialRender) => {
                     Image.create(item);
                     Image.width(Const.FULL_WIDTH);
-                    Image.height({ "id": 16777275, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-                    Image.borderRadius({ "id": 16777278, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                    Image.height({ "id": 16777276, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                    Image.borderRadius({ "id": 16777279, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                     Image.backgroundColor(Color.White);
                 }, Image);
             };

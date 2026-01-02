@@ -168,18 +168,18 @@ export default class SearchComponent extends ViewPU {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Row.create();
             Row.width(Const.FULL_WIDTH);
-            Row.height({ "id": 16777269, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Row.borderRadius({ "id": 16777268, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Row.height({ "id": 16777270, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Row.borderRadius({ "id": 16777269, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Row.backgroundColor(Color.White);
-            Row.margin({ top: { "id": 16777267, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
+            Row.margin({ top: { "id": 16777268, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
         }, Row);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Image.create({ "id": 16777295, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Image.width({ "id": 16777270, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Image.height({ "id": 16777264, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.create({ "id": 16777299, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.width({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.height({ "id": 16777265, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Image.margin({
-                left: { "id": 16777265, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
-                right: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
+                left: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+                right: { "id": 16777267, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
             });
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -188,7 +188,7 @@ export default class SearchComponent extends ViewPU {
                 text: this.inputValue
             });
             TextInput.layoutWeight(1);
-            TextInput.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            TextInput.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             TextInput.fontColor(Color.Black);
             TextInput.placeholderColor('#999999');
             TextInput.backgroundColor(Color.Transparent);
@@ -208,9 +208,9 @@ export default class SearchComponent extends ViewPU {
                 this.ifElseBranchUpdateFunction(0, () => {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         Text.create('取消');
-                        Text.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.fontColor(Color.Gray);
-                        Text.margin({ right: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
+                        Text.margin({ right: { "id": 16777267, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
                         Text.onClick(() => {
                             this.inputValue = '';
                             this.searchKeyword = '';
@@ -238,7 +238,7 @@ export default class SearchComponent extends ViewPU {
                         // 显示搜索建议
                         Column.backgroundColor(Color.White);
                         // 显示搜索建议
-                        Column.borderRadius({ "id": 16777268, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Column.borderRadius({ "id": 16777269, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         // 显示搜索建议
                         Column.margin({ top: 5 });
                     }, Column);
@@ -249,26 +249,26 @@ export default class SearchComponent extends ViewPU {
                             this.observeComponentCreation2((elmtId, isInitialRender) => {
                                 Row.create();
                                 Row.width(Const.FULL_WIDTH);
-                                Row.height({ "id": 16777269, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Row.height({ "id": 16777270, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                                 Row.backgroundColor(Color.White);
-                                Row.padding({ left: { "id": 16777265, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
+                                Row.padding({ left: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
                                 Row.onClick(() => {
                                     this.handleSearch(suggestion);
                                 });
                             }, Row);
                             this.observeComponentCreation2((elmtId, isInitialRender) => {
-                                Image.create({ "id": 16777295, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-                                Image.width({ "id": 16777270, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-                                Image.height({ "id": 16777264, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Image.create({ "id": 16777299, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Image.width({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Image.height({ "id": 16777265, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                                 Image.margin({
-                                    left: { "id": 16777265, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
-                                    right: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
+                                    left: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+                                    right: { "id": 16777267, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
                                 });
                             }, Image);
                             this.observeComponentCreation2((elmtId, isInitialRender) => {
                                 Text.create(suggestion);
                                 Text.layoutWeight(1);
-                                Text.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                                 Text.fontColor(Color.Black);
                             }, Text);
                             Text.pop();
@@ -289,7 +289,7 @@ export default class SearchComponent extends ViewPU {
                         // 显示搜索历史
                         Column.backgroundColor(Color.White);
                         // 显示搜索历史
-                        Column.borderRadius({ "id": 16777268, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Column.borderRadius({ "id": 16777269, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         // 显示搜索历史
                         Column.margin({ top: 5 });
                     }, Column);
@@ -299,18 +299,18 @@ export default class SearchComponent extends ViewPU {
                         // 历史记录标题和清除按钮
                         Row.width(Const.FULL_WIDTH);
                         // 历史记录标题和清除按钮
-                        Row.padding({ left: { "id": 16777265, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }, right: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }, top: 10, bottom: 10 });
+                        Row.padding({ left: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }, right: { "id": 16777267, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }, top: 10, bottom: 10 });
                     }, Row);
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         Text.create('搜索历史');
-                        Text.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.fontColor(Color.Gray);
                         Text.layoutWeight(1);
                     }, Text);
                     Text.pop();
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         Text.create('清除');
-                        Text.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                        Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                         Text.fontColor(Color.Gray);
                         Text.onClick(() => this.clearSearchHistory());
                     }, Text);
@@ -325,26 +325,26 @@ export default class SearchComponent extends ViewPU {
                             this.observeComponentCreation2((elmtId, isInitialRender) => {
                                 Row.create();
                                 Row.width(Const.FULL_WIDTH);
-                                Row.height({ "id": 16777269, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Row.height({ "id": 16777270, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                                 Row.backgroundColor(Color.White);
-                                Row.padding({ left: { "id": 16777265, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
+                                Row.padding({ left: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
                                 Row.onClick(() => {
                                     this.handleSearch(keyword);
                                 });
                             }, Row);
                             this.observeComponentCreation2((elmtId, isInitialRender) => {
-                                Image.create({ "id": 16777295, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-                                Image.width({ "id": 16777270, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-                                Image.height({ "id": 16777264, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Image.create({ "id": 16777299, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Image.width({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Image.height({ "id": 16777265, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                                 Image.margin({
-                                    left: { "id": 16777265, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
-                                    right: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
+                                    left: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+                                    right: { "id": 16777267, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
                                 });
                             }, Image);
                             this.observeComponentCreation2((elmtId, isInitialRender) => {
                                 Text.create(keyword);
                                 Text.layoutWeight(1);
-                                Text.fontSize({ "id": 16777271, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                                 Text.fontColor(Color.Black);
                             }, Text);
                             Text.pop();
@@ -352,7 +352,7 @@ export default class SearchComponent extends ViewPU {
                                 Text.create('x');
                                 Text.fontSize(16);
                                 Text.fontColor(Color.Gray);
-                                Text.margin({ right: { "id": 16777266, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
+                                Text.margin({ right: { "id": 16777267, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
                                 Text.onClick(() => this.deleteHistoryItem(keyword));
                             }, Text);
                             Text.pop();

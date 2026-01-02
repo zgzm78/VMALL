@@ -280,16 +280,16 @@ class OrderStatusPage extends ViewPU {
     private getImageResource(key: OrderImageKey): Resource {
         switch (key) {
             case 'detail1':
-                return { "id": 16777307, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" };
+                return { "id": 16777285, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" };
             case 'detail2':
-                return { "id": 16777308, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" };
+                return { "id": 16777286, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" };
             case 'shoppingcart1':
-                return { "id": 16777312, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" };
+                return { "id": 16777311, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" };
             case 'shoppingcart2':
-                return { "id": 16777313, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" };
+                return { "id": 16777312, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" };
             case 'shoppingcart3':
             default:
-                return { "id": 16777314, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" };
+                return { "id": 16777313, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" };
         }
     }
     private PageHeader(title: string, parent = null) {
@@ -451,7 +451,7 @@ class OrderStatusPage extends ViewPU {
             Column.create();
             Column.width(Const.FULL_WIDTH);
             Column.height(Const.FULL_HEIGHT);
-            Column.backgroundColor({ "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Column.backgroundColor({ "id": 16777233, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Column.padding({ top: 24, left: 12, right: 12, bottom: 12 });
         }, Column);
         this.PageHeader.bind(this)(this.currentMeta.title);

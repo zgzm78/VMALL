@@ -104,11 +104,11 @@ export default class ProfilePage extends ViewPU {
             Row.shadow({ radius: 4, color: '#1F000000', offsetY: 2 });
         }, Row);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Image.create({ "id": 16777301, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.create({ "id": 16777303, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Image.width(96);
             Image.height(96);
             Image.borderRadius(48);
-            Image.border({ width: 2, color: { "id": 16777232, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
+            Image.border({ width: 2, color: { "id": 16777233, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
             Image.shadow({ radius: 8, color: '#40000000', offsetY: 4 });
             Image.margin({ right: 20 });
         }, Image);
@@ -140,8 +140,8 @@ export default class ProfilePage extends ViewPU {
             Button.height(36);
             Button.fontSize(14);
             Button.backgroundColor('#FFF');
-            Button.fontColor({ "id": 16777302, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Button.border({ width: 1, color: { "id": 16777302, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
+            Button.fontColor({ "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Button.border({ width: 1, color: { "id": 16777231, "type": 10001, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
             Button.borderRadius(18);
             Button.onClick(() => {
                 this.handleLogout();
@@ -377,7 +377,7 @@ export default class ProfilePage extends ViewPU {
             });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Image.create({ "id": 16777306, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.create({ "id": 16777307, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Image.width(50);
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -397,7 +397,7 @@ export default class ProfilePage extends ViewPU {
             });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Image.create({ "id": 16777305, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.create({ "id": 16777306, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Image.width(50);
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -417,7 +417,7 @@ export default class ProfilePage extends ViewPU {
             });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Image.create({ "id": 16777303, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.create({ "id": 16777284, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Image.width(50);
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -437,7 +437,7 @@ export default class ProfilePage extends ViewPU {
             });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Image.create({ "id": 16777304, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.create({ "id": 16777305, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Image.width(50);
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {

@@ -4,6 +4,52 @@
 
 VMALL是基于HarmonyOS系统开发的华为商城应用，实现了商品展示、搜索、购物车和个人中心等核心电商功能。应用采用现代化的UI设计和流畅的交互体验，为用户提供便捷的购物服务。
 
+## 小组分工
+
+本项目由四人小组协作完成，具体分工如下：
+
+| 成员   | 负责模块                                   | 主要职责                                                     |
+| ------ | ------------------------------------------ | ------------------------------------------------------------ |
+| 马民泽 | 搜索功能,我的收藏样例界面                  | 负责搜索结果展示、搜索历史记录管理、搜索关键词处理、我的收藏 |
+| 姜乐   | 商品详情页,我的关注样例界面                | 负责商品详情页UI布局、商品信息展示、图片浏览等、我的关注     |
+| 胡炜康 | 个人中心页,待付款、收货样例                | 负责个人中心页面设计、用户信息展示、待付款、待收货订单管理   |
+| 田炎烁 | 购物车,我的足迹,待评价、退换样例，样例后端 | 负责购物车功能、我的足迹、待评价退换、样例后端实现           |
+
+## 主要实现
+
+- 首页商品瀑布流展示
+- 商品详情展示
+- 购买商品
+- 购物车管理及结算
+- 浏览足迹、收藏、关注示例
+- 待付款、待收货、待评价、退换页面示例
+- 基于java spring boot的管理与存储后端
+
+## 前端介绍
+
+### 项目结构
+
+```
+entry/src/main/ets/
+├── assets/          # 静态资源文件
+├── common/          # 通用常量和工具类
+├── entryability/    # 应用入口
+├── pages/           # 页面组件
+│   ├── CartPage.ets        # 购物车页面
+│   ├── HomePage.ets        # 首页
+│   └── ProductDetailPage.ets # 商品详情页
+├── view/            # 自定义组件
+│   ├── ClassifyComponent.ets  # 分类组件
+│   ├── FlowItemComponent.ets  # 瀑布流项组件
+│   ├── SearchComponent.ets    # 搜索组件
+│   ├── SwiperComponent.ets    # 轮播图组件
+│   └── WaterFlowComponent.ets # 瀑布流容器组件
+└── viewmodel/       # 视图模型
+    ├── HomeViewModel.ets       # 首页视图模型
+    ├── ProductItem.ets         # 商品数据模型
+    └── WaterFlowDataSource.ets # 瀑布流数据源
+```
+
 **关键技术与组件**：
 
 - **WaterFlow容器**：实现商品列表的瀑布流布局，支持不同大小商品卡片的自适应排列
@@ -17,21 +63,11 @@ VMALL是基于HarmonyOS系统开发的华为商城应用，实现了商品展示
 - 商品搜索功能
 - 购物车管理
 - 个人中心
+- 足迹、收藏、关注、订单管理样例
 
-## 小组分工
+### 功能实现
 
-本项目由四人小组协作完成，具体分工如下：
-
-| 成员   | 负责模块         | 主要职责                                             |
-| ------ | ---------------- | ---------------------------------------------------- |
-| 马民泽 | 搜索功能         | 负责搜索结果展示、搜索历史记录管理、搜索关键词处理   |
-| 姜乐   | 商品详情页       | 负责商品详情页UI布局、商品信息展示、图片浏览等       |
-| 胡炜康 | 个人中心         | 负责个人中心页面设计、用户信息展示、订单管理入口     |
-| 田炎烁 | 购物车及我的足迹 | 负责购物车页面、商品调整、结算流程实现、我的足迹实现 |
-
-## 扩展功能实现
-
-### 1. 商品详情页
+#### 1. 商品详情页
 
 **功能描述**：展示商品的详细信息，包括商品图片、名称、价格、描述、评价、售后等。
 
@@ -52,7 +88,7 @@ VMALL是基于HarmonyOS系统开发的华为商城应用，实现了商品展示
 <br>
 <img src="entry/src/main/resources/base/media/detail2.png" alt="商品详情页信息展示" style="width: 300px;">
 
-### 2. 搜索功能
+#### 2. 搜索功能
 
 **功能描述**：允许用户通过关键词搜索商品，并展示搜索结果。
 
@@ -78,7 +114,7 @@ VMALL是基于HarmonyOS系统开发的华为商城应用，实现了商品展示
 
 <img src="entry/src/main/resources/base/media/search2.png" alt="搜索结果展示" style="width: 300px;">
 
-### 3. 购物车
+#### 3. 购物车
 
 **功能描述**：管理用户添加的商品，支持商品数量调整、删除、结算等操作。
 
@@ -107,7 +143,7 @@ VMALL是基于HarmonyOS系统开发的华为商城应用，实现了商品展示
 
 <img src="entry/src/main/resources/base/media/shoppingcart3.png" alt="购物车结算界面" style="width: 200px;">
 
-### 4. 个人中心
+#### 4. 个人中心
 
 **功能描述**：用户个人中心，展示用户信息和相关功能入口。
 
@@ -124,39 +160,6 @@ VMALL是基于HarmonyOS系统开发的华为商城应用，实现了商品展示
 **展示图片**：
 
 <img src="entry/src/main/resources/base/media/mime.png" alt="个人中心展示" style="width: 200px; margin-right: 200px;">
-
-## 技术实现
-
-### 相关概念
-
-- **WaterFlow**：瀑布流容器，用于实现商品列表的不规则布局
-- **FlowItem**：瀑布流容器的子组件，用于展示单个商品卡片
-- **LazyForEach**：按需迭代数据并创建组件，优化滚动性能和内存占用
-- **Swiper**：轮播图组件，用于首页商品推荐展示
-- **Tabs**：标签页组件，用于实现底部导航栏（首页、分类、购物车、我的）
-
-### 项目结构
-
-```
-entry/src/main/ets/
-├── assets/          # 静态资源文件
-├── common/          # 通用常量和工具类
-├── entryability/    # 应用入口
-├── pages/           # 页面组件
-│   ├── CartPage.ets        # 购物车页面
-│   ├── HomePage.ets        # 首页
-│   └── ProductDetailPage.ets # 商品详情页
-├── view/            # 自定义组件
-│   ├── ClassifyComponent.ets  # 分类组件
-│   ├── FlowItemComponent.ets  # 瀑布流项组件
-│   ├── SearchComponent.ets    # 搜索组件
-│   ├── SwiperComponent.ets    # 轮播图组件
-│   └── WaterFlowComponent.ets # 瀑布流容器组件
-└── viewmodel/       # 视图模型
-    ├── HomeViewModel.ets       # 首页视图模型
-    ├── ProductItem.ets         # 商品数据模型
-    └── WaterFlowDataSource.ets # 瀑布流数据源
-```
 
 ### 关键数据结构
 
@@ -217,54 +220,73 @@ export interface IProductItem {
 - `detail`: 商品详细描述，支持字符串或字符串数组格式
 - `category`: 商品分类索引，用于分类筛选和展示
 
-## 使用说明
+## 后端
 
-1. 启动应用，进入首页查看瀑布流展示的商品
-2. 点击商品卡片进入商品详情页
-3. 使用顶部搜索框搜索商品
-4. 点击底部导航栏进入购物车页面
-5. 点击底部导航栏进入个人中心
+基于 Spring Boot 的商城后端，提供商品、分类、用户、购物车、订单等接口，可直接供前端调用。
 
-## 约束与限制
+### 目录说明
 
-1. 本应用仅支持华为手机运行
-2. HarmonyOS系统版本：HarmonyOS 5.0.5 Release及以上
-3. DevEco Studio版本：DevEco Studio 6.0.0 Release及以上
-4. HarmonyOS SDK版本：HarmonyOS 6.0.0 Release SDK及以上
+- `com.vmall.controller`：REST 接口（用户、商品、购物车、订单、分类）与全局异常处理。
+- `com.vmall.dto`：请求/响应 DTO、统一响应包装 `ApiResponse`，以及实体转换工具 `DtoMapper`。
+- `com.vmall.model`：JPA 实体与枚举（商品、分类、用户、购物车项、订单、订单项、订单状态等）。
+- `com.vmall.repository`：Spring Data JPA 仓储接口。
+- `com.vmall.service`：业务接口与 `impl` 实现（库存校验、购物车合并、下单扣减库存等）。
+- `src/main/resources`：`application.yml` 配置、`db/schema.sql` 与 `db/data.sql` 初始化脚本。
+- `com.vmall.config.WebConfig`：跨域配置，默认放开 `/api/**`。
 
-## 项目报告补充
+### 响应规范
 
-### 架构与数据流
+所有接口返回统一格式：
 
-- **统一状态管理**：通过 `AppStorage` 维护购物车、订单、足迹、搜索词、顶部/底部安全区等数据，页面使用 `@StorageLink`、`@Watch` 自动同步，实现“数据驱动 UI”。
-- **模块划分清晰**：`pages` 承载场景页面、`view` 提供可复用 UI 组件、`viewmodel` 存放数据模型与静态数据；便于替换数据源或扩展能力。
-- **视觉一致性**：购物车、订单、足迹卡片沿用统一的圆角、阴影、留白以及操作按钮样式；顶部返回按钮采用悬浮圆形设计，体验更现代。
+```json
+{
+  "success": true,
+  "message": "ok",
+  "data": { ... }
+}
+```
 
-### 关键业务流程
+参数校验/业务异常：`success=false` 且 HTTP 400；未捕获异常：HTTP 500。
 
-1. **浏览 & 搜索**：首页瀑布流展示商品，顶部搜索组件负责关键字输入、历史记录和热门词。
-2. **商品详情**：
-   - 进入详情页即记录一条足迹（选择首个非 URL 文本作为描述，避免页面链接出现在卡片中）；
-   - “加入购物车” 将商品去重写入 `cartItems`，购物车页负责数量调整、合计计算；
-   - “立即购买” 弹窗提示成功，并在 `orderItems` 中新增一笔 `pendingReceipt` 订单。
-3. **个人中心 & 订单**：个人中心聚合资产统计、快捷入口、订单标签；“我的订单” 支持状态筛选（全部/待付款/待收货/待评价/售后），与 `orderItems` 保持实时同步。
-4. **我的足迹**：`ProfileCollectionsPage` 监听 `footprintItems`，展示真实的浏览记录、时间戳、标签与缩略图，不再依赖固定示例。
+### 接口列表
 
-### 测试与验证
+- 用户
+  - `POST /api/users/register` `{username,email,password,phone,address}` → 注册
+  - `POST /api/users/login` `{email,password}` → 登录（示例为明文，生产需加密 + Token）
+  - `GET /api/users/{id}` → 查询用户信息
+- 商品/分类
+  - `GET /api/products?categoryId=&keyword=` → 商品列表（按分类和关键词过滤）
+  - `GET /api/products/{id}` → 商品详情
+  - `GET /api/categories` → 分类列表
+- 购物车（均需 `userId` 路径参数）
+  - `GET /api/users/{userId}/cart` → 查看购物车
+  - `POST /api/users/{userId}/cart` `{productId,quantity}` → 加入购物车（合并数量并校验库存）
+  - `PUT /api/users/{userId}/cart/{itemId}` `{quantity}` → 修改数量
+  - `DELETE /api/users/{userId}/cart/{itemId}` → 删除单个条目
+  - `DELETE /api/users/{userId}/cart` → 清空购物车
+- 订单（需 `userId` 路径参数）
+  - `POST /api/users/{userId}/orders` → 从购物车生成订单（扣减库存，清空购物车）
+  - `GET /api/users/{userId}/orders` → 订单列表（按创建时间倒序）
 
-- **功能验证**：在 DevEco Studio 模拟器/真机上检查瀑布流滚动、搜索交互、加入购物车、立即购买、订单筛选、足迹记录等是否符合预期。
-- **数据联动**：重点验证 `AppStorage` 的共享效果，例如：
-  - 详情页 → 足迹：刷新后足迹卡片是否立即出现；
-  - 立即购买 → 待收货：订单页是否立刻新增一条“运输中”记录；
-  - 购物车数量变化 → 结算栏是否实时更新。
-- **视觉回归**：对返回按钮、卡片阴影、按钮反馈等进行多机型校验，确保与设计稿一致。
+## 示例请求
 
-### 后续规划
+```bash
+# 注册
+curl -X POST http://localhost:8080/api/users/register \
+  -H "Content-Type: application/json" \
+  -d '{"username":"demo2","email":"demo2@vmall.com","password":"demo123","phone":"13800000001","address":"Shenzhen"}'
 
-1. **真实后端**：将 `HomeViewModel` 静态数据替换为网络接口，支持分页、缓存与错误处理。
-2. **账号体系与持久化**：新增登录、地址管理、优惠券等模块，并将购物车/足迹/订单保存到数据库或分布式数据服务，保证跨会话安全。
-3. **订单流转**：补齐“去付款”“确认收货”“申请售后”等流程，打通状态切换。
-4. **分布式体验**：结合 HarmonyOS 的多端协同，实现手机/平板/大屏之间的购物车、订单同步。
-5. **自动化测试**：扩展 ArkUI UI Test 或 Ability Test 用例，覆盖搜索、下单、购物车增删、订单筛选等关键场景。
+# 登录
+curl -X POST http://localhost:8080/api/users/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"demo@vmall.com","password":"demo123"}'
 
-通过以上补充说明，VMALL 的整体架构、数据流、业务流程与后续规划更加清晰，可作为 HarmonyOS 电商示例项目报告或继续迭代的基础。
+# 获取商品列表（按分类+关键词）
+curl "http://localhost:8080/api/products?categoryId=1&keyword=nova"
+
+# 加入购物车并下单
+curl -X POST http://localhost:8080/api/users/1/cart \
+  -H "Content-Type: application/json" \
+  -d '{"productId":1,"quantity":2}'
+curl -X POST http://localhost:8080/api/users/1/orders
+```

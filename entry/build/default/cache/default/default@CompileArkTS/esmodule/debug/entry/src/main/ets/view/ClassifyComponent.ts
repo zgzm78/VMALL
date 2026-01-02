@@ -39,7 +39,7 @@ export default class ClassifyComponent extends ViewPU {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Flex.create({ justifyContent: FlexAlign.SpaceBetween });
             Flex.width(Const.FULL_WIDTH);
-            Flex.margin({ top: { "id": 16777239, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
+            Flex.margin({ top: { "id": 16777240, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" } });
         }, Flex);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             ForEach.create();
@@ -51,7 +51,7 @@ export default class ClassifyComponent extends ViewPU {
                         this.ifElseBranchUpdateFunction(0, () => {
                             this.observeComponentCreation2((elmtId, isInitialRender) => {
                                 Text.create(item);
-                                Text.fontSize({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+                                Text.fontSize({ "id": 16777247, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
                                 Text.opacity(this.selectedCategoryIndex === index ? Const.FULL_OPACITY : Const.EIGHTY_OPACITY);
                                 Text.fontWeight(this.selectedCategoryIndex === index ? Const.FONT_WEIGHT_FIVE : FontWeight.Normal);
                                 Text.fontColor(Color.White);
@@ -79,22 +79,22 @@ export default class ClassifyComponent extends ViewPU {
             });
         }, Row);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Image.create({ "id": 16777296, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Image.width({ "id": 16777274, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Image.height({ "id": 16777273, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.create({ "id": 16777300, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.width({ "id": 16777275, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.height({ "id": 16777274, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Image.create({ "id": 16777294, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Image.width({ "id": 16777250, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Image.height({ "id": 16777247, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.create({ "id": 16777298, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.width({ "id": 16777251, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Image.height({ "id": 16777248, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Image.margin({
-                left: { "id": 16777248, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
-                right: { "id": 16777249, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
+                left: { "id": 16777249, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+                right: { "id": 16777250, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
             });
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create({ "id": 16777223, "type": 10003, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            Text.fontSize({ "id": 16777246, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777247, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontColor(Color.White);
             Text.opacity(this.selectedCategoryIndex === Const.INVALID_INDEX ? Const.FULL_OPACITY : Const.EIGHTY_OPACITY);
             Text.fontWeight(this.selectedCategoryIndex === Const.INVALID_INDEX ? Const.FONT_WEIGHT_FIVE : FontWeight.Normal);

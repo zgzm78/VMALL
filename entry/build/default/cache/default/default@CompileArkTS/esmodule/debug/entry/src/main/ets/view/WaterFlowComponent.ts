@@ -168,8 +168,8 @@ export default class WaterFlowComponent extends ViewPU {
             WaterFlow.layoutWeight(Const.WATER_FLOW_LAYOUT_WEIGHT);
             WaterFlow.layoutDirection(FlexDirection.Column);
             WaterFlow.columnsTemplate(Const.WATER_FLOW_COLUMNS_TEMPLATE);
-            WaterFlow.columnsGap({ "id": 16777279, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
-            WaterFlow.rowsGap({ "id": 16777282, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            WaterFlow.columnsGap({ "id": 16777280, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            WaterFlow.rowsGap({ "id": 16777283, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
         }, WaterFlow);
         {
             const __lazyForEachItemGenFunction = _item => {
@@ -206,16 +206,16 @@ export default class WaterFlowComponent extends ViewPU {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Column.create();
             Column.margin({
-                top: { "id": 16777282, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+                top: { "id": 16777283, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
                 bottom: this.getUIContext().px2vp(this.bottomRectHeight)
             });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create({ "id": 16777220, "type": 10003, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.fontColor(Color.Gray);
-            Text.fontSize({ "id": 16777242, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777243, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.width(Const.FULL_WIDTH);
-            Text.height({ "id": 16777241, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
+            Text.height({ "id": 16777242, "type": 10002, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" });
             Text.textAlign(TextAlign.Center);
         }, Text);
         Text.pop();

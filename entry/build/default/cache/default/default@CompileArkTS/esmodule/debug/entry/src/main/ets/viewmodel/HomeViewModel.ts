@@ -15,9 +15,9 @@ const classifyTitle: Resource[] = [
  * Home page swiper image data.
  */
 const swiperImage: Resource[] = [
-    { "id": 16777292, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
-    { "id": 16777284, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
-    { "id": 16777293, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
+    { "id": 16777296, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+    { "id": 16777288, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" },
+    { "id": 16777297, "type": 20000, params: [], "bundleName": "com.huawei.waterflow", "moduleName": "entry" }
 ];
 /**
  * Home page water flow item init data.
